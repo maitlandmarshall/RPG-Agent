@@ -64,6 +64,15 @@ A new log file is created in two matching scenarios:
 **Image Embedding**:
 Images generated via `generate_image` must be embedded using standard markdown: `![Caption](/absolute/path/to/image.png)`.
 
+### `worlds/[WorldName]/codex/`
+Encyclopedia of characters, locations, items, and lore.
+- **Rule**: When a NEW entity (Character, Location, Item) is introduced, create a new `.md` file here.
+- **Format**: Description, stats (if applicable), and a generated image if visual.
+- **Structure**:
+    - `codex/characters/`
+    - `codex/locations/`
+    - `codex/items/`
+
 ## 2. The "Engine" (Logic & Rules)
 We keep `game_engine.js` in a shared `engine/` folder or root, acting as the impartial arbiter.
 
@@ -77,7 +86,8 @@ We keep `game_engine.js` in a shared `engine/` folder or root, acting as the imp
 3. Agent calls `node engine/game_engine.js resolve ...`.
 4. Agent updates `worlds/NeonTokyo/characters/player.yaml`.
 5. Agent writes narrative to `worlds/NeonTokyo/campaign_logs/...`.
-6. Agent Narrates response to user.
+6. **Agent updates Codex**: If new entities appear, create their markdown files in `codex/` and generate images.
+7. Agent Narrates response to user.
 
 ## 3. The "Visuals" (Immersion)
 Use `generate_image` proactively when entering new significant locations or encountering major NPCs/Monsters.

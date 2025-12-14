@@ -1,0 +1,17 @@
+
+location: "Slave Pens - Sector 4"
+description: "A crampt, stone-walled enclosure smelling of sweat and ozone. The distant roar of the crowd is audible."
+weather: "Red Sky, Clear"
+time: "Dawn"
+npcs:
+  - name: "Warden Nappa (Overseer)"
+    status: "Bored"
+    power_level: 4000
+    position: "Guarding the main gate"
+  - name: "Orin (Fellow Slave)"
+    status: "Injured"
+    power_level: 12
+environment_tags:
+  - "oppressive"
+  - "noisy"
+  - "primitive"

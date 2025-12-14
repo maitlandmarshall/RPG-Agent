@@ -1,0 +1,25 @@
+
+name: "Cress"
+race: "Saiyan"
+class: "Slave Class"
+stats:
+  power_level: 5
+  strength: 8
+  agility: 12
+  intellect: 10
+  ki_control: 1
+inventory:
+  - name: "tattered tunic"
+    equipped: true
+  - name: "training weights (shackles)"
+    equipped: true
+status:
+  health: 100
+  fatigue: 20
+  hunger: 50
+skills:
+  - name: "brawling"
+    level: 5
+  - name: "endurance"
+    level: 15
+history: "Born into the slave class, destinied for the arena dust."
