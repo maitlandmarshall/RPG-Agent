@@ -76,7 +76,8 @@ Encyclopedia of characters, locations, items, and lore.
 - **Visual Flow**: The campaign log should read like an interactive comic.
 - **Interleaving**: Whenever a character or location is mentioned for the first time or is the focus of a scene, **EMBED THEIR IMAGE** directly into the log narrative.
 - **Action Panels**: During high-stakes interactions, generate "Action Shot" images. **EMBED THEM** directly into the log at the moment of action.
-- **Trigger**: New Entity Mentioned -> Create Codex Entry -> Generate Image -> **Insert Image in Log**.
+- **Atmospheric Panels**: For transition scenes or new locations, generate multiple images (2-3) to establish mood (e.g., crowd shots, environment details, perspective shifts).
+- **Trigger**: New Entity/Scene -> Generate Multiple Panels -> **Interweave in Log**.
 
 ### Pre-Yield Checklist
 Before yielding control back to the User, the Agent **MUST** verify:

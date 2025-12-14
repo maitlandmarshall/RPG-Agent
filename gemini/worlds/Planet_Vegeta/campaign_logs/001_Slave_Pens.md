@@ -169,3 +169,34 @@ It twitches, smoke rising from a blackened crater in its chest. It is not dead, 
 **Situation:**
 You are free. The enemy is down but rising. You have a moment.
 **What do you do?**
+
+***
+
+You don't let it rise.
+
+Drawing the last dregs of your focus, you flood your legs with ki, feeling the muscles tear and rebuild in an instant. You launch yourself forward, a blur of grey rags and desperate motion.
+
+**Skill Check: Strength (8) + Brawling (5) vs DC 20 (Stunned)**
+> **Result**: Success (Margin +17)
+
+![Knee Strike Finish](assets/cress_knee_strike_turn6.png)
+
+Your knee connects with the wet *crunch* of breaking vertebrae. The Saibaman's head snaps back at an unnatural angle. It collapses into the dust, limbs twitching once before going still.
+
+**Silence falls over the pit.**
+
+Elite Overseer Krel glances up from his datapad, his eyebrow raised a fraction of an inch.
+"Adequate," he murmurs. "For trash."
+
+**Combat End.**
+**Reward:** +50 XP (First Kill).
+
+**Status Update:**
+- **Fatigue**: 85/100 (Near Collapse)
+- **Health**: 60/100 (Severe Burns)
+
+Two guards stepped forward to drag the corpse away. A small medic drone hovers over to you, spraying a stinging bacta-foam on your chest burns.
+
+**Scene Complete.**
+You survived the assembly. Now the real games begin.
+*(End of Session 1)*

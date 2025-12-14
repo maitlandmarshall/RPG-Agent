@@ -14,9 +14,12 @@ inventory:
   - name: "training weights (shackles)"
     equipped: true
 status:
-  health: 60
-  fatigue: 70
-  hunger: 20
+  health: 70
+  fatigue: 60
+  hunger: 30
+stats:
+  power_level: 5
+  xp: 50
 skills:
   - name: "brawling"
     level: 5

@@ -1,6 +1,6 @@
 
-location: "Sector 4 Assembly Area"
-description: "A wide, circular stone pit surrounded by high walls. The staging ground for slave combatants."
+location: "The Great Elevator - Ascent"
+description: "A colossal hydraulic lift rising through the crust of Planet Vegeta. The air is thinning, and the light is shifting from dungeon red to blinding surface white."
 weather: "Red Sky, Clear"
 time: "Dawn"
 npcs:
