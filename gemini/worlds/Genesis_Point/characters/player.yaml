@@ -1,0 +1,19 @@
+
+name: "Player"
+class: "Adventurer"
+stats:
+  strength: 10
+  agility: 10
+  intelligence: 10
+  charisma: 10
+description: "A blank slate awaiting a history."
+inventory:
+  - name: "clothes"
+    equipped: true
+  - name: "rucksack"
+status:
+  health: 100
+  fatigue: 0
+skills:
+  - name: "observation"
+    level: 10

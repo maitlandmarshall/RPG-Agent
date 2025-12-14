@@ -1,0 +1,8 @@
+
+location: "Void"
+description: "An empty space before creation."
+weather: "None"
+time: "Timeless"
+npcs: []
+environment_tags:
+  - "quiet"
