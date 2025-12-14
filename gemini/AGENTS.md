@@ -68,12 +68,20 @@ Images generated via `generate_image` must be embedded using standard markdown: 
 Encyclopedia of characters, locations, items, and lore.
 - **Rule 1 (Creation)**: When a NEW entity appears, create a `.md` file in `codex/`.
 - **Rule 2 (Description)**: Write a rich, sensory description of the character's face, body, and unique markings.
-- **Rule 3 (Visuals)**: Generate an image **based strictly on the written description**. Embed it at the top.
+- **Rule 3 (Visuals)**: Generate an image **based strictly on the written description**.
+    - **CRITICAL**: Do NOT use "Dragon Ball", "DBZ", or "Saiyan" in prompts. Use "thick line art", "retro anime style", "tech-armor", etc.
 - **Rule 4 (Living Document)**: Update entries immediately if a major event changes their state or appearance.
-- **Structure**:
-    - `codex/characters/`
-    - `codex/locations/`
-    - `codex/items/`
+
+### Interactive Comic Book Protocol (MANDATORY)
+- **Visual Flow**: The campaign log should read like an interactive comic.
+- **Interleaving**: Whenever a character or location is mentioned for the first time or is the focus of a scene, **EMBED THEIR IMAGE** directly into the log narrative.
+- **Trigger**: New Entity Mentioned -> Create Codex Entry -> Generate Image -> **Insert Image in Log**.
+
+### Pre-Yield Checklist
+Before yielding control back to the User, the Agent **MUST** verify:
+1. [ ] Have all new entities (Characters, Locations, Items) been created in the `codex/`?
+2. [ ] Have visuals been generated for them?
+3. [ ] Have those visuals been inserted into the campaign log at the appropriate narrative moment?
 
 ## 2. The "Engine" (Logic & Rules)
 We keep `game_engine.js` in a shared `engine/` folder or root, acting as the impartial arbiter.
