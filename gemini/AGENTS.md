@@ -66,8 +66,10 @@ Images generated via `generate_image` must be embedded using standard markdown: 
 
 ### `worlds/[WorldName]/codex/`
 Encyclopedia of characters, locations, items, and lore.
-- **Rule**: When a NEW entity (Character, Location, Item) is introduced, create a new `.md` file here.
-- **Format**: Description, stats (if applicable), and a generated image if visual.
+- **Rule 1 (Creation)**: When a NEW entity appears, create a `.md` file in `codex/`.
+- **Rule 2 (Description)**: Write a rich, sensory description of the character's face, body, and unique markings.
+- **Rule 3 (Visuals)**: Generate an image **based strictly on the written description**. Embed it at the top.
+- **Rule 4 (Living Document)**: Update entries immediately if a major event changes their state or appearance.
 - **Structure**:
     - `codex/characters/`
     - `codex/locations/`
