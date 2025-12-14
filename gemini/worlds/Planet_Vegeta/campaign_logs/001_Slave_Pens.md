@@ -76,11 +76,15 @@ It is a cavernous stone pit, loud with the bark of overseers and the chirp of mo
 
 **Elite Overseer Krel**—a warrior wearing the pristine white armor of the Frieza Force—stands on a raised dais, reading from a datapad.
 
+![Elite Overseer Krel](../codex/characters/Elite_Overseer_Krel/portrait.png)
+
 He stops as you stumble in, panting, face grey with pain. The entire assembly turns to look at you.
 
 "Late," Krel notes, his voice bored but carrying over the din. "Sloppy. And damaged."
 
 He gestures to a cage near the front. Inside, a green, veiny creature—a **Saibaman Sprout**—scratches at the bars, screeching when it sees you.
+
+![Saibaman Sprout](../codex/characters/Saibaman_Sprout/portrait.png)
 
 "Put him in the first wave," Krel orders. "If he's in such a rush to die, let's accommodate him."
 
@@ -95,3 +99,73 @@ Two guards grab your arms and drag you toward the center of the pit. The cage do
 
 **What do you do?**
 (Attack, Defend, Look for a weapon, Use the environment...)
+
+***
+
+You cast a desperate look around the pit, eyes streaming from the pain in your shoulder, searching for anything—a loose stone, a dropped shiv, a handful of sand.
+
+**Skill Check: Intellect (10) vs DC 30**
+> **Result**: Critical Failure (Margin -30)
+
+The crimson light reflecting off the damp stone disorients you. You spot what looks like a metal bar in the mud and lunge for it, only to find it's a trick of the light—a worthless puddle of oil.
+
+Your momentum carries you forward, causing you to stumble over your own shackles. You are now **Off-Balance**.
+
+The **Saibaman Sprout** screeches in delight, seeing its prey distracted, and leaps into the air, acid dripping from its claws.
+
+![Saibaman Leap](assets/saibaman_leap_turn3.png)
+
+**Combat Update:**
+- **Status**: Off-Balance (-20 Defense next turn).
+- **Enemy Action**: Leaping Attack (Acid Claws).
+
+**Reaction Required:**
+You are about to be mauled.
+(Dodge, Block, Counter-Attack...)
+
+***
+
+You throw out your hand, desperate to channel the latent energy you know is there, aiming for the creature's glowing eyes.
+
+**Skill Check: Ki Control (1) vs DC 90 (Called Shot, Off-Balance)**
+> **Result**: Critical Failure (Margin -90)
+
+A pathetic spark of blue static fizzes on your palm and dies instantly. The universe treats your defiance with silence.
+
+The **Saibaman** does not.
+
+![Ki Blast Fail](assets/cress_fail_ki_turn4.png)
+
+It slams into you with the force of a wrecking ball. Claws tear through your tunic and into your chest. Acid burning like liquid fire hisses as it cauterizes the wounds it makes.
+
+**Combat Update:**
+- **Damage Taken**: 30 (Claws + Acid).
+- **Status**: Critical Condition (Health 60/100), Pinned.
+- **Enemy Action**: Maul (Preparing to bite throat).
+
+**Situation:**
+It is on top of you. Its jaws are opening.
+**What do you do?**
+
+***
+
+You roar, a sound torn from the deepest part of your soul, and shove your palms flat against the creature's heaving chest. You stop thinking about control. You stop thinking about survival. You just *push*, pouring every ounce of your life force into a single point.
+
+**Skill Check: Power Level (5) vs DC 50 (Point Blank +30, Desperation +10)**
+> **Result**: Critical Success (Margin +12) - *Natural 20 Chaos Factor*
+
+The air screams.
+
+![Point Blank Blast](assets/cress_ki_blast_turn5.png)
+
+A blinding sphere of blue-white energy erupts from your hands, not a spark but a cannonball. The force of it creates a shockwave that cracks the stone beneath you. The Saibaman's eyes bulge, its screech cut short as it is blasted backward, tumbling end over end across the arena floor before slamming into the far wall.
+
+It twitches, smoke rising from a blackened crater in its chest. It is not dead, but it is **Stunned**.
+
+**Combat Update:**
+- **Enemy Status**: Stunned (1 Turn), Heavily Damaged.
+- **Your Status**: Pinned Removed. Exhausted (Fatigue +20).
+
+**Situation:**
+You are free. The enemy is down but rising. You have a moment.
+**What do you do?**
