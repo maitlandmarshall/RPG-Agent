@@ -16,3 +16,8 @@ A hunched, green humanoid creature about the size of a human child. Its skin is 
 **Notes:**
 - Grown from seeds in the arena soil.
 - mindless killing machines.
+
+## Meta
+**Tags**: #creature #saibaman #enemy
+**Appears In**:
+- [[../../campaign_logs/001_Slave_Pens.md|001: Slave Pens]]

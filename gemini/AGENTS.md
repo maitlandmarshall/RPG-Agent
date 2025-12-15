@@ -79,6 +79,15 @@ Encyclopedia of characters, locations, items, and lore.
 - **Atmospheric Panels**: For transition scenes or new locations, generate multiple images (2-3) to establish mood (e.g., crowd shots, environment details, perspective shifts).
 - **Trigger**: New Entity/Scene -> Generate Multiple Panels -> **Interweave in Log**.
 
+### Wiki Protocol (Navigation & Structure)
+- **Hyperlinks**: Every mention of an entity in a Log MUST link to its Codex entry.
+    - Syntax: `[Name](../codex/path/to/file.md)`
+- **Backlinks**: Codex entries must list where they appear.
+    - Section: `## Appeared In` at the bottom of the file.
+- **Tags**: Use hashtags for categorization.
+    - Syntax: `**Tags**: #category #sub-category`
+- **Goal**: Create a clickable web of lore. Ensure files are interconnected.
+
 ### Pre-Yield Checklist
 Before yielding control back to the User, the Agent **MUST** verify:
 1. [ ] Have all new entities (Characters, Locations, Items) been created in the `codex/`?

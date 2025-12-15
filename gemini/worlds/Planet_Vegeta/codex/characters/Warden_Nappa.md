@@ -17,3 +17,8 @@ He is a hulking wall of muscle, but gone to fat around the gut. unlike his famou
 **Notes:**
 - Has a gambling habit.
 - Dislikes "uppity" slaves.
+
+## Meta
+**Tags**: #character #saiyan #overseer #frieza_force
+**Appears In**:
+- [[../../campaign_logs/001_Slave_Pens.md|001: Slave Pens]]

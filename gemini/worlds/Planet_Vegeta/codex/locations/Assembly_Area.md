@@ -17,3 +17,8 @@ A wide, circular stone chamber with a high, vaulted ceiling losing itself in dar
 - 2 Elite Overseers.
 
 ![Assembly Area](Assembly_Area/view.png)
+
+## Meta
+**Tags**: #location #arena #assembly #sector_4
+**Appears In**:
+- [[../../campaign_logs/001_Slave_Pens.md|001: Slave Pens]]

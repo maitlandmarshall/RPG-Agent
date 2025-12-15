@@ -10,7 +10,7 @@ The red light of Planet Vegeta's suns bleeds through the barred window, painting
 
 You are **Cress**, a Slave Class Saiyan. Your power level is a pathetic 5. To the elites in the spires above, you are less than dirt. You are fodder.
 
-The heavy iron door groans. **Warden Nappa**—not the elite general, but a cruel, distant relative with the same bald head and twice the sadism—stalks down the corridor. His scouter beeps rhythmically.
+The heavy iron door groans. **[Warden Nappa](../codex/characters/Warden_Nappa.md)**—not the elite general, but a cruel, distant relative with the same bald head and twice the sadism—stalks down the corridor. His scouter beeps rhythmically.
 
 "Wake up, filth!" he bellows, dragging a metal baton across the bars. "The prelims start in one hour. If you don't fight today, you don't eat."
 
@@ -68,13 +68,13 @@ You scramble to your feet, clutching your throbbing shoulder. The pain radiates 
 
 Your vision blurs from the shock. You take a wrong turn, stumbling into a dead-end maintenance shaft before correcting yourself. Precious minutes bleed away.
 
-By the time you burst into the **Sector 4 Assembly Area**, the ranks have already formed.
+By the time you burst into the **[Sector 4 Assembly Area](../codex/locations/Assembly_Area.md)**, the ranks have already formed.
 
 It is a cavernous stone pit, loud with the bark of overseers and the chirp of monsters.
 
 ![Assembly Area](../codex/locations/Assembly_Area/view.png)
 
-**Elite Overseer Krel**—a warrior wearing the pristine white armor of the Frieza Force—stands on a raised dais, reading from a datapad.
+**[Elite Overseer Krel](../codex/characters/Elite_Overseer_Krel.md)**—a warrior wearing the pristine white armor of the Frieza Force—stands on a raised dais, reading from a datapad.
 
 ![Elite Overseer Krel](../codex/characters/Elite_Overseer_Krel/portrait.png)
 
@@ -82,7 +82,7 @@ He stops as you stumble in, panting, face grey with pain. The entire assembly tu
 
 "Late," Krel notes, his voice bored but carrying over the din. "Sloppy. And damaged."
 
-He gestures to a cage near the front. Inside, a green, veiny creature—a **Saibaman Sprout**—scratches at the bars, screeching when it sees you.
+He gestures to a cage near the front. Inside, a green, veiny creature—a **[Saibaman Sprout](../codex/characters/Saibaman_Sprout.md)**—scratches at the bars, screeching when it sees you.
 
 ![Saibaman Sprout](../codex/characters/Saibaman_Sprout/portrait.png)
 

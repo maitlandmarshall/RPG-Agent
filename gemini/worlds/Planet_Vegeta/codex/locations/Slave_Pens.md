@@ -13,3 +13,8 @@ The sector is a long, claustrophobic corridor of dark grey volcanic stone. The c
 - **Security**: Medium. Shackles dampen power levels. Guards are competent but lazy.
 
 ![Slave Pens Dawn](../../campaign_logs/001_Slave_Pens/slave_pens_dawn.png)
+
+## Meta
+**Tags**: #location #dungeon #sector_4
+**Appears In**:
+- [[../../campaign_logs/001_Slave_Pens.md|001: Slave Pens]]

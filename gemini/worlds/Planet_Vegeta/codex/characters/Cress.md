@@ -20,3 +20,9 @@ Cress has a sharp, angular face with hollow cheeks from years of malnutrition. H
 
 **History:**
 Born to unknown parents who died in the arena. Raised by the other slaves. Dreams of breaking the chains and ascending to the stars.
+
+## Meta
+**Tags**: #character #saiyan #slave_class #protagonist
+**Appears In**:
+- [[../../campaign_logs/001_Slave_Pens.md|001: Slave Pens]]
+- [[../../campaign_logs/002_The_Ascension.md|002: The Ascension]]

@@ -16,3 +16,9 @@ Tall and regal. He has severe, angular features and his black hair is slicked ba
 **Notes:**
 - Loyal to King Vegeta and the Frieza Force.
 - Has zero tolerance for weakness.
+
+## Meta
+**Tags**: #character #saiyan #elite #overseer #frieza_force
+**Appears In**:
+- [[../../campaign_logs/001_Slave_Pens.md|001: Slave Pens]]
+- [[../../campaign_logs/002_The_Ascension.md|002: The Ascension]]

@@ -13,9 +13,12 @@ inventory:
     equipped: true
   - name: "training weights (shackles)"
     equipped: true
+  - name: "Rusted Saiyan Blade"
+    equipped: true
+    damage: 2
 status:
-  health: 70
-  fatigue: 60
+  health: 80
+  fatigue: 40
   hunger: 30
 stats:
   power_level: 5

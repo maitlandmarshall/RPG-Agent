@@ -10,3 +10,8 @@ A grid of heavy industrial metal platforms locked into rails that run miles deep
 Loud. Creating a deafening mechanical roar. The wind whips fiercely as it ascends.
 
 ![The Elevator](view.png)
+
+## Meta
+**Tags**: #location #transport #engineering
+**Appears In**:
+- [[../../campaign_logs/002_The_Ascension.md|002: The Ascension]]
