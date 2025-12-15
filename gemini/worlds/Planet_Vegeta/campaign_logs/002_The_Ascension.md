@@ -132,3 +132,55 @@ He steps into your personal space, smelling of ozone and dried sweat.
 
 **What do you do?**
 (Introduce yourself challenge him, Show off your Ki (Skill Check), Stay silent and fall in line, Ask about the mission...)
+
+***
+
+You look him in the eye. "Zorn, it's good to see a face not immediately trying to injure me." you say, calm amidst the chaos. You extend your hand, palm open—a gesture of trust.
+
+**Skill Check: Charisma (10) vs DC 40 (Saiyan Hostility, Poise +5, Alien Gesture -10)**
+> **Result**: Failure (Margin -35)
+
+![The Handshake](assets/zorn_handshake_standoff.png)
+
+Zorn stares at your open hand like you just offered him a dead rat. The silence stretches, heavy and awkward. The insectoid, Klik, tilts his head, his mandibles clicking in a rhythm that sounds suspiciously like a laugh.
+
+"Injure you?" Zorn snorts, ignoring your hand completely. He turns his back, spitting on the concrete. "I don't waste energy on corpses."
+
+He gestures to the open transport bay behind him.
+"Get in the pod, 'Friend'. Unless you want to walk to the orbit."
+
+**Interaction Failed.**
+*Saiyans do not shake hands.*
+
+**What do you do?**
+(Withdaw the hand and board the pod, Make a retort, Inspect the pod before entering...)
+
+***
+
+You swallow your pride—for now. "What is going on?" you ask, shaking the rejection off your shoulders as you step into the cramped, dark interior of the transport pod.
+
+The air inside is stale, recycled a thousand times. You strap yourself into the crash webbing next to Klik. The insectoid smells like dry leaves and chemicals.
+
+Zorn slams the hatch shut, plunging the squad into red emergency lighting.
+
+"What's going on?" Zorn mimics your voice, his face lit from below by the pod's console. "You really are fresh. We're the entertainment, runt. The **Orbital Prelims**."
+
+Klik's vocoder buzzes. "Logic: 100 Squads orbital insertion. Objective: Secure the Command Spire. Survival probability: 8.4%."
+
+Zorn grins, showing teeth that look too sharp. "100 Squads go in. 10 come out. Then we get to eat."
+
+![Pod Interior](assets/pod_interior_launch.png)
+
+The floor drops out from under you.
+
+**LAUNCH DETECTED.**
+G-forces slam you back into your seat. The pod screams upward, punching through the atmosphere.
+
+**Mission Updated:**
+- **Objective**: Survive the drop.
+- **Squad**: Stick with Zorn and Klik.
+- **Target**: The Orbital Arena.
+
+**Scene Complete.**
+*(Loading Orbital Assets...)*
+*(Session 2 continues)*

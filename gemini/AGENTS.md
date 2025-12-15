@@ -88,9 +88,15 @@ Encyclopedia of characters, locations, items, and lore.
     - Syntax: `**Tags**: #category #sub-category`
 - **Goal**: Create a clickable web of lore. Ensure files are interconnected.
 
+### Asset Management Protocol
+- **Immediate Save**: Upon generating an image, you **MUST** immediately copy it from the artifact folder to the project folder (`campaign_logs/assets/` or `codex/...`).
+- **Verification**: Do not assume the copy worked. Check if the file exists if you are unsure.
+
 ### Pre-Yield Checklist
 Before yielding control back to the User, the Agent **MUST** verify:
 1. [ ] Have all new entities (Characters, Locations, Items) been created in the `codex/`?
+2. [ ] **Asset Check**: Do all `![Image](path)` links in the current log actually exist on disk?
+3. [ ] Are visual Action Panels/Atmospheric Panels embedded in the log?
 2. [ ] Have visuals been generated for them?
 3. [ ] Have those visuals been inserted into the campaign log at the appropriate narrative moment?
 
