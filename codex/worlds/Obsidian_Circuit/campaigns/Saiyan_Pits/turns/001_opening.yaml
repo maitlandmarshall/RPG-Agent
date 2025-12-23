@@ -1,0 +1,69 @@
+log_file: campaign_logs/000_Setup.md
+
+scene_md: |
+  **Hard frame:** You’re in the [[../../lore/locations/Obsidian_Pits.md|Obsidian Pits]]—under-arena holding cells—where the stone is colder than space and the air tastes like pennies.
+
+  ![Under-arena holding cells](../assets/001_holding_cells_establishing.png)
+
+  The **[[../../lore/items/K-Chain_Shock_Collar.md|K-Chain Shock Collar]]** sits heavy at your throat. It doesn’t just *weigh*—it *listens*. Every time your ki rises on instinct, the collar answers with a thin static itch that crawls under your skin like ants.
+
+  Tonight, the corridor is louder than usual. Boots on catwalk grates. A muffled roar above, like a storm trapped in a dome.
+
+  Then the bell hits.
+
+  ![The bell travels through the chain](../assets/001_bell_chain_closeup.png)
+
+  Not a chime—an impact. The sound rolls through the walls and into your teeth. Across the cells, prisoners go still the way prey goes still: hoping movement won’t make them the choice.
+
+  A line of guards in matte helmets stops at your bars. Their prods crackle blue-white, the smell of ozone sharpening the air. Behind them glides [[../../lore/characters/Pitmaster_Veyl.md|Pitmaster Veyl]]—clean gloves, mirrored respirator, that lacquer-black coat stitched in sickly gold.
+
+  “Asset,” Veyl says, voice soft enough to make it intimate. “One year. Still breathing. The [[../../lore/factions/Obsidian_Circuit.md|Obsidian Circuit]] loves a stubborn story.”
+
+  The collar warms—just a warning pulse—and you understand the message: **tonight isn’t a routine bout.**
+
+  Veyl tilts their head as if listening to a distant crowd chant you can’t hear yet. “Before we open the gate,” they add, “I want to know what to call you when you disappoint me.”
+
+  The guard nearest you hooks a chain through the bars and gives it a testing tug, like measuring how much of you will follow it.
+
+options:
+  - "Play it cold and compliant—save your ki for the sand (d20 + Strength + Brawling)."
+  - "Scout: read guards, exits, and Veyl’s tells before you move (d20 + Intellect + Perception)."
+  - "Test the collar: micro-burst ki control to map its threshold without triggering a full shock (d20 + Ki Control + Survival)."
+  - "Talk back—turn the crowd’s hunger into leverage, demand terms or a weapon (d20 + Strength + Intimidation)."
+  - "Go for it: attempt an escape into the catwalk/vent network when the gate cycle starts (d20 + Agility + Athletics)."
+
+what_changed:
+  - "Clock: matchmaker_bell advances 4/6 → 5/6."
+  - "Fatigue +1 (forced wake-up and pre-fight handling)."
+  - "New pressure: Pitmaster Veyl is personally present."
+
+mechanics_md: |
+  **Core roll**: `d20 + stat + skill` vs DC.
+
+  **Option DCs (baseline)**
+  - **1 (Compliant / conserve)**: DC 12 (avoid provoking a shock response while staying ready).
+  - **2 (Scout)**: DC 13 (spot an exit pattern / hidden restraint protocol).
+  - **3 (Collar threshold test)**: DC 15 (success = learn the “yellow line”; fail = partial shock + alertness tick).
+  - **4 (Leverage / terms)**: DC 14 (success = small concession; fail = collar warning + guard hostility).
+  - **5 (Escape attempt)**: DC 17 (success = break contact; fail = immediate stun + lockdown).
+
+  **World clocks (current)**
+  - `matchmaker_bell`: 5/6 (gate call is imminent)
+  - `guard_alertness`: 2/6
+  - `hunger`: 3/6
+  - `rumor_of_vegeta`: 1/6
+
+delta:
+  player:
+    add:
+      - target: resources
+        key: fatigue
+        value: 1
+  world_state:
+    set:
+      - key: clocks
+        value:
+          matchmaker_bell: "5/6"
+          guard_alertness: "2/6"
+          hunger: "3/6"
+          rumor_of_vegeta: "1/6"

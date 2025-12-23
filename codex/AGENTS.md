@@ -98,6 +98,20 @@ The game should feel visual by default.
 - Use the repo skill: `$openai-image-gen` (stored in `.codex/skills/openai-image-gen/`).
 - Generate directly into the campaign’s assets folder, then embed as `![Caption](../assets/file.png)`.
 
+**Lore reference images (mandatory)**
+- Every lore page (character/location/item/faction/technique) must embed **at least one relevant image** near the top of the page.
+- That embedded image is the **canonical reference** used to keep visuals consistent across future panels (treat it like a “wiki entry header image”).
+- Generate lore images with `$openai-image-gen` directly into the lore folder, then embed with a relative link, e.g.:
+  - `python3 .codex/skills/openai-image-gen/scripts/generate_image.py --prompt "..." --out "worlds/<World>/lore/characters/<Name>_portrait.png"`
+  - `![<Name>](<Name>_portrait.png)`
+- Preferred filenames (one per entry is enough to start):
+  - Character: `<Name>_portrait.png`
+  - Location: `<Name>_establishing.png`
+  - Item: `<Name>_ref.png`
+  - Faction: `<Name>_sigil.png`
+  - Technique: `<Name>_diagram.png` (or `_keyframe.png`)
+- Store lore images **next to the lore `.md`** (same folder) so relative links stay stable.
+
 **Panel types**
 - New scene/location: **1–3 atmospheric** panels (establishing, detail, perspective shift).
 - High-stakes action: **1 action** panel at the moment of impact (hit lands, blast fires, door breaks, betrayal revealed).
@@ -107,6 +121,7 @@ The game should feel visual by default.
 **Visual continuity**
 - When an entity already has an image, treat it as reference and keep them visually consistent across future panels.
 - For panels containing known characters, prefer using `$openai-image-gen`’s `generate_panel.py` wrapper so existing lore portraits are automatically used as references.
+- For panels featuring a known location/item/faction visual motif, include that lore image as an additional reference using `$openai-image-gen` with `--input-image` (or embed the image in the lore page so it can be easily reused).
 
 ### Linking Rules (Obsidian-style)
 - Use Obsidian wikilinks for lore entities in logs:
@@ -153,7 +168,8 @@ Keep the world moving using simple “clocks”:
 Lore entries are living documents that evolve with play.
 
 ### Lore Entry Requirements
-- Must have: short summary, sensory description (if character/location), tags, and `## Appears In`.
+- Must have: a relevant embedded image, short summary, sensory description (if character/location), tags, and `## Appears In`.
+- Images are not optional: if a lore entry exists, it must have a canonical reference image on disk and embedded in the page.
 - On major changes (injury, armor swap, relationship change), update the entry immediately.
 - For key NPCs/factions, maintain:
   - **Goal**
@@ -170,8 +186,9 @@ Use tags for filtering and indexes:
 ## 4) Pre-Yield Checklist (v2)
 
 Before yielding control back to the player, verify:
-1) New entities introduced? -> lore entry exists and is linked.
+1) New entities introduced? -> lore entry exists, is linked, and has a canonical reference image embedded.
 2) Any images referenced in the appended turn exist on disk.
 3) Image cadence met (normally 1–3 panels; more for combat/reveals) or explicitly justified.
 4) State deltas applied and validated (no YAML schema violations).
 5) Log contains clear next options (3–6) and a readable “What Changed”.
+6) New/updated lore pages include a canonical reference image embedded at the top (and future panels use these references for consistency).

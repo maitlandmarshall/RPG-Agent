@@ -1,0 +1,26 @@
+location: Obsidian Pits — Holding Cells (Under-Arena)
+description: Basalt corridors sweat cold; chain-scrape echoes; ozone and blood-metal
+  on every breath.
+time: Age 736 — one year before Planet Vegeta’s destruction
+weather: 'Artificial climate: dry, cold air; fluorescent heat pockets near vents'
+scene_tags:
+- arena
+- captivity
+- gladiator
+- sci_fi
+entities:
+- name: Pitmaster Veyl
+  kind: NPC
+  status: overseeing intake
+- name: Obsidian Circuit Guards
+  kind: faction
+  status: patrolling
+  count: 6
+- name: K-Chain Shock Collars
+  kind: item
+  status: active
+clocks:
+  matchmaker_bell: 5/6
+  guard_alertness: 2/6
+  hunger: 3/6
+  rumor_of_vegeta: 1/6

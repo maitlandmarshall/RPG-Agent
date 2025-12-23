@@ -1,0 +1,35 @@
+name: Unnamed Saiyan
+race: Saiyan
+class: Pit Gladiator
+stats:
+  power_level: 1800
+  strength: 6
+  agility: 5
+  intellect: 3
+  ki_control: 4
+resources:
+  hp: 32
+  fatigue: 5.0
+  hunger: 3
+xp: 12
+skills:
+  brawling: 3
+  athletics: 2
+  perception: 2
+  survival: 2
+  intimidation: 2
+  ki_blast: 1
+inventory:
+- name: K-Chain Shock Collar
+  equipped: true
+  notes: Suppresses ki surges; punishes disobedience.
+- name: Ragged Pit Wraps
+  equipped: true
+  durability: poor
+  notes: Sweat-stiff cloth; stitched and re-stitched.
+- name: Water Token
+  quantity: 1
+  notes: Redeemable for one ration cup.
+status_effects:
+- Collared
+notes: 'Saiyan captive, one year in the pits. Confirm: tail present/bound or removed.'
