@@ -139,3 +139,133 @@ Veyl leans closer, voice for you alone. “If you want the Circuit to *say* your
 - **5 (Conserve + watch gate)**: DC 14 (success = spot a timing gap; fail = you’re chained tighter at rollout).
 
 </details>
+
+---
+## Turn — 2025-12-23 23:48
+### Scene
+**Hard frame:** The gate seam is open now—just a blade of arena-light cutting the under-dark. It turns dust into glitter and makes every chain-link look like a tooth.
+
+You hold [[../../lore/characters/Pitmaster_Veyl.md|Pitmaster Veyl]]’s reflection in their respirator and don’t blink.
+
+“I am Violence,” you say again—slower this time, like you’re carving it into stone. “This pit has taken all else.”
+
+You lean into the collar’s weight, let it feel your pulse.
+
+“When is my next fight?” Your voice comes out dry. “I yearn for the arena.”
+
+![Veyl hears your hunger](../assets/003_veyl_hears_hunger_closeup.png)
+
+Veyl’s head tilts, a precise angle—curiosity dressed up as control. Their gloved thumb taps the remote once, not to shock you, but to remind you it *can*.
+
+“A schedule,” Veyl murmurs. “You still believe in *time*.”
+
+They gesture with two fingers. The guards move as one: the chain goes taut, your shoulders yank forward, and the collar warms—yellow-line hot—until you taste copper.
+
+“Your next fight is not a date,” Veyl says as they walk beside you. “It’s a door.”
+
+The bell hits again overhead—closer now, louder—followed by the crowd’s roar rolling down the tunnel like a pressure wave.
+
+“And it’s opening.”
+
+![Rollout tunnel wide](../assets/003_rollout_tunnel_wide.png)
+
+The corridor bends. Heat pours in from ahead, washing over your skin in dry waves. The air changes—sand, sweat, scorched metal—so thick you can almost chew it.
+
+Ahead: a grated ramp, a lift platform, a slit of blinding white. A handler’s voice barks numbers you don’t recognize. Chains clatter into new hooks.
+
+Veyl keeps pace, close enough that you catch the faint, antiseptic bite of their gloves. “You get one question before the sand,” they add, soft as a gift. “Choose it well.”
+
+![Arena light on sand](../assets/003_arena_light_on_sand.png)
+
+Beyond the threshold you glimpse it: a bowl of black stone and screaming light, the arena floor like a pale wound under spotlamps. Somewhere out there, something heavy lands once—*thump*—and the crowd answers with hunger.
+### Your Options
+1. Spend your one question on **the opponent**: force Veyl to name what’s waiting on the sand (d20 + Intellect + Perception).
+2. Spend it on **the rules**: demand the win condition, ring hazards, and whether weapons are allowed (d20 + Intellect + Intimidation).
+3. Spend it on **a concession**: trade theatrics—"Violence" shouted loud—for a small gear edge (wraps, gloves, or a blunt weapon) (d20 + Strength + Intimidation).
+4. Say nothing—watch Veyl instead: read the remote hand, guard spacing, and the ramp cadence for an escape seam (d20 + Intellect + Perception).
+5. Make the tunnel your first arena: attempt to break the chain in the rollout crush and start a disruption before the gate (d20 + Strength + Athletics).
+
+### What Changed
+- Location: Obsidian Pits — Holding Cells → Gate Tunnel (rollout).
+- Clock: matchmaker_bell resets 6/6 → 0/6 (cycle spent; rollout underway).
+- Clock: arena_timer starts 0/6 → 1/6 (you’re seconds from the sand).
+- Clock: crowd_frenzy starts 0/6 → 1/6 (they smell blood on the air).
+- Fatigue +0.5 (handled, chained, marched).
+- New pressure: Veyl grants exactly one question before the gate.
+
+<details>
+<summary>Mechanics</summary>
+
+**Core roll**: `d20 + stat + skill` vs DC.
+
+**Fictional positioning**
+- In the rollout tunnel, guards have leverage: chain + prods + collar. Loud defiance risks a collar spike.
+- Veyl’s “one question” is real leverage: a clean success can reshape the fight before it starts (information, rule clarity, or a small concession).
+
+**Option DCs (baseline)**
+- **1 (Ask the opponent)**: DC 13 (success = name + one useful detail; fail = evasive answer / misdirection).
+- **2 (Ask the rules)**: DC 14 (success = clear win condition + hazard warning; fail = partial/loaded answer).
+- **3 (Concession for theatrics)**: DC 15 (success = small gear edge; fail = collar warning + guard roughness).
+- **4 (Read Veyl + cadence)**: DC 14 (success = spot a timing seam; fail = you miss the shift and get pinned).
+- **5 (Break chain/disrupt)**: DC 17 (success = brief chaos + escape opening; fail = immediate stun + guard_alertness tick).
+
+</details>
+
+---
+## Turn — 2025-12-24 00:00
+### Scene
+The lift platform shudders under your feet as the handlers lock chains into new slots. Metal sings. The arena’s heat licks closer—dry as a furnace—while the crowd’s roar pours down the throat of the tunnel.
+
+Veyl walks at your shoulder, remote loose in their gloved hand like it weighs nothing.
+
+You take the gift they offered and spend it.
+
+“How far is [[../../lore/locations/Planet_Vegeta.md|Planet Vegeta]] from here?”
+
+For a heartbeat, even the guards hesitate—like you’ve named something sharp in a place built to keep you blunt.
+
+![Holographic distance](../assets/004_holo_distance_to_vegeta.png)
+
+Veyl raises two fingers. A thin projector in their glove blooms a starfield into the air: cold points, hard lines, and a route drawn in sickly-gold segments that bend around places you’ve never heard named.
+
+“Far enough that the word ‘home’ becomes fiction,” Veyl says. “Twenty-two relay jumps through Circuit lanes, if you had clearance. Longer if you don’t.”
+
+Their thumb taps the remote—*click*—and the collar warms just a shade, like punctuation.
+
+“And if you’re asking because you think distance is mercy,” they add, voice gentle. “It isn’t. Distance is a kind of chain. The Circuit is very good at chains.”
+
+The lift begins to rise.
+
+![Lift rises toward the roar](../assets/004_lift_rising_gate.png)
+
+White light spills down over you in sheets. Sand-grit rides the air and catches on your teeth. Above, the chant tightens into a single name-shaped hunger—waiting to see if Violence is a story… or a stain.
+### Your Options
+1. Call the lie: study the holo-route for tells (missing hops, deliberate misdirection) and pin Veyl to specifics (d20 + Intellect + Perception).
+2. Turn it into leverage: promise a crowd-pleasing opener in exchange for **one more answer** (coordinates, sector, or relay name) (d20 + Strength + Intimidation).
+3. Weaponize the moment: shout “Vegeta” loud enough for the handlers to hear—test whether the word spooks the Circuit (d20 + Strength + Intimidation).
+4. Say nothing, memorize everything: burn the route into your mind for a future escape plan (d20 + Intellect + Survival).
+5. Focus on the now: brace for the gate and choose the cleanest opening strike the moment the sand hits your feet (d20 + Agility + Athletics).
+
+### What Changed
+- Clock: arena_timer advances 1/6 → 2/6 (lift rising; gate imminent).
+- Clock: crowd_frenzy advances 1/6 → 2/6 (they feel the moment tighten).
+- Clock: rumor_of_vegeta advances 1/6 → 2/6 (the word moves in the dark).
+- Pressure: Veyl confirms Circuit relay lanes exist—but only for those with clearance.
+
+<details>
+<summary>Mechanics</summary>
+
+**Core roll**: `d20 + stat + skill` vs DC.
+
+**Fictional positioning**
+- Your one “free question” is spent; further answers require leverage (theatrics, compliance, or risk).
+- Mentioning Vegeta is socially dangerous: it can draw attention from the wrong listeners.
+
+**Option DCs (baseline)**
+- **1 (Call the lie / read route)**: DC 14 (success = identify a tell + one true relay name; fail = you misread and lock in bad intel).
+- **2 (Bargain for one more answer)**: DC 15 (success = one additional concrete fact; fail = collar warning + Veyl closes up).
+- **3 (Say “Vegeta” loud)**: DC 15 (success = you learn who reacts and how; fail = guard_alertness tick + rough handling).
+- **4 (Memorize the route)**: DC 13 (success = bank actionable intel; fail = details blur under pressure).
+- **5 (Ready the opening strike)**: DC 14 (success = advantageous first beat; fail = you step onto sand off-balance).
+
+</details>

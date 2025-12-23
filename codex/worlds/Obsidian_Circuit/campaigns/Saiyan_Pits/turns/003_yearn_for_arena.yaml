@@ -1,0 +1,110 @@
+log_file: campaign_logs/000_Setup.md
+
+scene_md: |
+  **Hard frame:** The gate seam is open now—just a blade of arena-light cutting the under-dark. It turns dust into glitter and makes every chain-link look like a tooth.
+
+  You hold [[../../lore/characters/Pitmaster_Veyl.md|Pitmaster Veyl]]’s reflection in their respirator and don’t blink.
+
+  “I am Violence,” you say again—slower this time, like you’re carving it into stone. “This pit has taken all else.”
+
+  You lean into the collar’s weight, let it feel your pulse.
+
+  “When is my next fight?” Your voice comes out dry. “I yearn for the arena.”
+
+  ![Veyl hears your hunger](../assets/003_veyl_hears_hunger_closeup.png)
+
+  Veyl’s head tilts, a precise angle—curiosity dressed up as control. Their gloved thumb taps the remote once, not to shock you, but to remind you it *can*.
+
+  “A schedule,” Veyl murmurs. “You still believe in *time*.”
+
+  They gesture with two fingers. The guards move as one: the chain goes taut, your shoulders yank forward, and the collar warms—yellow-line hot—until you taste copper.
+
+  “Your next fight is not a date,” Veyl says as they walk beside you. “It’s a door.”
+
+  The bell hits again overhead—closer now, louder—followed by the crowd’s roar rolling down the tunnel like a pressure wave.
+
+  “And it’s opening.”
+
+  ![Rollout tunnel wide](../assets/003_rollout_tunnel_wide.png)
+
+  The corridor bends. Heat pours in from ahead, washing over your skin in dry waves. The air changes—sand, sweat, scorched metal—so thick you can almost chew it.
+
+  Ahead: a grated ramp, a lift platform, a slit of blinding white. A handler’s voice barks numbers you don’t recognize. Chains clatter into new hooks.
+
+  Veyl keeps pace, close enough that you catch the faint, antiseptic bite of their gloves. “You get one question before the sand,” they add, soft as a gift. “Choose it well.”
+
+  ![Arena light on sand](../assets/003_arena_light_on_sand.png)
+
+  Beyond the threshold you glimpse it: a bowl of black stone and screaming light, the arena floor like a pale wound under spotlamps. Somewhere out there, something heavy lands once—*thump*—and the crowd answers with hunger.
+
+options:
+  - "Spend your one question on **the opponent**: force Veyl to name what’s waiting on the sand (d20 + Intellect + Perception)."
+  - "Spend it on **the rules**: demand the win condition, ring hazards, and whether weapons are allowed (d20 + Intellect + Intimidation)."
+  - "Spend it on **a concession**: trade theatrics—\"Violence\" shouted loud—for a small gear edge (wraps, gloves, or a blunt weapon) (d20 + Strength + Intimidation)."
+  - "Say nothing—watch Veyl instead: read the remote hand, guard spacing, and the ramp cadence for an escape seam (d20 + Intellect + Perception)."
+  - "Make the tunnel your first arena: attempt to break the chain in the rollout crush and start a disruption before the gate (d20 + Strength + Athletics)."
+
+what_changed:
+  - "Location: Obsidian Pits — Holding Cells → Gate Tunnel (rollout)."
+  - "Clock: matchmaker_bell resets 6/6 → 0/6 (cycle spent; rollout underway)."
+  - "Clock: arena_timer starts 0/6 → 1/6 (you’re seconds from the sand)."
+  - "Clock: crowd_frenzy starts 0/6 → 1/6 (they smell blood on the air)."
+  - "Fatigue +0.5 (handled, chained, marched)."
+  - "New pressure: Veyl grants exactly one question before the gate."
+
+mechanics_md: |
+  **Core roll**: `d20 + stat + skill` vs DC.
+
+  **Fictional positioning**
+  - In the rollout tunnel, guards have leverage: chain + prods + collar. Loud defiance risks a collar spike.
+  - Veyl’s “one question” is real leverage: a clean success can reshape the fight before it starts (information, rule clarity, or a small concession).
+
+  **Option DCs (baseline)**
+  - **1 (Ask the opponent)**: DC 13 (success = name + one useful detail; fail = evasive answer / misdirection).
+  - **2 (Ask the rules)**: DC 14 (success = clear win condition + hazard warning; fail = partial/loaded answer).
+  - **3 (Concession for theatrics)**: DC 15 (success = small gear edge; fail = collar warning + guard roughness).
+  - **4 (Read Veyl + cadence)**: DC 14 (success = spot a timing seam; fail = you miss the shift and get pinned).
+  - **5 (Break chain/disrupt)**: DC 17 (success = brief chaos + escape opening; fail = immediate stun + guard_alertness tick).
+
+delta:
+  player:
+    add:
+      - target: resources
+        key: fatigue
+        value: 0.5
+  world_state:
+    set:
+      - key: location
+        value: Obsidian Pits — Gate Tunnel (Rollout)
+      - key: description
+        value: Heat-washed basalt tunnel; chain-rattle and shouted numbers; sand and ozone in every breath; spotlights leaking through a narrowing seam.
+      - key: scene_tags
+        value:
+          - arena
+          - rollout
+          - pressure
+          - gladiator
+          - sci_fi
+      - key: entities
+        value:
+          - name: Pitmaster Veyl
+            kind: NPC
+            status: walking beside you; remote in hand
+          - name: Obsidian Circuit Guards
+            kind: faction
+            status: escorting rollout; prods live
+            count: 8
+          - name: K-Chain Shock Collars
+            kind: item
+            status: hair-trigger active
+          - name: Arena Gate Mechanism
+            kind: hazard
+            status: cycling open; bright light spill
+      - key: clocks
+        value:
+          matchmaker_bell: 0/6
+          guard_alertness: 3/6
+          hunger: 3/6
+          rumor_of_vegeta: 1/6
+          arena_timer: 1/6
+          crowd_frenzy: 1/6

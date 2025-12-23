@@ -1,26 +1,32 @@
-location: Obsidian Pits — Holding Cells (Under-Arena)
-description: Basalt corridors sweat cold; chain-scrape echoes; ozone and blood-metal
-  on every breath.
+location: Obsidian Pits — Gate Tunnel (Rollout)
+description: Heat-washed basalt tunnel; chain-rattle and shouted numbers; sand and
+  ozone in every breath; spotlights leaking through a narrowing seam.
 time: Age 736 — one year before Planet Vegeta’s destruction
 weather: 'Artificial climate: dry, cold air; fluorescent heat pockets near vents'
 scene_tags:
 - arena
-- captivity
+- rollout
+- pressure
 - gladiator
 - sci_fi
 entities:
 - name: Pitmaster Veyl
   kind: NPC
-  status: overseeing intake
+  status: walking beside you; remote in hand
 - name: Obsidian Circuit Guards
   kind: faction
-  status: patrolling
-  count: 6
+  status: escorting rollout; prods live
+  count: 8
 - name: K-Chain Shock Collars
   kind: item
-  status: active
+  status: hair-trigger active
+- name: Arena Gate Mechanism
+  kind: hazard
+  status: cycling open; bright light spill
 clocks:
-  matchmaker_bell: 6/6
+  matchmaker_bell: 0/6
   guard_alertness: 3/6
   hunger: 3/6
-  rumor_of_vegeta: 1/6
+  rumor_of_vegeta: 2/6
+  arena_timer: 2/6
+  crowd_frenzy: 2/6

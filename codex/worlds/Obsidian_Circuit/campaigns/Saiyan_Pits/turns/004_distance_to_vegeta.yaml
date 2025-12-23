@@ -1,0 +1,67 @@
+log_file: campaign_logs/000_Setup.md
+
+scene_md: |
+  The lift platform shudders under your feet as the handlers lock chains into new slots. Metal sings. The arena’s heat licks closer—dry as a furnace—while the crowd’s roar pours down the throat of the tunnel.
+
+  Veyl walks at your shoulder, remote loose in their gloved hand like it weighs nothing.
+
+  You take the gift they offered and spend it.
+
+  “How far is [[../../lore/locations/Planet_Vegeta.md|Planet Vegeta]] from here?”
+
+  For a heartbeat, even the guards hesitate—like you’ve named something sharp in a place built to keep you blunt.
+
+  ![Holographic distance](../assets/004_holo_distance_to_vegeta.png)
+
+  Veyl raises two fingers. A thin projector in their glove blooms a starfield into the air: cold points, hard lines, and a route drawn in sickly-gold segments that bend around places you’ve never heard named.
+
+  “Far enough that the word ‘home’ becomes fiction,” Veyl says. “Twenty-two relay jumps through Circuit lanes, if you had clearance. Longer if you don’t.”
+
+  Their thumb taps the remote—*click*—and the collar warms just a shade, like punctuation.
+
+  “And if you’re asking because you think distance is mercy,” they add, voice gentle. “It isn’t. Distance is a kind of chain. The Circuit is very good at chains.”
+
+  The lift begins to rise.
+
+  ![Lift rises toward the roar](../assets/004_lift_rising_gate.png)
+
+  White light spills down over you in sheets. Sand-grit rides the air and catches on your teeth. Above, the chant tightens into a single name-shaped hunger—waiting to see if Violence is a story… or a stain.
+
+options:
+  - "Call the lie: study the holo-route for tells (missing hops, deliberate misdirection) and pin Veyl to specifics (d20 + Intellect + Perception)."
+  - "Turn it into leverage: promise a crowd-pleasing opener in exchange for **one more answer** (coordinates, sector, or relay name) (d20 + Strength + Intimidation)."
+  - "Weaponize the moment: shout “Vegeta” loud enough for the handlers to hear—test whether the word spooks the Circuit (d20 + Strength + Intimidation)."
+  - "Say nothing, memorize everything: burn the route into your mind for a future escape plan (d20 + Intellect + Survival)."
+  - "Focus on the now: brace for the gate and choose the cleanest opening strike the moment the sand hits your feet (d20 + Agility + Athletics)."
+
+what_changed:
+  - "Clock: arena_timer advances 1/6 → 2/6 (lift rising; gate imminent)."
+  - "Clock: crowd_frenzy advances 1/6 → 2/6 (they feel the moment tighten)."
+  - "Clock: rumor_of_vegeta advances 1/6 → 2/6 (the word moves in the dark)."
+  - "Pressure: Veyl confirms Circuit relay lanes exist—but only for those with clearance."
+
+mechanics_md: |
+  **Core roll**: `d20 + stat + skill` vs DC.
+
+  **Fictional positioning**
+  - Your one “free question” is spent; further answers require leverage (theatrics, compliance, or risk).
+  - Mentioning Vegeta is socially dangerous: it can draw attention from the wrong listeners.
+
+  **Option DCs (baseline)**
+  - **1 (Call the lie / read route)**: DC 14 (success = identify a tell + one true relay name; fail = you misread and lock in bad intel).
+  - **2 (Bargain for one more answer)**: DC 15 (success = one additional concrete fact; fail = collar warning + Veyl closes up).
+  - **3 (Say “Vegeta” loud)**: DC 15 (success = you learn who reacts and how; fail = guard_alertness tick + rough handling).
+  - **4 (Memorize the route)**: DC 13 (success = bank actionable intel; fail = details blur under pressure).
+  - **5 (Ready the opening strike)**: DC 14 (success = advantageous first beat; fail = you step onto sand off-balance).
+
+delta:
+  world_state:
+    set:
+      - key: clocks
+        value:
+          matchmaker_bell: 0/6
+          guard_alertness: 3/6
+          hunger: 3/6
+          rumor_of_vegeta: 2/6
+          arena_timer: 2/6
+          crowd_frenzy: 2/6
