@@ -1,0 +1,32 @@
+{
+  "defaults": {
+    "model": "gpt-image-1.5",
+    "fallback_model": "gpt-image-1",
+    "size": "1024x1024",
+    "quality": "high",
+    "output_format": "png"
+  },
+  "jobs": [
+    {
+      "type": "panel",
+      "world": "Obsidian_Circuit",
+      "characters": ["Rask the Basalt Bull"],
+      "prompt": "Obsidian Circuit style: gritty sci‑fi gladiator arena, inked line art, tight cross‑hatching, crisp silhouette, high contrast lighting, deep shadows, sharp rim light, muted charcoal palette with neon sickly‑gold circuit accents. Extreme close-up comic panel of Rask the Basalt Bull’s OTHER eye being struck by a hyper-concentrated ki needle-ray (no gore): the ray is a thin bright line with a pale vapor-smoke sheath (ki being leeched by the arena lattice), tiny grit-spark bloom at contact, eyelid pinched shut from pain. Dust motes and ozone haze in spotlight. Readable impact lines, intense expression.",
+      "out": "worlds/Obsidian_Circuit/campaigns/Saiyan_Pits/assets/008_ki_ray_eye_impale_closeup.png"
+    },
+    {
+      "type": "panel",
+      "world": "Obsidian_Circuit",
+      "characters": ["Pitmaster Veyl"],
+      "prompt": "Obsidian Circuit style: gritty sci‑fi comic panel, inked line art, tight cross‑hatching, high contrast rim light; muted charcoal with neon cyan/magenta accents and sickly‑gold stitching. Close-up panel of Pitmaster Veyl on the gate platform: lacquer-black coat with sickly-gold seams, mirrored respirator reflecting arena lights. One gloved hand clicks a small remote; the remote shows a tiny indicator glow. Foreground partial: a Saiyan captive’s shock collar at throat with arcs of white-blue static (non-gory), jaw clenched. Background: gate light bleeding white heat, blurred crowd halo.",
+      "out": "worlds/Obsidian_Circuit/campaigns/Saiyan_Pits/assets/008_veyl_remote_collar_spike.png"
+    },
+    {
+      "type": "panel",
+      "world": "Obsidian_Circuit",
+      "characters": ["Rask the Basalt Bull"],
+      "prompt": "Obsidian Circuit style: gritty sci‑fi arena action panel, inked line art, tight cross‑hatching, crisp silhouettes, high contrast lighting with sharp rim light; pale sand and basalt walls etched with sickly‑gold circuit lines; ozone haze. Wide shot: Rask the Basalt Bull blinded, head thrown back, both eyes squeezed shut; he thrashes in a widening circle, horns scything air and kicking up sand. A collared Saiyan captive (muscular, scarred, ragged pit wraps) is low and close, mid-dodge. Show the lattice’s influence subtly as faint vapor-smoke wisps lingering where ki was used. No gore; emphasize danger and motion clarity.",
+      "out": "worlds/Obsidian_Circuit/campaigns/Saiyan_Pits/assets/008_blind_rask_thrash_wide.png"
+    }
+  ]
+}

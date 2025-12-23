@@ -416,7 +416,7 @@ Rask shifts his lead foot a fraction. Not impatience—**timing**.
 ### Scene
 **Hard frame:** The sand is hotter than it looks. It bites your ankles and clings to sweat that hasn’t had time to dry. The spotlights pin you in a white circle while the crowd blurs into a single hungry sound.
 
-![Rask on the sand](../assets/005_rask_on_sand_wide.png)
+![Low dash inside the horns](../assets/007_low_dash_inside_horns_action.png)
 
 Across from you, [[worlds/Obsidian_Circuit/lore/characters/Rask_the_Basalt_Bull.md|Rask]] stands like a moving cliff—too still, too grounded, saving his burst.
 
@@ -426,7 +426,7 @@ You let your sealed ki crack open just enough to slip a *small* pellet through t
 
 The [[worlds/Obsidian_Circuit/lore/techniques/Ki-sink_Lattice.md|Ki-sink Lattice]] under the sand *tugs* at the shot mid-flight. The pellet thins, hissing, shedding a wake of pale vapor like a comet tail that shouldn’t exist in dry air.
 
-![Ki-sink lattice under sand](../assets/006_lattice_under_sand_macro.png)
+![Ki pellet impact](../assets/007_rask_eye_pellet_closeup.png)
 
 It still lands—*spat*—against basalt brow and wet eye, bursting into a grit-spark bloom. Rask jerks his head, one eye sealing shut as he shakes, snorting sand and smoke.
 
@@ -439,6 +439,8 @@ In the recoil and plume, you sprint—low as a thrown knife—sand spraying behi
 You slip inside the line of his first swing… and his mass still clips you—basalt shoulder grazing ribs with a dead, heavy impact that knocks air out of you.
 
 Above the gate platform, you catch a lacquer-black glint: [[worlds/Obsidian_Circuit/lore/characters/Pitmaster_Veyl.md|Pitmaster Veyl]]’s remote hand doesn’t move, but you *feel* their attention tighten.
+
+![Veyl remote tightens](../assets/007_veyl_remote_closeup.png)
 ### Your Options
 1. Stay glued to him: chain short, hands up—hammer ribs and kidneys before his vision clears (d20 + Strength + Brawling).
 2. Control the horns: hook an arm under the base and turn his head, trying to steer his charge into the ring-edge basalt ribs (d20 + Strength + Athletics).
@@ -469,7 +471,68 @@ Above the gate platform, you catch a lacquer-black glint: [[worlds/Obsidian_Circ
 - The lattice drains big surges fast; small, tight shots can still land but they “smoke” as they’re leeched.
 - Close range vs Rask is dangerous: his weight turns glancing contact into injury.
 
-**Panel note**
-- Reused existing arena panels this turn; new panel generation is blocked until `OPENAI_API_KEY` is set (for `.codex/skills/openai-image-gen`).
+</details>
+
+---
+## Turn — 2025-12-24 02:20
+### Scene
+**Hard frame:** You’re chest-close—so close you can smell hot stone on [[worlds/Obsidian_Circuit/lore/characters/Rask_the_Basalt_Bull.md|Rask]]’s breath and feel the grit grind between your teeth.
+
+His shoulder impact still rings through your ribs.
+
+You don’t back off.
+
+You *channel*—a second burn of ki, but this time not a pellet. A **needle-ray**: tight, straight, shaped to *impale*.
+
+The [[worlds/Obsidian_Circuit/lore/techniques/Ki-sink_Lattice.md|Ki-sink Lattice]] answers instantly. The beam doesn’t just shine—it **smokes**, a pale vapor sheath peeling off it as the arena tries to drink it mid-flight.
+
+![Ki ray to the eye](../assets/008_ki_ray_eye_impale_closeup.png)
+
+The ray lances into his **other** eye.
+
+Rask’s head snaps back. For half a heartbeat you see nothing behind his horns but reflex and pain—then his whole body goes rigid, like a bell struck wrong.
+
+Above the gate platform, [[worlds/Obsidian_Circuit/lore/characters/Pitmaster_Veyl.md|Veyl]]’s remote hand **clicks**.
+
+The [[worlds/Obsidian_Circuit/lore/items/K-Chain_Shock_Collar.md|K-Chain Shock Collar]] doesn’t warn this time.
+
+It *bites*.
+
+![Collar spike and Veyl remote](../assets/008_veyl_remote_collar_spike.png)
+
+White static floods your throat and jaw, turning muscle into a stutter. Your vision fractures at the edges. The beam wobbles—still in his eye—still smoking—then gutters out as your body betrays you.
+
+Rask is blind now, but blind doesn’t mean safe. He swings by sound and pressure, sand exploding under his feet as he thrashes in a widening circle—horns scything air where your head *was* a second ago.
+
+![Blind Rask thrashes on sand](../assets/008_blind_rask_thrash_wide.png)
+### Your Options
+1. Ride the shock and finish the beat: step into his blind arc and smash the liver/ribs while he’s off-balance (d20 + Strength + Brawling).
+2. Survive first: drop and roll out of horn range, reset distance while your muscles stop stuttering (d20 + Agility + Athletics).
+3. Control the monster: clamp a horn base/neck and try to steer him into the ring-edge basalt ribs before he finds you (d20 + Strength + Athletics).
+4. Information play: read Veyl’s cadence—how often can they spike the collar, and what triggers it? (d20 + Intellect + Perception).
+5. Play to the box: shout ‘VIOLENCE!’ and bait the crowd into forcing Veyl’s hand (d20 + Strength + Intimidation).
+
+### What Changed
+- HP -2 (collar spike backlash).
+- Fatigue +2 (precision beam + shock recovery).
+- Clock: guard_alertness advances 5/6 → 6/6 (collar escalation authorized).
+- Clock: crowd_frenzy advances 5/6 → 6/6 (they witness a blinding strike).
+- Clock: arena_timer advances 5/6 → 6/6 (official intervention threshold reached).
+- Rask: blinded in both eyes; thrashing by sound/pressure at close range.
+
+<details>
+<summary>Mechanics</summary>
+
+**Core roll**: `d20 + stat + skill` vs DC.
+
+**Resolved action (your declaration): concentrated impaling ki ray into the other eye**
+- **Check**: `d20 + Ki Control (4) + Ki Blast (1)` vs **DC 16**
+- **Roll**: 13 → **18 (Success)**
+- **Effect**: Rask is **blinded** (both eyes compromised) for the immediate exchange; his attacks become wider and less precise, but more dangerous if they connect.
+- **Cost (telegraphed consequences land)**: lethal intent triggers an immediate collar spike (**HP -2**, **fatigue +2**) and pushes attention to a breaking point (**guard_alertness 6/6**, **arena_timer 6/6**, **crowd_frenzy 6/6**).
+
+**Fictional positioning**
+- The lattice leeched the beam (visible vapor sheath), but at point-blank range the strike still landed.
+- With `arena_timer` at 6/6, the arena’s controllers are about to “correct” the scene next beat (hazard, handlers, or collar rules change).
 
 </details>

@@ -73,6 +73,21 @@ Campaign logs are the game UI. Every “turn” appended to a log must follow th
 3) **What Changed** (short bullet delta: HP/XP/items/statuses/location)
 4) **Mechanics** (Obsidian `<details>` block; roll math + DC + modifiers)
 
+### Dice Rolls (Mandatory Real RNG)
+
+All mechanical outcomes that depend on chance **must** be decided by a **real dice roll** (not fabricated).
+
+- Use the repo skill: `$dice-roller` (stored in `.codex/skills/dice-roller/`).
+- Never “pick” a roll result to fit a narrative beat.
+- For every resolved action, include in the Mechanics block:
+  - the **exact expression** rolled (e.g. `d20 + Agility (5) + Ki Blast (1)`)
+  - the **total**
+  - the **DC**
+  - success/fail
+- Prefer logging rolls to an audit file per campaign so outcomes are verifiable:
+  - `worlds/<World>/campaigns/<Campaign>/campaign_logs/_rolls.ndjson`
+  - (Use `--log ...` with the dice-roller script.)
+
 ### Scene Framing (RPG Novel Feel)
 - Start each turn with a **hard frame**: where you are, what you sense, and what is immediately at stake.
 - Keep prose **sensory and specific** (sound, texture, heat/cold, smell, body strain), but avoid bloated paragraphs.

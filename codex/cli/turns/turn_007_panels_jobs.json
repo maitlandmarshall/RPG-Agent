@@ -1,0 +1,32 @@
+{
+  "defaults": {
+    "model": "gpt-image-1.5",
+    "fallback_model": "gpt-image-1",
+    "size": "1024x1024",
+    "quality": "high",
+    "output_format": "png"
+  },
+  "jobs": [
+    {
+      "type": "panel",
+      "world": "Obsidian_Circuit",
+      "characters": ["Rask the Basalt Bull"],
+      "prompt": "Obsidian Circuit style: gritty sci‑fi gladiator arena, inked line art, tight cross‑hatching, crisp silhouette, high contrast lighting, deep shadows, sharp rim light, muted charcoal palette with neon sickly‑gold circuit accents. Close-up comic panel of Rask the Basalt Bull’s face: basalt-textured brow, heavy horn base in frame, one eye squinting shut as a tiny ki pellet splats against the wet eye/cheek with a gritty spark-bloom. The ki pellet leaves a thin vapor-smoke trail (ki being leeched) despite the dry air; dust motes and ozone haze catch the spotlight. Dynamic impact lines, no gore.",
+      "out": "worlds/Obsidian_Circuit/campaigns/Saiyan_Pits/assets/007_rask_eye_pellet_closeup.png"
+    },
+    {
+      "type": "panel",
+      "world": "Obsidian_Circuit",
+      "characters": ["Rask the Basalt Bull"],
+      "prompt": "Obsidian Circuit style: gritty sci‑fi gladiator arena, inked line art, tight cross‑hatching, crisp silhouettes, high contrast lighting with sharp rim light; basalt walls etched with sickly‑gold circuit lines; pale sand; harsh spotlights; ozone haze. Action panel, low angle: a collared Saiyan captive (muscular, scarred, ragged pit wraps, shock collar) staying low and dashing forward through a plume of pale vapor-smoke; sand sprays from their feet. Rask the Basalt Bull recoils, one eye stung shut, horns and massive shoulder turning as the Saiyan slips inside the horn line. Clear readable motion, comic panel framing.",
+      "out": "worlds/Obsidian_Circuit/campaigns/Saiyan_Pits/assets/007_low_dash_inside_horns_action.png"
+    },
+    {
+      "type": "panel",
+      "world": "Obsidian_Circuit",
+      "characters": ["Pitmaster Veyl"],
+      "prompt": "Obsidian Circuit style: gritty sci‑fi comic panel, inked line art, tight cross‑hatching, high contrast lighting, deep shadows, sharp rim light; muted charcoal with neon cyan/magenta accents and sickly‑gold stitching. Close-up panel on Pitmaster Veyl on the gate platform: lacquer-black coat stitched in sickly gold, mirrored respirator reflecting spotlights, clean gloves. One gloved hand loosely holds a small remote angled toward the arena; subtle tension in posture as attention tightens. Background: blurred crowd as a noisy halo, gate light bleeding white heat.",
+      "out": "worlds/Obsidian_Circuit/campaigns/Saiyan_Pits/assets/007_veyl_remote_closeup.png"
+    }
+  ]
+}

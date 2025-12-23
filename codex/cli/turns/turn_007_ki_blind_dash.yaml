@@ -1,7 +1,7 @@
 scene_md: |-
   **Hard frame:** The sand is hotter than it looks. It bites your ankles and clings to sweat that hasn’t had time to dry. The spotlights pin you in a white circle while the crowd blurs into a single hungry sound.
 
-  ![Rask on the sand](../assets/005_rask_on_sand_wide.png)
+  ![Low dash inside the horns](../assets/007_low_dash_inside_horns_action.png)
 
   Across from you, [[worlds/Obsidian_Circuit/lore/characters/Rask_the_Basalt_Bull.md|Rask]] stands like a moving cliff—too still, too grounded, saving his burst.
 
@@ -11,7 +11,7 @@ scene_md: |-
 
   The [[worlds/Obsidian_Circuit/lore/techniques/Ki-sink_Lattice.md|Ki-sink Lattice]] under the sand *tugs* at the shot mid-flight. The pellet thins, hissing, shedding a wake of pale vapor like a comet tail that shouldn’t exist in dry air.
 
-  ![Ki-sink lattice under sand](../assets/006_lattice_under_sand_macro.png)
+  ![Ki pellet impact](../assets/007_rask_eye_pellet_closeup.png)
 
   It still lands—*spat*—against basalt brow and wet eye, bursting into a grit-spark bloom. Rask jerks his head, one eye sealing shut as he shakes, snorting sand and smoke.
 
@@ -24,6 +24,8 @@ scene_md: |-
   You slip inside the line of his first swing… and his mass still clips you—basalt shoulder grazing ribs with a dead, heavy impact that knocks air out of you.
 
   Above the gate platform, you catch a lacquer-black glint: [[worlds/Obsidian_Circuit/lore/characters/Pitmaster_Veyl.md|Pitmaster Veyl]]’s remote hand doesn’t move, but you *feel* their attention tighten.
+
+  ![Veyl remote tightens](../assets/007_veyl_remote_closeup.png)
 
 options:
   - "Stay glued to him: chain short, hands up—hammer ribs and kidneys before his vision clears (d20 + Strength + Brawling)."
@@ -50,9 +52,6 @@ mechanics_md: |-
   **Fictional positioning**
   - The lattice drains big surges fast; small, tight shots can still land but they “smoke” as they’re leeched.
   - Close range vs Rask is dangerous: his weight turns glancing contact into injury.
-
-  **Panel note**
-  - Reused existing arena panels this turn; new panel generation is blocked until `OPENAI_API_KEY` is set (for `.codex/skills/openai-image-gen`).
 
 delta:
   player:

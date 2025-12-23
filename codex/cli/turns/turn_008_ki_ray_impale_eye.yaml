@@ -1,0 +1,107 @@
+scene_md: |-
+  **Hard frame:** You’re chest-close—so close you can smell hot stone on [[worlds/Obsidian_Circuit/lore/characters/Rask_the_Basalt_Bull.md|Rask]]’s breath and feel the grit grind between your teeth.
+
+  His shoulder impact still rings through your ribs.
+
+  You don’t back off.
+
+  You *channel*—a second burn of ki, but this time not a pellet. A **needle-ray**: tight, straight, shaped to *impale*.
+
+  The [[worlds/Obsidian_Circuit/lore/techniques/Ki-sink_Lattice.md|Ki-sink Lattice]] answers instantly. The beam doesn’t just shine—it **smokes**, a pale vapor sheath peeling off it as the arena tries to drink it mid-flight.
+
+  ![Ki ray to the eye](../assets/008_ki_ray_eye_impale_closeup.png)
+
+  The ray lances into his **other** eye.
+
+  Rask’s head snaps back. For half a heartbeat you see nothing behind his horns but reflex and pain—then his whole body goes rigid, like a bell struck wrong.
+
+  Above the gate platform, [[worlds/Obsidian_Circuit/lore/characters/Pitmaster_Veyl.md|Veyl]]’s remote hand **clicks**.
+
+  The [[worlds/Obsidian_Circuit/lore/items/K-Chain_Shock_Collar.md|K-Chain Shock Collar]] doesn’t warn this time.
+
+  It *bites*.
+
+  ![Collar spike and Veyl remote](../assets/008_veyl_remote_collar_spike.png)
+
+  White static floods your throat and jaw, turning muscle into a stutter. Your vision fractures at the edges. The beam wobbles—still in his eye—still smoking—then gutters out as your body betrays you.
+
+  Rask is blind now, but blind doesn’t mean safe. He swings by sound and pressure, sand exploding under his feet as he thrashes in a widening circle—horns scything air where your head *was* a second ago.
+
+  ![Blind Rask thrashes on sand](../assets/008_blind_rask_thrash_wide.png)
+
+options:
+  - "Ride the shock and finish the beat: step into his blind arc and smash the liver/ribs while he’s off-balance (d20 + Strength + Brawling)."
+  - "Survive first: drop and roll out of horn range, reset distance while your muscles stop stuttering (d20 + Agility + Athletics)."
+  - "Control the monster: clamp a horn base/neck and try to steer him into the ring-edge basalt ribs before he finds you (d20 + Strength + Athletics)."
+  - "Information play: read Veyl’s cadence—how often can they spike the collar, and what triggers it? (d20 + Intellect + Perception)."
+  - "Play to the box: shout ‘VIOLENCE!’ and bait the crowd into forcing Veyl’s hand (d20 + Strength + Intimidation)."
+what_changed:
+  - "HP -2 (collar spike backlash)."
+  - "Fatigue +2 (precision beam + shock recovery)."
+  - "Clock: guard_alertness advances 5/6 → 6/6 (collar escalation authorized)."
+  - "Clock: crowd_frenzy advances 5/6 → 6/6 (they witness a blinding strike)."
+  - "Clock: arena_timer advances 5/6 → 6/6 (official intervention threshold reached)."
+  - "Rask: blinded in both eyes; thrashing by sound/pressure at close range."
+mechanics_md: |-
+  **Core roll**: `d20 + stat + skill` vs DC.
+
+  **Resolved action (your declaration): concentrated impaling ki ray into the other eye**
+  - **Check**: `d20 + Ki Control (4) + Ki Blast (1)` vs **DC 16**
+  - **Roll**: 13 → **18 (Success)**
+  - **Effect**: Rask is **blinded** (both eyes compromised) for the immediate exchange; his attacks become wider and less precise, but more dangerous if they connect.
+  - **Cost (telegraphed consequences land)**: lethal intent triggers an immediate collar spike (**HP -2**, **fatigue +2**) and pushes attention to a breaking point (**guard_alertness 6/6**, **arena_timer 6/6**, **crowd_frenzy 6/6**).
+
+  **Fictional positioning**
+  - The lattice leeched the beam (visible vapor sheath), but at point-blank range the strike still landed.
+  - With `arena_timer` at 6/6, the arena’s controllers are about to “correct” the scene next beat (hazard, handlers, or collar rules change).
+
+delta:
+  player:
+    add:
+      - target: resources
+        key: hp
+        value: -2
+      - target: resources
+        key: fatigue
+        value: 2
+  world_state:
+    set:
+      - key: description
+        value: "Point-blank on pale sand under harsh spotlights; vapor-smoke sheath around ki (lattice leech); Rask blinded and thrashing; Veyl actively spiking the collar from the gate platform."
+      - key: scene_tags
+        value:
+          - arena
+          - sand
+          - close_quarters
+          - ki
+          - smoke
+          - shock
+          - intervention
+          - gladiator
+          - sci_fi
+      - key: entities
+        value:
+          - name: Pitmaster Veyl
+            kind: NPC
+            status: remote clicked; collar spike authorized; watching for crowd reaction
+          - name: Obsidian Circuit Guards
+            kind: faction
+            status: gate-side; prods live; poised to intervene if signaled
+            count: 8
+          - name: K-Chain Shock Collars
+            kind: item
+            status: escalated; immediate shock used to suppress lethal precision ki
+          - name: Ki-sink Lattice
+            kind: hazard
+            status: leeching ki; vapor-smoke sheath visible on beams; surges likely monitored
+          - name: Rask the Basalt Bull
+            kind: NPC
+            status: blinded; thrashing in widening arcs by sound/pressure; still lethal up close
+      - key: clocks
+        value:
+          matchmaker_bell: 0/6
+          guard_alertness: 6/6
+          hunger: 4/6
+          rumor_of_vegeta: 2/6
+          arena_timer: 6/6
+          crowd_frenzy: 6/6
