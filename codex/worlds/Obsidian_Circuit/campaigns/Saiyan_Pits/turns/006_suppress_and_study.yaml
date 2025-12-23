@@ -1,0 +1,115 @@
+log_file: campaign_logs/000_Setup.md
+
+scene_md: |
+  **Hard frame:** Sand takes your weight with a dry *hiss*.
+
+  The gate slams wider behind you and the arena hits like weather—heat on your face, grit in your teeth, the crowd’s roar pressing at your ribs until breathing feels like a decision.
+
+  You don’t give them a flare. You don’t give *him* a scent.
+
+  You fold your ki inward until it’s nothing but a sealed fist under your skin—no spill, no glow, no thread.
+
+  For a moment, you are just muscle and collar and breath.
+
+  ![Step onto the sand with ki suppressed](../assets/006_suppressed_step_on_sand_wide.png)
+
+  Across the sand, **[[../../lore/characters/Rask_the_Basalt_Bull.md|Rask the Basalt Bull]]** stands like a loaded weight. His presence is still there—heavy even when you refuse to *taste* it—but your suppression makes the air between you go strangely quiet.
+
+  You use the stolen seconds to study the arena the way you’d study a cliff face before a leap:
+
+  - **Lines of sight:** three brutal spotlights. One sweeps the gate every few breaths—handlers’ habit. One pins center-sand. One paints the far wall where the crowd screams loudest.
+  - **Cover that isn’t cover:** basalt ribs at the ring edge—good for breaking a charge, bad for hiding (too many angles).
+  - **The floor’s lie:** when your boot drags, sand peels back from something hard beneath.
+
+  You grind your heel once—just enough to see it.
+
+  ![Ki-sink lattice under the sand](../assets/006_lattice_under_sand_macro.png)
+
+  Sickly-gold grooves cut the basalt in a pattern: **[[../../lore/techniques/Ki-sink_Lattice.md|Ki-sink Lattice]]**—a hunger built into stone. You feel it even with your ki locked down: a faint pull, like the arena is listening with its whole body.
+
+  On the platform above the gate, you catch a glint of lacquer-black: **[[../../lore/characters/Pitmaster_Veyl.md|Veyl]]** watching, remote angled like a prayer.
+
+  Rask shifts his lead foot a fraction. Not impatience—**timing**.
+
+options:
+  - "Stay ‘dead’ and circle: keep ki suppressed while you drift toward the ring edge to force Rask to commit first (d20 + Agility + Perception)."
+  - "Read the boulder: watch Rask’s shoulders, hips, and breath for the exact trigger of his burst (d20 + Intellect + Perception)."
+  - "Test the lattice quietly: scuff sand to map groove direction and node clusters without feeding it a surge (d20 + Intellect + Survival)."
+  - "Play to the box: lock eyes with Veyl and perform obedience—bait them into loosening guard posture or collar settings for a heartbeat (d20 + Intellect + Intimidation)."
+  - "Break the calm on your terms: step in with a compact opening strike that doesn’t flare ki (d20 + Strength + Brawling)."
+
+what_changed:
+  - "Location: Obsidian Pits — Gate Threshold (Lift) → Arena Floor (Sand)."
+  - "Clock: arena_timer advances 3/6 → 4/6 (the bout is live)."
+  - "Clock: crowd_frenzy advances 3/6 → 4/6 (they sense the tension)."
+  - "Clock: hunger advances 3/6 → 4/6 (the smell of sand and blood sharpens the gut)."
+  - "Fatigue +0.5 (full suppression under collar)."
+  - "New intel: lattice grooves run under the sand near the gate—surges will be drained fast there."
+
+mechanics_md: |
+  **Core roll**: `d20 + stat + skill` vs DC.
+
+  **Resolved action (your declaration): Completely suppress ki + study the arena**
+  - **Check**: `d20 + Ki Control (4) + Perception (2)` vs **DC 15**
+  - **Outcome**: **Success** — you go “dead” enough that Rask can’t get a clean read, and you spot the lattice’s tell under the sand.
+  - **Cost**: time passes under the lights (**arena_timer +1**, **crowd_frenzy +1**, **hunger +1**) and the suppression taxes you (**fatigue +0.5**).
+
+  **Fictional positioning**
+  - Suppression reduces tells, but it also limits explosive options until you choose to unseal.
+  - The lattice is strongest where the grooves are dense (near gate-side clusters).
+
+  **Option DCs (baseline)**
+  - **1 (Circle while suppressed)**: DC 14 (success = you draw the first lunge; fail = you get cut off at the ribs).
+  - **2 (Read Rask’s trigger)**: DC 15 (success = you pre-time the burst; fail = you flinch a half-beat late).
+  - **3 (Map groove direction/nodes)**: DC 14 (success = you learn “safe lanes”; fail = you waste time and lose position).
+  - **4 (Perform obedience at Veyl)**: DC 16 (success = a micro-loosening / hesitation; fail = collar warning + guard shove).
+  - **5 (Compact opening strike)**: DC 13 (success = you tag him clean; fail = you bounce off his mass and pay for it).
+
+delta:
+  player:
+    add:
+      - target: resources
+        key: fatigue
+        value: 0.5
+  world_state:
+    set:
+      - key: location
+        value: Obsidian Pits — Arena Floor (Sand)
+      - key: description
+        value: Pale sand under harsh spotlights; basalt walls etched with sickly-gold circuit lines; ozone haze and crowd-roar; the gate behind still bleeding white heat.
+      - key: scene_tags
+        value:
+          - arena
+          - sand
+          - observation
+          - ki
+          - pressure
+          - gladiator
+          - sci_fi
+      - key: entities
+        value:
+          - name: Pitmaster Veyl
+            kind: NPC
+            status: watching from the gate platform; remote angled toward your throat
+          - name: Obsidian Circuit Guards
+            kind: faction
+            status: clustered gate-side; prods live; not entering the sand yet
+            count: 8
+          - name: K-Chain Shock Collars
+            kind: item
+            status: suppressing surges; monitoring; punishment thresholds unknown
+          - name: Ki-sink Lattice
+            kind: hazard
+            status: etched circuits under sand; drains surges; sensor-grid behavior
+          - name: Rask the Basalt Bull
+            kind: NPC
+            status: opposite you on the sand; grounded and timing a burst
+      - key: clocks
+        value:
+          matchmaker_bell: 0/6
+          guard_alertness: 4/6
+          hunger: 4/6
+          rumor_of_vegeta: 2/6
+          arena_timer: 4/6
+          crowd_frenzy: 4/6
+

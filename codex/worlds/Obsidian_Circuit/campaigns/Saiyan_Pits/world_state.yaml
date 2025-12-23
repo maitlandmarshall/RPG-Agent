@@ -1,11 +1,12 @@
-location: Obsidian Pits — Gate Threshold (Lift)
-description: Lift rising into a blade of arena-light; dust glittering in the beam;
-  ozone and sand on the air; every chain-link singing as the gate cycles open.
+location: Obsidian Pits — Arena Floor (Sand)
+description: Pale sand under harsh spotlights; basalt walls etched with sickly-gold
+  circuit lines; ozone haze and crowd-roar; the gate behind still bleeding white heat.
 time: Age 736 — one year before Planet Vegeta’s destruction
 weather: 'Artificial climate: dry, cold air; fluorescent heat pockets near vents'
 scene_tags:
 - arena
-- threshold
+- sand
+- observation
 - ki
 - pressure
 - gladiator
@@ -13,27 +14,24 @@ scene_tags:
 entities:
 - name: Pitmaster Veyl
   kind: NPC
-  status: at your shoulder; remote loose in hand
+  status: watching from the gate platform; remote angled toward your throat
 - name: Obsidian Circuit Guards
   kind: faction
-  status: tightening escort at the threshold; prods live
+  status: clustered gate-side; prods live; not entering the sand yet
   count: 8
 - name: K-Chain Shock Collars
   kind: item
-  status: suppressing ki surges; warning-hot thresholds
-- name: Arena Gate Mechanism
-  kind: hazard
-  status: seam open; cycling; light spill and heat wash
+  status: suppressing surges; monitoring; punishment thresholds unknown
 - name: Ki-sink Lattice
   kind: hazard
-  status: etched circuits in basalt; drains surges; feeds spectacle
+  status: etched circuits under sand; drains surges; sensor-grid behavior
 - name: Rask the Basalt Bull
   kind: NPC
-  status: waiting on the sand beyond the seam
+  status: opposite you on the sand; grounded and timing a burst
 clocks:
   matchmaker_bell: 0/6
   guard_alertness: 4/6
-  hunger: 3/6
+  hunger: 4/6
   rumor_of_vegeta: 2/6
-  arena_timer: 3/6
-  crowd_frenzy: 3/6
+  arena_timer: 4/6
+  crowd_frenzy: 4/6

@@ -19,11 +19,11 @@ You’ve survived one year in the pits—long enough to learn the rules that are
 ---
 ## Turn — 2025-12-23 22:44
 ### Scene
-**Hard frame:** You’re in the [[worlds/Obsidian_Circuit/lore/locations/Obsidian_Pits.md]]—under-arena holding cells—where the stone is colder than space and the air tastes like pennies.
+**Hard frame:** You’re in the [[Obsidian_Pits.md|Obsidian Pits]]—under-arena holding cells—where the stone is colder than space and the air tastes like pennies.
 
 ![Under-arena holding cells](../assets/001_holding_cells_establishing.png)
 
-The **[[worlds/Obsidian_Circuit/lore/items/K-Chain_Shock_Collar.md|K-Chain Shock Collar]]** sits heavy at your throat. It doesn’t just *weigh*—it *listens*. Every time your ki rises on instinct, the collar answers with a thin static itch that crawls under your skin like ants.
+The **[[K-Chain_Shock_Collar.md|K-Chain Shock Collar]]** sits heavy at your throat. It doesn’t just *weigh*—it *listens*. Every time your ki rises on instinct, the collar answers with a thin static itch that crawls under your skin like ants.
 
 Tonight, the corridor is louder than usual. Boots on catwalk grates. A muffled roar above, like a storm trapped in a dome.
 
@@ -33,9 +33,9 @@ Then the bell hits.
 
 Not a chime—an impact. The sound rolls through the walls and into your teeth. Across the cells, prisoners go still the way prey goes still: hoping movement won’t make them the choice.
 
-A line of guards in matte helmets stops at your bars. Their prods crackle blue-white, the smell of ozone sharpening the air. Behind them glides [[worlds/Obsidian_Circuit/lore/characters/Pitmaster_Veyl.md|Pitmaster Veyl]]—clean gloves, mirrored respirator, that lacquer-black coat stitched in sickly gold.
+A line of guards in matte helmets stops at your bars. Their prods crackle blue-white, the smell of ozone sharpening the air. Behind them glides [[Pitmaster_Veyl.md|Pitmaster Veyl]]—clean gloves, mirrored respirator, that lacquer-black coat stitched in sickly gold.
 
-“Asset,” Veyl says, voice soft enough to make it intimate. “One year. Still breathing. The [[worlds/Obsidian_Circuit/lore/factions/Obsidian_Circuit.md|Obsidian Circuit]] loves a stubborn story.”
+“Asset,” Veyl says, voice soft enough to make it intimate. “One year. Still breathing. The [[Obsidian_Circuit.md|Obsidian Circuit]] loves a stubborn story.”
 
 The collar warms—just a warning pulse—and you understand the message: **tonight isn’t a routine bout.**
 
@@ -87,7 +87,7 @@ The words hit the corridor like a thrown stone. Somewhere down the line, a priso
 
 ![Veyl amused at the bars](../assets/002_veyl_amused_closeup.png)
 
-[[worlds/Obsidian_Circuit/lore/characters/Pitmaster_Veyl.md|Pitmaster Veyl]] doesn’t flinch. Their head tilts a fraction, the mirrored respirator plate catching the fluorescents and throwing your reflection back at you in thin, broken slices.
+[[Pitmaster_Veyl.md|Pitmaster Veyl]] doesn’t flinch. Their head tilts a fraction, the mirrored respirator plate catching the fluorescents and throwing your reflection back at you in thin, broken slices.
 
 “Violence,” Veyl repeats, as if tasting a vintage. “A *claim*. Or a *name*.”
 
@@ -145,7 +145,7 @@ Veyl leans closer, voice for you alone. “If you want the Circuit to *say* your
 ### Scene
 **Hard frame:** The gate seam is open now—just a blade of arena-light cutting the under-dark. It turns dust into glitter and makes every chain-link look like a tooth.
 
-You hold [[worlds/Obsidian_Circuit/lore/characters/Pitmaster_Veyl.md|Pitmaster Veyl]]’s reflection in their respirator and don’t blink.
+You hold [[Pitmaster_Veyl.md|Pitmaster Veyl]]’s reflection in their respirator and don’t blink.
 
 “I am Violence,” you say again—slower this time, like you’re carving it into stone. “This pit has taken all else.”
 
@@ -220,7 +220,7 @@ Veyl walks at your shoulder, remote loose in their gloved hand like it weighs no
 
 You take the gift they offered and spend it.
 
-“How far is [[worlds/Obsidian_Circuit/lore/locations/Planet_Vegeta.md|Planet Vegeta]] from here?”
+“How far is [[Planet_Vegeta.md|Planet Vegeta]] from here?”
 
 For a heartbeat, even the guards hesitate—like you’ve named something sharp in a place built to keep you blunt.
 
@@ -283,7 +283,7 @@ Slow breath. Tight jaw. You let your ki uncoil a hair’s breadth—thin as a wi
 
 ![Sensing ki at the gate seam](../assets/005_ki_sense_gate_closeup.png)
 
-The **[[worlds/Obsidian_Circuit/lore/items/K-Chain_Shock_Collar.md|K-Chain Shock Collar]]** *listens*.
+The **[[K-Chain_Shock_Collar.md|K-Chain Shock Collar]]** *listens*.
 
 It warms at your throat—warning-hot. Not a shock. A punctuation mark: *we feel you feeling.*
 
@@ -297,7 +297,7 @@ A mass of presence on the sand: dense, slow, and wrong in the way a boulder is w
 
 Your thread touches that aura and it bites back—cracked stone heat, a patient rage.
 
-**[[worlds/Obsidian_Circuit/lore/characters/Rask_the_Basalt_Bull.md|Rask]]**.
+**[[Rask_the_Basalt_Bull.md|Rask]]**.
 
 ![Rask waits on the sand](../assets/005_rask_on_sand_wide.png)
 
@@ -317,7 +317,7 @@ Behind you, a guard’s prod crackles closer. Veyl’s remote clicks once—soft
 - Clock: guard_alertness advances 3/6 → 4/6 (someone noticed the ki-thread).
 - Fatigue +0.5 (controlled ki strain under collar suppression).
 - New intel: the arena uses a ki-sink lattice (violence is being harvested).
-- Opponent identified: [[worlds/Obsidian_Circuit/lore/characters/Rask_the_Basalt_Bull.md|Rask the Basalt Bull]] is waiting on the sand.
+- Opponent identified: [[Rask_the_Basalt_Bull.md|Rask the Basalt Bull]] is waiting on the sand.
 
 <details>
 <summary>Mechanics</summary>
@@ -338,5 +338,75 @@ Behind you, a guard’s prod crackles closer. Veyl’s remote clicks once—soft
 - **3 (Pact offer)**: DC 16 (success = he hesitates / signals; fail = he uses your words as a tell and attacks harder).
 - **4 (Pulse the lattice)**: DC 17 (success = 1-beat sensor fuzz; fail = collar spike + crowd_frenzy tick).
 - **5 (Seize tempo)**: DC 14 (success = positional advantage; fail = you overextend into his weight).
+
+</details>
+
+---
+## Turn — 2025-12-24 01:35
+### Scene
+**Hard frame:** Sand takes your weight with a dry *hiss*.
+
+The gate slams wider behind you and the arena hits like weather—heat on your face, grit in your teeth, the crowd’s roar pressing at your ribs until breathing feels like a decision.
+
+You don’t give them a flare. You don’t give *him* a scent.
+
+You fold your ki inward until it’s nothing but a sealed fist under your skin—no spill, no glow, no thread.
+
+For a moment, you are just muscle and collar and breath.
+
+![Step onto the sand with ki suppressed](../assets/006_suppressed_step_on_sand_wide.png)
+
+Across the sand, **[[../../lore/characters/Rask_the_Basalt_Bull.md|Rask the Basalt Bull]]** stands like a loaded weight. His presence is still there—heavy even when you refuse to *taste* it—but your suppression makes the air between you go strangely quiet.
+
+You use the stolen seconds to study the arena the way you’d study a cliff face before a leap:
+
+- **Lines of sight:** three brutal spotlights. One sweeps the gate every few breaths—handlers’ habit. One pins center-sand. One paints the far wall where the crowd screams loudest.
+- **Cover that isn’t cover:** basalt ribs at the ring edge—good for breaking a charge, bad for hiding (too many angles).
+- **The floor’s lie:** when your boot drags, sand peels back from something hard beneath.
+
+You grind your heel once—just enough to see it.
+
+![Ki-sink lattice under the sand](../assets/006_lattice_under_sand_macro.png)
+
+Sickly-gold grooves cut the basalt in a pattern: **[[../../lore/techniques/Ki-sink_Lattice.md|Ki-sink Lattice]]**—a hunger built into stone. You feel it even with your ki locked down: a faint pull, like the arena is listening with its whole body.
+
+On the platform above the gate, you catch a glint of lacquer-black: **[[../../lore/characters/Pitmaster_Veyl.md|Veyl]]** watching, remote angled like a prayer.
+
+Rask shifts his lead foot a fraction. Not impatience—**timing**.
+### Your Options
+1. Stay ‘dead’ and circle: keep ki suppressed while you drift toward the ring edge to force Rask to commit first (d20 + Agility + Perception).
+2. Read the boulder: watch Rask’s shoulders, hips, and breath for the exact trigger of his burst (d20 + Intellect + Perception).
+3. Test the lattice quietly: scuff sand to map groove direction and node clusters without feeding it a surge (d20 + Intellect + Survival).
+4. Play to the box: lock eyes with Veyl and perform obedience—bait them into loosening guard posture or collar settings for a heartbeat (d20 + Intellect + Intimidation).
+5. Break the calm on your terms: step in with a compact opening strike that doesn’t flare ki (d20 + Strength + Brawling).
+
+### What Changed
+- Location: Obsidian Pits — Gate Threshold (Lift) → Arena Floor (Sand).
+- Clock: arena_timer advances 3/6 → 4/6 (the bout is live).
+- Clock: crowd_frenzy advances 3/6 → 4/6 (they sense the tension).
+- Clock: hunger advances 3/6 → 4/6 (the smell of sand and blood sharpens the gut).
+- Fatigue +0.5 (full suppression under collar).
+- New intel: lattice grooves run under the sand near the gate—surges will be drained fast there.
+
+<details>
+<summary>Mechanics</summary>
+
+**Core roll**: `d20 + stat + skill` vs DC.
+
+**Resolved action (your declaration): Completely suppress ki + study the arena**
+- **Check**: `d20 + Ki Control (4) + Perception (2)` vs **DC 15**
+- **Outcome**: **Success** — you go “dead” enough that Rask can’t get a clean read, and you spot the lattice’s tell under the sand.
+- **Cost**: time passes under the lights (**arena_timer +1**, **crowd_frenzy +1**, **hunger +1**) and the suppression taxes you (**fatigue +0.5**).
+
+**Fictional positioning**
+- Suppression reduces tells, but it also limits explosive options until you choose to unseal.
+- The lattice is strongest where the grooves are dense (near gate-side clusters).
+
+**Option DCs (baseline)**
+- **1 (Circle while suppressed)**: DC 14 (success = you draw the first lunge; fail = you get cut off at the ribs).
+- **2 (Read Rask’s trigger)**: DC 15 (success = you pre-time the burst; fail = you flinch a half-beat late).
+- **3 (Map groove direction/nodes)**: DC 14 (success = you learn “safe lanes”; fail = you waste time and lose position).
+- **4 (Perform obedience at Veyl)**: DC 16 (success = a micro-loosening / hesitation; fail = collar warning + guard shove).
+- **5 (Compact opening strike)**: DC 13 (success = you tag him clean; fail = you bounce off his mass and pay for it).
 
 </details>

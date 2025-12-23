@@ -11,7 +11,7 @@ scene_md: |
 
   ![Sensing ki at the gate seam](../assets/005_ki_sense_gate_closeup.png)
 
-  The **[[worlds/Obsidian_Circuit/lore/items/K-Chain_Shock_Collar.md|K-Chain Shock Collar]]** *listens*.
+  The **[[K-Chain_Shock_Collar.md|K-Chain Shock Collar]]** *listens*.
 
   It warms at your throat—warning-hot. Not a shock. A punctuation mark: *we feel you feeling.*
 
@@ -25,7 +25,7 @@ scene_md: |
 
   Your thread touches that aura and it bites back—cracked stone heat, a patient rage.
 
-  **[[worlds/Obsidian_Circuit/lore/characters/Rask_the_Basalt_Bull.md|Rask]]**.
+  **[[Rask_the_Basalt_Bull.md|Rask]]**.
 
   ![Rask waits on the sand](../assets/005_rask_on_sand_wide.png)
 
@@ -45,7 +45,7 @@ what_changed:
   - "Clock: guard_alertness advances 3/6 → 4/6 (someone noticed the ki-thread)."
   - "Fatigue +0.5 (controlled ki strain under collar suppression)."
   - "New intel: the arena uses a ki-sink lattice (violence is being harvested)."
-  - "Opponent identified: [[worlds/Obsidian_Circuit/lore/characters/Rask_the_Basalt_Bull.md|Rask the Basalt Bull]] is waiting on the sand."
+  - "Opponent identified: [[Rask_the_Basalt_Bull.md|Rask the Basalt Bull]] is waiting on the sand."
 
 mechanics_md: |
   **Core roll**: `d20 + stat + skill` vs DC.

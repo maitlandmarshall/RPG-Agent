@@ -9,7 +9,7 @@ stats:
   ki_control: 4
 resources:
   hp: 32
-  fatigue: 6.0
+  fatigue: 6.5
   hunger: 3
 xp: 12
 skills:

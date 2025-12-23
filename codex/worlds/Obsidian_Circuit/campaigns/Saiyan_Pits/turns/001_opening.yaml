@@ -1,11 +1,11 @@
 log_file: campaign_logs/000_Setup.md
 
 scene_md: |
-  **Hard frame:** You’re in the [[worlds/Obsidian_Circuit/lore/locations/Obsidian_Pits.md|Obsidian Pits]]—under-arena holding cells—where the stone is colder than space and the air tastes like pennies.
+  **Hard frame:** You’re in the [[Obsidian_Pits.md|Obsidian Pits]]—under-arena holding cells—where the stone is colder than space and the air tastes like pennies.
 
   ![Under-arena holding cells](../assets/001_holding_cells_establishing.png)
 
-  The **[[worlds/Obsidian_Circuit/lore/items/K-Chain_Shock_Collar.md|K-Chain Shock Collar]]** sits heavy at your throat. It doesn’t just *weigh*—it *listens*. Every time your ki rises on instinct, the collar answers with a thin static itch that crawls under your skin like ants.
+  The **[[K-Chain_Shock_Collar.md|K-Chain Shock Collar]]** sits heavy at your throat. It doesn’t just *weigh*—it *listens*. Every time your ki rises on instinct, the collar answers with a thin static itch that crawls under your skin like ants.
 
   Tonight, the corridor is louder than usual. Boots on catwalk grates. A muffled roar above, like a storm trapped in a dome.
 
@@ -15,9 +15,9 @@ scene_md: |
 
   Not a chime—an impact. The sound rolls through the walls and into your teeth. Across the cells, prisoners go still the way prey goes still: hoping movement won’t make them the choice.
 
-  A line of guards in matte helmets stops at your bars. Their prods crackle blue-white, the smell of ozone sharpening the air. Behind them glides [[worlds/Obsidian_Circuit/lore/characters/Pitmaster_Veyl.md|Pitmaster Veyl]]—clean gloves, mirrored respirator, that lacquer-black coat stitched in sickly gold.
+  A line of guards in matte helmets stops at your bars. Their prods crackle blue-white, the smell of ozone sharpening the air. Behind them glides [[Pitmaster_Veyl.md|Pitmaster Veyl]]—clean gloves, mirrored respirator, that lacquer-black coat stitched in sickly gold.
 
-  “Asset,” Veyl says, voice soft enough to make it intimate. “One year. Still breathing. The [[worlds/Obsidian_Circuit/lore/factions/Obsidian_Circuit.md|Obsidian Circuit]] loves a stubborn story.”
+  “Asset,” Veyl says, voice soft enough to make it intimate. “One year. Still breathing. The [[Obsidian_Circuit.md|Obsidian Circuit]] loves a stubborn story.”
 
   The collar warms—just a warning pulse—and you understand the message: **tonight isn’t a routine bout.**
 
