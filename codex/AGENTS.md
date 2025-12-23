@@ -94,6 +94,10 @@ The game should feel visual by default.
 - If the turn has combat or a major reveal: **2–4 images**.
 - Skip images only for very short “bookkeeping” turns (explicitly rare).
 
+**How to generate images (repo skill)**
+- Use the repo skill: `$openai-image-gen` (stored in `.codex/skills/openai-image-gen/`).
+- Generate directly into the campaign’s assets folder, then embed as `![Caption](../assets/file.png)`.
+
 **Panel types**
 - New scene/location: **1–3 atmospheric** panels (establishing, detail, perspective shift).
 - High-stakes action: **1 action** panel at the moment of impact (hit lands, blast fires, door breaks, betrayal revealed).
@@ -102,6 +106,7 @@ The game should feel visual by default.
 
 **Visual continuity**
 - When an entity already has an image, treat it as reference and keep them visually consistent across future panels.
+- For panels containing known characters, prefer using `$openai-image-gen`’s `generate_panel.py` wrapper so existing lore portraits are automatically used as references.
 
 ### Linking Rules (Obsidian-style)
 - Use Obsidian wikilinks for lore entities in logs:
