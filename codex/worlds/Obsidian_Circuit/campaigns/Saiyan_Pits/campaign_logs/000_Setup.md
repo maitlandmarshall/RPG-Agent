@@ -536,3 +536,64 @@ Rask is blind now, but blind doesn’t mean safe. He swings by sound and pressur
 - With `arena_timer` at 6/6, the arena’s controllers are about to “correct” the scene next beat (hazard, handlers, or collar rules change).
 
 </details>
+
+---
+## Turn — 2025-12-24 02:32
+### Scene
+**Hard frame:** Your muscles are still stuttering from the collar bite when you suck in sand-hot air and force your lungs to work anyway.
+
+You throw your head up and give the arena what it paid for.
+
+![VIOLENCE shout, collar arcing](../assets/009_violence_shout_collar_closeup.png)
+
+“VIOLENCE!”
+
+The sound hits the bowl and comes back as a wave. The crowd’s roar *locks* onto you like a spotlight.
+
+[[worlds/Obsidian_Circuit/lore/items/K-Chain_Shock_Collar.md|The collar]] answers with another lash of white-blue static—warning you off finishing blows, warning you off precision, warning you off being *real*.
+
+You push through it anyway.
+
+[[worlds/Obsidian_Circuit/lore/characters/Rask_the_Basalt_Bull.md|Rask]] is blind and thrashing—horns hunting air by sound and pressure—but he’s still a mountain. You crash into him in the half-beat between swings, get both forearms under his jawline and horn base, and **drive**.
+
+Fist. Elbow. Forearm. Sand in your mouth. Basalt in your knuckles.
+
+You keep hitting until the rhythm changes—until his weight stops being *a charge* and becomes *a collapse*.
+
+![Drive Rask down](../assets/009_melee_drive_rask_down_action.png)
+
+Rask goes to one knee, then both, then the sand takes his face with a dull, heavy *thunk*. His horns carve twin trenches as you force him down and keep him there, chest on his back, breath sawing.
+
+The arena doesn’t like this kind of control.
+
+Gate-side, machinery wakes up with a rising siren tone. Red warning light spills across the basalt ribs. On the platform, [[worlds/Obsidian_Circuit/lore/characters/Pitmaster_Veyl.md|Veyl]] lifts the remote like a verdict.
+
+![Intervention warning begins](../assets/009_intervention_warning_wide.png)
+### Your Options
+1. Finish fast: keep pounding—break the fight before the intervention fully lands (d20 + Strength + Brawling).
+2. Use him as cover: haul Rask’s bulk between you and the prods, forcing guards to hesitate while you reposition (d20 + Strength + Athletics).
+3. Information play: look up at Veyl and read the pattern—what exactly triggers the spikes, and what’s the next protocol? (d20 + Intellect + Perception).
+4. Bargain with the bowl: shout terms to the crowd—‘no prods, no collars’—and try to turn their frenzy into leverage against Veyl (d20 + Strength + Intimidation).
+5. Disengage clean: release, step back with hands open, and perform compliance to bait a micro-loosening (d20 + Intellect + Intimidation).
+
+### What Changed
+- HP -1 (pushing through a fresh collar lash).
+- Fatigue +1 (sustained melee drive under shock).
+- Position: Rask is driven to the sand and pinned for the moment.
+- Clock: intervention_protocol starts 0/6 → 1/6 (arena correction spins up).
+
+<details>
+<summary>Mechanics</summary>
+
+**Core roll**: `d20 + stat + skill` vs DC.
+
+**Resolved action (your declaration): shout “VIOLENCE” and melee-drive Rask into the sand**
+- **Check**: `d20 + Strength (6) + Brawling (3)` vs **DC 16**
+- **Roll**: `d20=12` + 6 + 3 = **21** → **Success**
+- **Effect**: you beat his blind thrash timing and **drive him down**, buying a brief control window.
+- **Cost**: the collar lashes again when you commit (**HP -1**, **fatigue +1**) and the arena begins intervention sequencing.
+
+**Audit**
+- Roll recorded in `campaign_logs/_rolls.ndjson` (nonce `f87e45383a97c2b4`).
+
+</details>

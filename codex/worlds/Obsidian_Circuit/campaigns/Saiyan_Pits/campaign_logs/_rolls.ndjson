@@ -1,0 +1,1 @@
+{"timestamp_utc": "2025-12-23T16:29:58+00:00", "nonce": "f87e45383a97c2b4", "label": "Turn 009: Shout VIOLENCE and drive Rask down (STR+Brawling)", "expr": "d20 + 6 + 3", "terms": [{"kind": "dice", "count": 1, "sides": 20, "rolls": [12], "subtotal": 12}, {"kind": "modifier", "value": 6}, {"kind": "modifier", "value": 3}], "total": 21, "dc": 16, "success": true}

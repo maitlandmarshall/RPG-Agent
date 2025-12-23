@@ -1,0 +1,33 @@
+{
+  "defaults": {
+    "model": "gpt-image-1.5",
+    "fallback_model": "gpt-image-1",
+    "size": "1024x1024",
+    "quality": "high",
+    "output_format": "png"
+  },
+  "jobs": [
+    {
+      "type": "panel",
+      "world": "Obsidian_Circuit",
+      "characters": ["Pitmaster Veyl"],
+      "prompt": "Obsidian Circuit style: gritty sci‑fi comic panel, inked line art, tight cross‑hatching, high contrast lighting, sharp rim light; muted charcoal with neon accents. Close-up on the collared Saiyan captive’s face and throat: teeth bared, shouting 'VIOLENCE' into the arena roar, sweat and sand grit on scarred skin, shock collar arcing white-blue static and biting into the neck (non-gory). In the background, slightly out of focus on the gate platform, Pitmaster Veyl’s mirrored respirator and gloved hand with remote are visible, watching. Intense emotion, readable lettering impression without actual text overlay.",
+      "out": "worlds/Obsidian_Circuit/campaigns/Saiyan_Pits/assets/009_violence_shout_collar_closeup.png"
+    },
+    {
+      "type": "panel",
+      "world": "Obsidian_Circuit",
+      "characters": ["Rask the Basalt Bull"],
+      "prompt": "Obsidian Circuit style: gritty sci‑fi arena action panel, inked line art, tight cross‑hatching, crisp silhouettes, high contrast rim light; pale sand; basalt walls with sickly-gold circuit etchings; ozone haze. Mid-action: the collared Saiyan captive drives forward through pain, hands and forearms smashing and grappling at close range, forcing Rask the Basalt Bull down to one knee and then into the sand. Rask is blinded (eyes squeezed shut), horns angled sideways as he’s pushed; sand erupts; motion lines show downward force. No gore; emphasize brutal impact and control.",
+      "out": "worlds/Obsidian_Circuit/campaigns/Saiyan_Pits/assets/009_melee_drive_rask_down_action.png"
+    },
+    {
+      "type": "panel",
+      "world": "Obsidian_Circuit",
+      "characters": ["Pitmaster Veyl"],
+      "prompt": "Obsidian Circuit style: gritty sci‑fi comic panel, inked line art, tight cross‑hatching, high contrast lighting, deep shadows. Wide shot from the gate-side angle: Rask half-buried in sand, stunned and pinned by the Saiyan at close range. On the gate platform, Pitmaster Veyl stands in lacquer-black coat with sickly-gold stitching, remote raised; red warning light/siren glow begins at the gate machinery as intervention protocols spin up. Guards with prods step forward at the threshold but haven’t fully entered yet. Crowd is a blurred ring of hunger above.",
+      "out": "worlds/Obsidian_Circuit/campaigns/Saiyan_Pits/assets/009_intervention_warning_wide.png"
+    }
+  ]
+}
+
