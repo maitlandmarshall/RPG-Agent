@@ -1,0 +1,72 @@
+log_file: campaign_logs/000_Setup.md
+
+scene_md: |
+  You let the silence stretch—long enough for the guards to shift their weight, long enough for the chain to stop pretending it isn’t a leash.
+
+  Your mouth curls.
+
+  “I am violence.”
+
+  The words hit the corridor like a thrown stone. Somewhere down the line, a prisoner exhales like they’ve been holding their breath for hours.
+
+  ![Veyl amused at the bars](../assets/002_veyl_amused_closeup.png)
+
+  [[../../lore/characters/Pitmaster_Veyl.md|Pitmaster Veyl]] doesn’t flinch. Their head tilts a fraction, the mirrored respirator plate catching the fluorescents and throwing your reflection back at you in thin, broken slices.
+
+  “Violence,” Veyl repeats, as if tasting a vintage. “A *claim*. Or a *name*.”
+
+  The guard at your bars tightens the chain one link.
+
+  The collar answers before you do—warming at the seam, a warning that crawls under your skin.
+
+  ![Collar warning pulse](../assets/002_collar_warning_pulse.png)
+
+  Blue static needles your throat. Not the full bite—just the promise of it. Veyl’s gloved thumb rests on the remote like a question mark.
+
+  Above, the crowd surges. You feel it through the stone: stamping feet, a chant turning into a single hungry animal.
+
+  The bell hits again.
+
+  This time, the corridor lights stutter—and the far gate begins to open.
+
+  ![Gate call lightspill](../assets/002_gate_call_lightspill.png)
+
+  A seam of arena-light spills into the under-dark. Hot. Bright. Cruel. The smell changes first: sand, sweat, scorched metal.
+
+  Veyl leans closer, voice for you alone. “If you want the Circuit to *say* your name… you earn it. If you want to keep your throat intact… you choose your next breath carefully.”
+
+options:
+  - "Make it official: demand the announcer calls you **Violence**—and accept whatever “price” Veyl names (d20 + Strength + Intimidation)."
+  - "Play it tactical: give a fake name, keep Violence as your private vow, and watch Veyl’s tells (d20 + Intellect + Perception)."
+  - "Test boundaries: hold eye contact and deliberately raise ki a hair—dare the collar to prove it owns you (d20 + Ki Control + Survival)."
+  - "Switch the angle: bargain for a weapon/gear concession in exchange for a dramatic opening (d20 + Intellect + Intimidation)."
+  - "Save it for the sand: nod, conserve, and focus on reading the gate sequence for an escape window (d20 + Agility + Athletics)."
+
+what_changed:
+  - "Clock: matchmaker_bell advances 5/6 → 6/6 (gate cycle begins)."
+  - "Clock: guard_alertness advances 2/6 → 3/6 (provoked attention)."
+  - "Pressure: collar warning threshold lowered for the next few minutes."
+
+mechanics_md: |
+  **Core roll**: `d20 + stat + skill` vs DC.
+
+  **Fictional positioning**
+  - Your declaration (“I am violence.”) puts you on Veyl’s radar: higher risk, higher leverage.
+  - Until the gate closes behind you, the collar is “hair-trigger” (failures involving ki/intimidation may add a shock complication).
+
+  **Option DCs (baseline)**
+  - **1 (Demand the name)**: DC 15 (success = crowd-branding; fail = collar punishment / terms worsen).
+  - **2 (Fake name + read tells)**: DC 13 (success = learn Veyl’s angle; fail = you miss a key tell).
+  - **3 (Ki dare)**: DC 16 (success = map threshold; fail = partial shock + alertness tick).
+  - **4 (Gear bargain)**: DC 15 (success = small concession; fail = immediate refusal + collar warning).
+  - **5 (Conserve + watch gate)**: DC 14 (success = spot a timing gap; fail = you’re chained tighter at rollout).
+
+delta:
+  world_state:
+    set:
+      - key: clocks
+        value:
+          matchmaker_bell: "6/6"
+          guard_alertness: "3/6"
+          hunger: "3/6"
+          rumor_of_vegeta: "1/6"

@@ -11,6 +11,17 @@ from typing import Any
 import requests
 
 
+def _guess_mimetype(path: Path) -> str:
+	s = path.suffix.lower()
+	if s == ".png":
+		return "image/png"
+	if s in {".jpg", ".jpeg"}:
+		return "image/jpeg"
+	if s == ".webp":
+		return "image/webp"
+	return "application/octet-stream"
+
+
 def _find_repo_root(start: Path) -> Path:
 	cur = start.resolve()
 	for _ in range(10):
@@ -115,10 +126,10 @@ def main() -> None:
 			files: list[tuple[str, tuple[str, bytes, str]]] = []
 			for p in args.input_image:
 				pp = Path(p)
-				files.append(("image[]", (pp.name, pp.read_bytes(), "application/octet-stream")))
+				files.append(("image[]", (pp.name, pp.read_bytes(), _guess_mimetype(pp))))
 			if args.mask:
 				mp = Path(args.mask)
-				files.append(("mask", (mp.name, mp.read_bytes(), "application/octet-stream")))
+				files.append(("mask", (mp.name, mp.read_bytes(), _guess_mimetype(mp))))
 			data: dict[str, Any] = {
 				"model": model_name,
 				"prompt": args.prompt,

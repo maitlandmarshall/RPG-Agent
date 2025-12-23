@@ -134,7 +134,15 @@ def main() -> None:
 	args = parser.parse_args()
 
 	repo_root = _find_repo_root(Path(__file__))
-	world_dir = repo_root / "codex" / "worlds" / _slugify(args.world)
+	# Support both layouts:
+	# - repo_root points at monorepo root (contains `codex/`)
+	# - repo_root points at the `codex/` folder itself (contains `worlds/`)
+	world_slug = _slugify(args.world)
+	world_dir_candidates = [
+		repo_root / "worlds" / world_slug,
+		repo_root / "codex" / "worlds" / world_slug,
+	]
+	world_dir = next((p for p in world_dir_candidates if p.exists()), world_dir_candidates[0])
 	if not world_dir.exists():
 		raise SystemExit(f"World not found: {world_dir}")
 
@@ -190,4 +198,3 @@ def main() -> None:
 
 if __name__ == "__main__":
 	main()
-

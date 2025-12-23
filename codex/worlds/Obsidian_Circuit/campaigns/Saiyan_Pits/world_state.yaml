@@ -20,7 +20,7 @@ entities:
   kind: item
   status: active
 clocks:
-  matchmaker_bell: 5/6
-  guard_alertness: 2/6
+  matchmaker_bell: 6/6
+  guard_alertness: 3/6
   hunger: 3/6
   rumor_of_vegeta: 1/6
