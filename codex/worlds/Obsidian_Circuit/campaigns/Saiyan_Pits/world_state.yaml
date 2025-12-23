@@ -1,32 +1,39 @@
-location: Obsidian Pits — Gate Tunnel (Rollout)
-description: Heat-washed basalt tunnel; chain-rattle and shouted numbers; sand and
-  ozone in every breath; spotlights leaking through a narrowing seam.
+location: Obsidian Pits — Gate Threshold (Lift)
+description: Lift rising into a blade of arena-light; dust glittering in the beam;
+  ozone and sand on the air; every chain-link singing as the gate cycles open.
 time: Age 736 — one year before Planet Vegeta’s destruction
 weather: 'Artificial climate: dry, cold air; fluorescent heat pockets near vents'
 scene_tags:
 - arena
-- rollout
+- threshold
+- ki
 - pressure
 - gladiator
 - sci_fi
 entities:
 - name: Pitmaster Veyl
   kind: NPC
-  status: walking beside you; remote in hand
+  status: at your shoulder; remote loose in hand
 - name: Obsidian Circuit Guards
   kind: faction
-  status: escorting rollout; prods live
+  status: tightening escort at the threshold; prods live
   count: 8
 - name: K-Chain Shock Collars
   kind: item
-  status: hair-trigger active
+  status: suppressing ki surges; warning-hot thresholds
 - name: Arena Gate Mechanism
   kind: hazard
-  status: cycling open; bright light spill
+  status: seam open; cycling; light spill and heat wash
+- name: Ki-sink Lattice
+  kind: hazard
+  status: etched circuits in basalt; drains surges; feeds spectacle
+- name: Rask the Basalt Bull
+  kind: NPC
+  status: waiting on the sand beyond the seam
 clocks:
   matchmaker_bell: 0/6
-  guard_alertness: 3/6
+  guard_alertness: 4/6
   hunger: 3/6
   rumor_of_vegeta: 2/6
-  arena_timer: 2/6
-  crowd_frenzy: 2/6
+  arena_timer: 3/6
+  crowd_frenzy: 3/6

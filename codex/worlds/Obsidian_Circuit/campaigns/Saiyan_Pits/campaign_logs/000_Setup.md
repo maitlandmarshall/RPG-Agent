@@ -19,11 +19,11 @@ You’ve survived one year in the pits—long enough to learn the rules that are
 ---
 ## Turn — 2025-12-23 22:44
 ### Scene
-**Hard frame:** You’re in the [[../../lore/locations/Obsidian_Pits.md|Obsidian Pits]]—under-arena holding cells—where the stone is colder than space and the air tastes like pennies.
+**Hard frame:** You’re in the [[worlds/Obsidian_Circuit/lore/locations/Obsidian_Pits.md]]—under-arena holding cells—where the stone is colder than space and the air tastes like pennies.
 
 ![Under-arena holding cells](../assets/001_holding_cells_establishing.png)
 
-The **[[../../lore/items/K-Chain_Shock_Collar.md|K-Chain Shock Collar]]** sits heavy at your throat. It doesn’t just *weigh*—it *listens*. Every time your ki rises on instinct, the collar answers with a thin static itch that crawls under your skin like ants.
+The **[[worlds/Obsidian_Circuit/lore/items/K-Chain_Shock_Collar.md|K-Chain Shock Collar]]** sits heavy at your throat. It doesn’t just *weigh*—it *listens*. Every time your ki rises on instinct, the collar answers with a thin static itch that crawls under your skin like ants.
 
 Tonight, the corridor is louder than usual. Boots on catwalk grates. A muffled roar above, like a storm trapped in a dome.
 
@@ -33,9 +33,9 @@ Then the bell hits.
 
 Not a chime—an impact. The sound rolls through the walls and into your teeth. Across the cells, prisoners go still the way prey goes still: hoping movement won’t make them the choice.
 
-A line of guards in matte helmets stops at your bars. Their prods crackle blue-white, the smell of ozone sharpening the air. Behind them glides [[../../lore/characters/Pitmaster_Veyl.md|Pitmaster Veyl]]—clean gloves, mirrored respirator, that lacquer-black coat stitched in sickly gold.
+A line of guards in matte helmets stops at your bars. Their prods crackle blue-white, the smell of ozone sharpening the air. Behind them glides [[worlds/Obsidian_Circuit/lore/characters/Pitmaster_Veyl.md|Pitmaster Veyl]]—clean gloves, mirrored respirator, that lacquer-black coat stitched in sickly gold.
 
-“Asset,” Veyl says, voice soft enough to make it intimate. “One year. Still breathing. The [[../../lore/factions/Obsidian_Circuit.md|Obsidian Circuit]] loves a stubborn story.”
+“Asset,” Veyl says, voice soft enough to make it intimate. “One year. Still breathing. The [[worlds/Obsidian_Circuit/lore/factions/Obsidian_Circuit.md|Obsidian Circuit]] loves a stubborn story.”
 
 The collar warms—just a warning pulse—and you understand the message: **tonight isn’t a routine bout.**
 
@@ -87,7 +87,7 @@ The words hit the corridor like a thrown stone. Somewhere down the line, a priso
 
 ![Veyl amused at the bars](../assets/002_veyl_amused_closeup.png)
 
-[[../../lore/characters/Pitmaster_Veyl.md|Pitmaster Veyl]] doesn’t flinch. Their head tilts a fraction, the mirrored respirator plate catching the fluorescents and throwing your reflection back at you in thin, broken slices.
+[[worlds/Obsidian_Circuit/lore/characters/Pitmaster_Veyl.md|Pitmaster Veyl]] doesn’t flinch. Their head tilts a fraction, the mirrored respirator plate catching the fluorescents and throwing your reflection back at you in thin, broken slices.
 
 “Violence,” Veyl repeats, as if tasting a vintage. “A *claim*. Or a *name*.”
 
@@ -145,7 +145,7 @@ Veyl leans closer, voice for you alone. “If you want the Circuit to *say* your
 ### Scene
 **Hard frame:** The gate seam is open now—just a blade of arena-light cutting the under-dark. It turns dust into glitter and makes every chain-link look like a tooth.
 
-You hold [[../../lore/characters/Pitmaster_Veyl.md|Pitmaster Veyl]]’s reflection in their respirator and don’t blink.
+You hold [[worlds/Obsidian_Circuit/lore/characters/Pitmaster_Veyl.md|Pitmaster Veyl]]’s reflection in their respirator and don’t blink.
 
 “I am Violence,” you say again—slower this time, like you’re carving it into stone. “This pit has taken all else.”
 
@@ -220,7 +220,7 @@ Veyl walks at your shoulder, remote loose in their gloved hand like it weighs no
 
 You take the gift they offered and spend it.
 
-“How far is [[../../lore/locations/Planet_Vegeta.md|Planet Vegeta]] from here?”
+“How far is [[worlds/Obsidian_Circuit/lore/locations/Planet_Vegeta.md|Planet Vegeta]] from here?”
 
 For a heartbeat, even the guards hesitate—like you’ve named something sharp in a place built to keep you blunt.
 
@@ -267,5 +267,76 @@ White light spills down over you in sheets. Sand-grit rides the air and catches 
 - **3 (Say “Vegeta” loud)**: DC 15 (success = you learn who reacts and how; fail = guard_alertness tick + rough handling).
 - **4 (Memorize the route)**: DC 13 (success = bank actionable intel; fail = details blur under pressure).
 - **5 (Ready the opening strike)**: DC 14 (success = advantageous first beat; fail = you step onto sand off-balance).
+
+</details>
+
+---
+## Turn — 2025-12-24 00:29
+### Scene
+**Hard frame:** The lift keeps rising. The gate seam ahead is a wound of light—white-hot, loud with heat—so bright it turns the tunnel’s dust into sparks.
+
+You stop trying to think past it.
+
+You focus on *now*.
+
+Slow breath. Tight jaw. You let your ki uncoil a hair’s breadth—thin as a wire—then you reach it forward around the gate like a fingertip feeling for a pulse.
+
+![Sensing ki at the gate seam](../assets/005_ki_sense_gate_closeup.png)
+
+The **[[worlds/Obsidian_Circuit/lore/items/K-Chain_Shock_Collar.md|K-Chain Shock Collar]]** *listens*.
+
+It warms at your throat—warning-hot. Not a shock. A punctuation mark: *we feel you feeling.*
+
+Past the seam, the arena is a roar made physical. Thousands of lives stacked in a bowl, their intent smeared together into one hungry pressure—like standing under a waterfall of sound.
+
+Under that noise, you find something else: the arena itself. Basalt laced with sickly-gold lines—etched circuits that drink heat and spill it back as spectacle. A **ki-sink lattice**. The place doesn’t just host violence. It *harvests* it.
+
+Then—there.
+
+A mass of presence on the sand: dense, slow, and wrong in the way a boulder is wrong when it’s *moving*.
+
+Your thread touches that aura and it bites back—cracked stone heat, a patient rage.
+
+**[[worlds/Obsidian_Circuit/lore/characters/Rask_the_Basalt_Bull.md|Rask]]**.
+
+![Rask waits on the sand](../assets/005_rask_on_sand_wide.png)
+
+You catch a tell through the ki the way you catch rhythm through a wall: he’s grounded on purpose—saving a single burst for the first clean opening.
+
+Behind you, a guard’s prod crackles closer. Veyl’s remote clicks once—soft, amused.
+### Your Options
+1. Lock onto Rask’s rhythm: map his opening burst and choose where **not** to be when it lands (d20 + Ki Control + Perception).
+2. Mask your ki completely: step onto the sand ‘empty’ and bait an underestimate (d20 + Agility + Perception).
+3. Speak through the seam: offer Rask a one-fight pact—hurt the Circuit more than you hurt each other (d20 + Intellect + Intimidation).
+4. Strike the lattice: feed a razor-thin ki pulse into the gate’s etched circuits to fuzz sensors/collars for one heartbeat (d20 + Ki Control + Survival).
+5. Explode on the open: seize center-sand the instant your feet hit it and force the tempo (d20 + Strength + Athletics).
+
+### What Changed
+- Clock: arena_timer advances 2/6 → 3/6 (you’re at the threshold).
+- Clock: crowd_frenzy advances 2/6 → 3/6 (the bowl leans in).
+- Clock: guard_alertness advances 3/6 → 4/6 (someone noticed the ki-thread).
+- Fatigue +0.5 (controlled ki strain under collar suppression).
+- New intel: the arena uses a ki-sink lattice (violence is being harvested).
+- Opponent identified: [[worlds/Obsidian_Circuit/lore/characters/Rask_the_Basalt_Bull.md|Rask the Basalt Bull]] is waiting on the sand.
+
+<details>
+<summary>Mechanics</summary>
+
+**Core roll**: `d20 + stat + skill` vs DC.
+
+**Resolved action (your declaration): Sense ki around the gate**
+- **Check**: `d20 + Ki Control (4) + Perception (2)` vs **DC 14**
+- **Outcome**: **Success at a cost** — you get a clean read (Rask + ki-sink lattice), but the collar warns and the guards tighten in (**guard_alertness +1**, **fatigue +0.5**).
+
+**Fictional positioning**
+- The collar doesn’t stop ki; it punishes *surges*. Thread-thin control works, but it leaves a trace.
+- The arena’s etched circuits act like a drain: big blasts will “bleed off” and may feed the crowd’s frenzy (and the Circuit’s sensors).
+
+**Option DCs (baseline)**
+- **1 (Map the opening burst)**: DC 14 (success = you preempt his lunge; fail = you mis-time and eat the first impact).
+- **2 (Mask ki / bait)**: DC 15 (success = he commits wrong; fail = guards interpret it as compliance and shove you into a bad start).
+- **3 (Pact offer)**: DC 16 (success = he hesitates / signals; fail = he uses your words as a tell and attacks harder).
+- **4 (Pulse the lattice)**: DC 17 (success = 1-beat sensor fuzz; fail = collar spike + crowd_frenzy tick).
+- **5 (Seize tempo)**: DC 14 (success = positional advantage; fail = you overextend into his weight).
 
 </details>

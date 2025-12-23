@@ -1,0 +1,116 @@
+log_file: campaign_logs/000_Setup.md
+
+scene_md: |
+  **Hard frame:** The lift keeps rising. The gate seam ahead is a wound of light—white-hot, loud with heat—so bright it turns the tunnel’s dust into sparks.
+
+  You stop trying to think past it.
+
+  You focus on *now*.
+
+  Slow breath. Tight jaw. You let your ki uncoil a hair’s breadth—thin as a wire—then you reach it forward around the gate like a fingertip feeling for a pulse.
+
+  ![Sensing ki at the gate seam](../assets/005_ki_sense_gate_closeup.png)
+
+  The **[[worlds/Obsidian_Circuit/lore/items/K-Chain_Shock_Collar.md|K-Chain Shock Collar]]** *listens*.
+
+  It warms at your throat—warning-hot. Not a shock. A punctuation mark: *we feel you feeling.*
+
+  Past the seam, the arena is a roar made physical. Thousands of lives stacked in a bowl, their intent smeared together into one hungry pressure—like standing under a waterfall of sound.
+
+  Under that noise, you find something else: the arena itself. Basalt laced with sickly-gold lines—etched circuits that drink heat and spill it back as spectacle. A **ki-sink lattice**. The place doesn’t just host violence. It *harvests* it.
+
+  Then—there.
+
+  A mass of presence on the sand: dense, slow, and wrong in the way a boulder is wrong when it’s *moving*.
+
+  Your thread touches that aura and it bites back—cracked stone heat, a patient rage.
+
+  **[[worlds/Obsidian_Circuit/lore/characters/Rask_the_Basalt_Bull.md|Rask]]**.
+
+  ![Rask waits on the sand](../assets/005_rask_on_sand_wide.png)
+
+  You catch a tell through the ki the way you catch rhythm through a wall: he’s grounded on purpose—saving a single burst for the first clean opening.
+
+  Behind you, a guard’s prod crackles closer. Veyl’s remote clicks once—soft, amused.
+options:
+  - "Lock onto Rask’s rhythm: map his opening burst and choose where **not** to be when it lands (d20 + Ki Control + Perception)."
+  - "Mask your ki completely: step onto the sand ‘empty’ and bait an underestimate (d20 + Agility + Perception)."
+  - "Speak through the seam: offer Rask a one-fight pact—hurt the Circuit more than you hurt each other (d20 + Intellect + Intimidation)."
+  - "Strike the lattice: feed a razor-thin ki pulse into the gate’s etched circuits to fuzz sensors/collars for one heartbeat (d20 + Ki Control + Survival)."
+  - "Explode on the open: seize center-sand the instant your feet hit it and force the tempo (d20 + Strength + Athletics)."
+
+what_changed:
+  - "Clock: arena_timer advances 2/6 → 3/6 (you’re at the threshold)."
+  - "Clock: crowd_frenzy advances 2/6 → 3/6 (the bowl leans in)."
+  - "Clock: guard_alertness advances 3/6 → 4/6 (someone noticed the ki-thread)."
+  - "Fatigue +0.5 (controlled ki strain under collar suppression)."
+  - "New intel: the arena uses a ki-sink lattice (violence is being harvested)."
+  - "Opponent identified: [[worlds/Obsidian_Circuit/lore/characters/Rask_the_Basalt_Bull.md|Rask the Basalt Bull]] is waiting on the sand."
+
+mechanics_md: |
+  **Core roll**: `d20 + stat + skill` vs DC.
+
+  **Resolved action (your declaration): Sense ki around the gate**
+  - **Check**: `d20 + Ki Control (4) + Perception (2)` vs **DC 14**
+  - **Outcome**: **Success at a cost** — you get a clean read (Rask + ki-sink lattice), but the collar warns and the guards tighten in (**guard_alertness +1**, **fatigue +0.5**).
+
+  **Fictional positioning**
+  - The collar doesn’t stop ki; it punishes *surges*. Thread-thin control works, but it leaves a trace.
+  - The arena’s etched circuits act like a drain: big blasts will “bleed off” and may feed the crowd’s frenzy (and the Circuit’s sensors).
+
+  **Option DCs (baseline)**
+  - **1 (Map the opening burst)**: DC 14 (success = you preempt his lunge; fail = you mis-time and eat the first impact).
+  - **2 (Mask ki / bait)**: DC 15 (success = he commits wrong; fail = guards interpret it as compliance and shove you into a bad start).
+  - **3 (Pact offer)**: DC 16 (success = he hesitates / signals; fail = he uses your words as a tell and attacks harder).
+  - **4 (Pulse the lattice)**: DC 17 (success = 1-beat sensor fuzz; fail = collar spike + crowd_frenzy tick).
+  - **5 (Seize tempo)**: DC 14 (success = positional advantage; fail = you overextend into his weight).
+
+delta:
+  player:
+    add:
+      - target: resources
+        key: fatigue
+        value: 0.5
+  world_state:
+    set:
+      - key: location
+        value: Obsidian Pits — Gate Threshold (Lift)
+      - key: description
+        value: Lift rising into a blade of arena-light; dust glittering in the beam; ozone and sand on the air; every chain-link singing as the gate cycles open.
+      - key: scene_tags
+        value:
+          - arena
+          - threshold
+          - ki
+          - pressure
+          - gladiator
+          - sci_fi
+      - key: entities
+        value:
+          - name: Pitmaster Veyl
+            kind: NPC
+            status: at your shoulder; remote loose in hand
+          - name: Obsidian Circuit Guards
+            kind: faction
+            status: tightening escort at the threshold; prods live
+            count: 8
+          - name: K-Chain Shock Collars
+            kind: item
+            status: suppressing ki surges; warning-hot thresholds
+          - name: Arena Gate Mechanism
+            kind: hazard
+            status: seam open; cycling; light spill and heat wash
+          - name: Ki-sink Lattice
+            kind: hazard
+            status: etched circuits in basalt; drains surges; feeds spectacle
+          - name: Rask the Basalt Bull
+            kind: NPC
+            status: waiting on the sand beyond the seam
+      - key: clocks
+        value:
+          matchmaker_bell: 0/6
+          guard_alertness: 4/6
+          hunger: 3/6
+          rumor_of_vegeta: 2/6
+          arena_timer: 3/6
+          crowd_frenzy: 3/6
