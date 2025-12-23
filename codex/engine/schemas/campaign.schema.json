@@ -1,0 +1,14 @@
+{
+  "$id": "https://agent-roleplay-engine/schemas/campaign.schema.json",
+  "type": "object",
+  "required": ["world", "campaign", "chapter_counter", "log_active", "created_at"],
+  "properties": {
+    "world": { "type": "string", "minLength": 1 },
+    "campaign": { "type": "string", "minLength": 1 },
+    "chapter_counter": { "type": "integer", "minimum": 0 },
+    "log_active": { "type": "string", "minLength": 1 },
+    "created_at": { "type": "string", "minLength": 1 }
+  },
+  "additionalProperties": true
+}
+

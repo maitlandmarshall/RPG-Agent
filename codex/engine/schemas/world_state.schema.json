@@ -1,0 +1,29 @@
+{
+  "$id": "https://agent-roleplay-engine/schemas/world_state.schema.json",
+  "type": "object",
+  "required": ["location", "description", "time", "weather", "scene_tags", "entities"],
+  "properties": {
+    "location": { "type": "string" },
+    "description": { "type": "string" },
+    "time": { "type": "string" },
+    "weather": { "type": "string" },
+    "scene_tags": { "type": "array", "items": { "type": "string" } },
+    "entities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name"],
+        "properties": {
+          "name": { "type": "string", "minLength": 1 },
+          "kind": { "type": "string" },
+          "status": { "type": "string" },
+          "power_level": { "type": "number", "minimum": 0 },
+          "count": { "type": "number", "minimum": 0 }
+        },
+        "additionalProperties": true
+      }
+    }
+  },
+  "additionalProperties": true
+}
+

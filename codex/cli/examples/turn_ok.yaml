@@ -1,0 +1,19 @@
+scene_md: |
+  A siren groans somewhere overhead—low, slow, hungry.
+
+  For a moment, everyone in the pens holds still, listening for footsteps.
+options:
+  - "Stay silent and watch the corridor (Intellect)"
+  - "Conserve energy and breathe slow (Endurance)"
+  - "Signal a nearby prisoner (Charisma)"
+what_changed:
+  - "Fatigue +1 (tension)"
+delta:
+  player:
+    add:
+      - target: resources
+        key: fatigue
+        value: 1
+mechanics_md: |
+  - No roll; pacing beat.
+

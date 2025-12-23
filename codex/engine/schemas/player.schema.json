@@ -1,0 +1,57 @@
+{
+  "$id": "https://agent-roleplay-engine/schemas/player.schema.json",
+  "type": "object",
+  "required": ["name", "stats", "resources", "xp", "skills", "inventory", "status_effects"],
+  "properties": {
+    "name": { "type": "string", "minLength": 1 },
+    "race": { "type": "string" },
+    "class": { "type": "string" },
+    "stats": {
+      "type": "object",
+      "required": ["power_level", "strength", "agility", "intellect", "ki_control"],
+      "properties": {
+        "power_level": { "type": "number", "minimum": 0 },
+        "strength": { "type": "number", "minimum": 0 },
+        "agility": { "type": "number", "minimum": 0 },
+        "intellect": { "type": "number", "minimum": 0 },
+        "ki_control": { "type": "number", "minimum": 0 }
+      },
+      "additionalProperties": true
+    },
+    "resources": {
+      "type": "object",
+      "required": ["hp", "fatigue", "hunger"],
+      "properties": {
+        "hp": { "type": "number", "minimum": 0 },
+        "fatigue": { "type": "number", "minimum": 0 },
+        "hunger": { "type": "number", "minimum": 0 }
+      },
+      "additionalProperties": true
+    },
+    "xp": { "type": "number", "minimum": 0 },
+    "skills": {
+      "type": "object",
+      "additionalProperties": { "type": "number", "minimum": 0 }
+    },
+    "inventory": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["name"],
+        "properties": {
+          "name": { "type": "string", "minLength": 1 },
+          "equipped": { "type": "boolean" },
+          "quantity": { "type": "number", "minimum": 0 },
+          "damage": { "type": "number" },
+          "durability": { "type": "string" },
+          "notes": { "type": "string" }
+        },
+        "additionalProperties": true
+      }
+    },
+    "status_effects": { "type": "array", "items": { "type": "string" } },
+    "notes": { "type": "string" }
+  },
+  "additionalProperties": true
+}
+

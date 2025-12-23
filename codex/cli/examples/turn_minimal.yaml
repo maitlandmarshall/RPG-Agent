@@ -1,0 +1,19 @@
+scene_md: |
+  The pens are quiet for a breath—just enough silence to hear your own heartbeat.
+
+  Someone down the corridor coughs wetly. A guard laughs.
+options:
+  - "Keep your head down and rest (Endurance)"
+  - "Listen for patrol timing (Intellect)"
+  - "Pick a fight to test yourself (Strength)"
+what_changed:
+  - "Fatigue -1 (rest)"
+delta:
+  player:
+    add:
+      - target: resources
+        key: fatigue
+        value: -1
+mechanics_md: |
+  - No roll; establishing beat.
+

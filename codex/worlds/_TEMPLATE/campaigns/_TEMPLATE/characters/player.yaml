@@ -1,0 +1,19 @@
+name: "TBD"
+race: "TBD"
+class: "TBD"
+stats:
+  power_level: 1
+  strength: 1
+  agility: 1
+  intellect: 1
+  ki_control: 1
+resources:
+  hp: 10
+  fatigue: 0
+  hunger: 0
+xp: 0
+skills: {}
+inventory: []
+status_effects: []
+notes: ""
+
