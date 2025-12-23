@@ -1,5 +1,0 @@
-{
-	"vscodeMarkdownNotes.workspaceFilenameConvention": "uniqueFilenames",
-	"vscodeMarkdownNotes.noteCompletionConvention": "noExtension",
-	"vscodeMarkdownNotes.createNoteOnGoToDefinitionWhenMissing": false
-}

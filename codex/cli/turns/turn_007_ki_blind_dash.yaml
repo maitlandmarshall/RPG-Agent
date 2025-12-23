@@ -1,0 +1,105 @@
+scene_md: |-
+  **Hard frame:** The sand is hotter than it looks. It bites your ankles and clings to sweat that hasn’t had time to dry. The spotlights pin you in a white circle while the crowd blurs into a single hungry sound.
+
+  ![Rask on the sand](../assets/005_rask_on_sand_wide.png)
+
+  Across from you, [[worlds/Obsidian_Circuit/lore/characters/Rask_the_Basalt_Bull.md|Rask]] stands like a moving cliff—too still, too grounded, saving his burst.
+
+  You drop low.
+
+  You let your sealed ki crack open just enough to slip a *small* pellet through the collar’s attention—tight, quiet, precise—then you flick it toward his eyes.
+
+  The [[worlds/Obsidian_Circuit/lore/techniques/Ki-sink_Lattice.md|Ki-sink Lattice]] under the sand *tugs* at the shot mid-flight. The pellet thins, hissing, shedding a wake of pale vapor like a comet tail that shouldn’t exist in dry air.
+
+  ![Ki-sink lattice under sand](../assets/006_lattice_under_sand_macro.png)
+
+  It still lands—*spat*—against basalt brow and wet eye, bursting into a grit-spark bloom. Rask jerks his head, one eye sealing shut as he shakes, snorting sand and smoke.
+
+  The [[worlds/Obsidian_Circuit/lore/items/K-Chain_Shock_Collar.md|K-Chain Shock Collar]] warms at your throat—warning-hot, a thin static itch that says: *we felt that.*
+
+  You don’t wait for the bite.
+
+  In the recoil and plume, you sprint—low as a thrown knife—sand spraying behind you. The world narrows to the angle under his horns, the timing between his breath and your footfall.
+
+  You slip inside the line of his first swing… and his mass still clips you—basalt shoulder grazing ribs with a dead, heavy impact that knocks air out of you.
+
+  Above the gate platform, you catch a lacquer-black glint: [[worlds/Obsidian_Circuit/lore/characters/Pitmaster_Veyl.md|Pitmaster Veyl]]’s remote hand doesn’t move, but you *feel* their attention tighten.
+
+options:
+  - "Stay glued to him: chain short, hands up—hammer ribs and kidneys before his vision clears (d20 + Strength + Brawling)."
+  - "Control the horns: hook an arm under the base and turn his head, trying to steer his charge into the ring-edge basalt ribs (d20 + Strength + Athletics)."
+  - "Information play: disengage one step and read his eye/footwork—how blind is he, and what’s his burst trigger? (d20 + Intellect + Perception)."
+  - "Talk through the roar: snap a pact offer—‘We both live if we stall’—and see if he hesitates for a beat (d20 + Intellect + Intimidation)."
+  - "Risk the collar: fire a second micro-blast into the sand to kick up a blinding sheet and reposition behind him (d20 + Ki Control + Ki Blast)."
+what_changed:
+  - "HP -3 (basalt-shoulder clip as you close)."
+  - "Fatigue +1 (ki flick + sprint under pressure)."
+  - "Clock: arena_timer advances 4/6 → 5/6."
+  - "Clock: crowd_frenzy advances 4/6 → 5/6."
+  - "Clock: guard_alertness advances 4/6 → 5/6 (visible ki use on sand)."
+  - "Position: you’re inside Rask’s horn line at close range; his right eye is stung/obscured for a beat."
+mechanics_md: |-
+  **Core roll**: `d20 + stat + skill` vs DC.
+
+  **Resolved action (your declaration): micro ki-blind + low dash into melee**
+  - **Check**: `d20 + Agility (5) + Ki Blast (1)` vs **DC 15**
+  - **Roll**: 12 → **18 (Success)**
+  - **Effect**: Rask flinches and loses clean sight for **1 beat**, letting you get inside his first clean swing.
+  - **Cost (fail-forward pressure anyway)**: you still eat the edge of his mass on entry (**HP -3**) and the collar registers the flare (**fatigue +1**, **guard_alertness +1**).
+
+  **Fictional positioning**
+  - The lattice drains big surges fast; small, tight shots can still land but they “smoke” as they’re leeched.
+  - Close range vs Rask is dangerous: his weight turns glancing contact into injury.
+
+  **Panel note**
+  - Reused existing arena panels this turn; new panel generation is blocked until `OPENAI_API_KEY` is set (for `.codex/skills/openai-image-gen`).
+
+delta:
+  player:
+    add:
+      - target: resources
+        key: hp
+        value: -3
+      - target: resources
+        key: fatigue
+        value: 1
+  world_state:
+    set:
+      - key: scene_tags
+        value:
+          - arena
+          - sand
+          - close_quarters
+          - smoke
+          - ki
+          - pressure
+          - gladiator
+          - sci_fi
+      - key: description
+        value: "Close-range on pale sand under harsh spotlights; lattice-hiss smoke in the air; Rask’s vision stung for a beat; Veyl watches from the gate platform."
+      - key: entities
+        value:
+          - name: Pitmaster Veyl
+            kind: NPC
+            status: watching from the gate platform; remote angled toward your throat; attention tightened
+          - name: Obsidian Circuit Guards
+            kind: faction
+            status: clustered gate-side; prods live; reacting to visible ki use
+            count: 8
+          - name: K-Chain Shock Collars
+            kind: item
+            status: suppressing surges; warning warmth triggered by micro-blast
+          - name: Ki-sink Lattice
+            kind: hazard
+            status: leeching ki; leaves vapor-smoke trails on small shots; strongest near dense grooves
+          - name: Rask the Basalt Bull
+            kind: NPC
+            status: right eye stung/obscured; head shaking; mass engaged at close range with Violence inside horn line
+      - key: clocks
+        value:
+          matchmaker_bell: 0/6
+          guard_alertness: 5/6
+          hunger: 4/6
+          rumor_of_vegeta: 2/6
+          arena_timer: 5/6
+          crowd_frenzy: 5/6

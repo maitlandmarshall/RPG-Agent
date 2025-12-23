@@ -1,12 +1,13 @@
 location: Obsidian Pits — Arena Floor (Sand)
-description: Pale sand under harsh spotlights; basalt walls etched with sickly-gold
-  circuit lines; ozone haze and crowd-roar; the gate behind still bleeding white heat.
+description: Close-range on pale sand under harsh spotlights; lattice-hiss smoke in
+  the air; Rask’s vision stung for a beat; Veyl watches from the gate platform.
 time: Age 736 — one year before Planet Vegeta’s destruction
 weather: 'Artificial climate: dry, cold air; fluorescent heat pockets near vents'
 scene_tags:
 - arena
 - sand
-- observation
+- close_quarters
+- smoke
 - ki
 - pressure
 - gladiator
@@ -14,24 +15,27 @@ scene_tags:
 entities:
 - name: Pitmaster Veyl
   kind: NPC
-  status: watching from the gate platform; remote angled toward your throat
+  status: watching from the gate platform; remote angled toward your throat; attention
+    tightened
 - name: Obsidian Circuit Guards
   kind: faction
-  status: clustered gate-side; prods live; not entering the sand yet
+  status: clustered gate-side; prods live; reacting to visible ki use
   count: 8
 - name: K-Chain Shock Collars
   kind: item
-  status: suppressing surges; monitoring; punishment thresholds unknown
+  status: suppressing surges; warning warmth triggered by micro-blast
 - name: Ki-sink Lattice
   kind: hazard
-  status: etched circuits under sand; drains surges; sensor-grid behavior
+  status: leeching ki; leaves vapor-smoke trails on small shots; strongest near dense
+    grooves
 - name: Rask the Basalt Bull
   kind: NPC
-  status: opposite you on the sand; grounded and timing a burst
+  status: right eye stung/obscured; head shaking; mass engaged at close range with
+    Violence inside horn line
 clocks:
   matchmaker_bell: 0/6
-  guard_alertness: 4/6
+  guard_alertness: 5/6
   hunger: 4/6
   rumor_of_vegeta: 2/6
-  arena_timer: 4/6
-  crowd_frenzy: 4/6
+  arena_timer: 5/6
+  crowd_frenzy: 5/6

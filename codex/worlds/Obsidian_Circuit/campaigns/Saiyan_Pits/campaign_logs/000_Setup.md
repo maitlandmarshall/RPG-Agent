@@ -368,7 +368,7 @@ You grind your heel once—just enough to see it.
 
 ![Ki-sink lattice under the sand](../assets/006_lattice_under_sand_macro.png)
 
-Sickly-gold grooves cut the basalt in a pattern: **[[../../lore/techniques/Ki-sink_Lattice.md|Ki-sink Lattice]]**—a hunger built into stone. You feel it even with your ki locked down: a faint pull, like the arena is listening with its whole body.
+Sickly-gold grooves cut the basalt in a pattern: **[[Ki-sink_Lattice]]**—a hunger built into stone. You feel it even with your ki locked down: a faint pull, like the arena is listening with its whole body.
 
 On the platform above the gate, you catch a glint of lacquer-black: **[[../../lore/characters/Pitmaster_Veyl.md|Veyl]]** watching, remote angled like a prayer.
 
@@ -408,5 +408,68 @@ Rask shifts his lead foot a fraction. Not impatience—**timing**.
 - **3 (Map groove direction/nodes)**: DC 14 (success = you learn “safe lanes”; fail = you waste time and lose position).
 - **4 (Perform obedience at Veyl)**: DC 16 (success = a micro-loosening / hesitation; fail = collar warning + guard shove).
 - **5 (Compact opening strike)**: DC 13 (success = you tag him clean; fail = you bounce off his mass and pay for it).
+
+</details>
+
+---
+## Turn — 2025-12-24 02:03
+### Scene
+**Hard frame:** The sand is hotter than it looks. It bites your ankles and clings to sweat that hasn’t had time to dry. The spotlights pin you in a white circle while the crowd blurs into a single hungry sound.
+
+![Rask on the sand](../assets/005_rask_on_sand_wide.png)
+
+Across from you, [[worlds/Obsidian_Circuit/lore/characters/Rask_the_Basalt_Bull.md|Rask]] stands like a moving cliff—too still, too grounded, saving his burst.
+
+You drop low.
+
+You let your sealed ki crack open just enough to slip a *small* pellet through the collar’s attention—tight, quiet, precise—then you flick it toward his eyes.
+
+The [[worlds/Obsidian_Circuit/lore/techniques/Ki-sink_Lattice.md|Ki-sink Lattice]] under the sand *tugs* at the shot mid-flight. The pellet thins, hissing, shedding a wake of pale vapor like a comet tail that shouldn’t exist in dry air.
+
+![Ki-sink lattice under sand](../assets/006_lattice_under_sand_macro.png)
+
+It still lands—*spat*—against basalt brow and wet eye, bursting into a grit-spark bloom. Rask jerks his head, one eye sealing shut as he shakes, snorting sand and smoke.
+
+The [[worlds/Obsidian_Circuit/lore/items/K-Chain_Shock_Collar.md|K-Chain Shock Collar]] warms at your throat—warning-hot, a thin static itch that says: *we felt that.*
+
+You don’t wait for the bite.
+
+In the recoil and plume, you sprint—low as a thrown knife—sand spraying behind you. The world narrows to the angle under his horns, the timing between his breath and your footfall.
+
+You slip inside the line of his first swing… and his mass still clips you—basalt shoulder grazing ribs with a dead, heavy impact that knocks air out of you.
+
+Above the gate platform, you catch a lacquer-black glint: [[worlds/Obsidian_Circuit/lore/characters/Pitmaster_Veyl.md|Pitmaster Veyl]]’s remote hand doesn’t move, but you *feel* their attention tighten.
+### Your Options
+1. Stay glued to him: chain short, hands up—hammer ribs and kidneys before his vision clears (d20 + Strength + Brawling).
+2. Control the horns: hook an arm under the base and turn his head, trying to steer his charge into the ring-edge basalt ribs (d20 + Strength + Athletics).
+3. Information play: disengage one step and read his eye/footwork—how blind is he, and what’s his burst trigger? (d20 + Intellect + Perception).
+4. Talk through the roar: snap a pact offer—‘We both live if we stall’—and see if he hesitates for a beat (d20 + Intellect + Intimidation).
+5. Risk the collar: fire a second micro-blast into the sand to kick up a blinding sheet and reposition behind him (d20 + Ki Control + Ki Blast).
+
+### What Changed
+- HP -3 (basalt-shoulder clip as you close).
+- Fatigue +1 (ki flick + sprint under pressure).
+- Clock: arena_timer advances 4/6 → 5/6.
+- Clock: crowd_frenzy advances 4/6 → 5/6.
+- Clock: guard_alertness advances 4/6 → 5/6 (visible ki use on sand).
+- Position: you’re inside Rask’s horn line at close range; his right eye is stung/obscured for a beat.
+
+<details>
+<summary>Mechanics</summary>
+
+**Core roll**: `d20 + stat + skill` vs DC.
+
+**Resolved action (your declaration): micro ki-blind + low dash into melee**
+- **Check**: `d20 + Agility (5) + Ki Blast (1)` vs **DC 15**
+- **Roll**: 12 → **18 (Success)**
+- **Effect**: Rask flinches and loses clean sight for **1 beat**, letting you get inside his first clean swing.
+- **Cost (fail-forward pressure anyway)**: you still eat the edge of his mass on entry (**HP -3**) and the collar registers the flare (**fatigue +1**, **guard_alertness +1**).
+
+**Fictional positioning**
+- The lattice drains big surges fast; small, tight shots can still land but they “smoke” as they’re leeched.
+- Close range vs Rask is dangerous: his weight turns glancing contact into injury.
+
+**Panel note**
+- Reused existing arena panels this turn; new panel generation is blocked until `OPENAI_API_KEY` is set (for `.codex/skills/openai-image-gen`).
 
 </details>

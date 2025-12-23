@@ -124,10 +124,12 @@ The game should feel visual by default.
 - For panels featuring a known location/item/faction visual motif, include that lore image as an additional reference using `$openai-image-gen` with `--input-image` (or embed the image in the lore page so it can be easily reused).
 
 ### Linking Rules (Obsidian-style)
-- Use Obsidian wikilinks for lore entities in logs:
-  - `[[../../lore/characters/Zorn.md|Zorn]]`
-  - `[[../../lore/locations/Maintenance_Tunnels.md|Maintenance Tunnels]]`
-- Every lore entry must include `## Appears In` backlinks using Obsidian links to the log(s).
+- Use Obsidian wikilinks using **vault-root-relative file IDs** (unique), not `../`-style relative paths.
+  - ✅ `[[worlds/<WorldName>/lore/characters/Zorn.md|Zorn]]`
+  - ✅ `[[worlds/<WorldName>/lore/locations/Maintenance_Tunnels.md|Maintenance Tunnels]]`
+  - ❌ `[[../../lore/characters/Zorn.md|Zorn]]`
+- Every lore entry must include `## Appears In` backlinks using the same vault-root-relative file IDs, e.g.:
+  - `[[worlds/<WorldName>/campaigns/<CampaignName>/campaign_logs/001_The_Hunt.md|001 The Hunt]]`
 - First mention per scene should be linked; repeated mentions can be unlinked for readability.
 
 ### Assets

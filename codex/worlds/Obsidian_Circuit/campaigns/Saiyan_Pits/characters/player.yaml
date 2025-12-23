@@ -8,8 +8,8 @@ stats:
   intellect: 3
   ki_control: 4
 resources:
-  hp: 32
-  fatigue: 6.5
+  hp: 29.0
+  fatigue: 7.5
   hunger: 3
 xp: 12
 skills:
