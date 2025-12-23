@@ -1,18 +1,16 @@
 
-location: "The Great Elevator - Ascent"
-description: "A colossal hydraulic lift rising through the crust of Planet Vegeta. The air is thinning, and the light is shifting from dungeon red to blinding surface white."
-weather: "Red Sky, Clear"
-time: "Dawn"
+location: "Maintenance Tunnels - Waste Disposal"
+description: "A dark, cramped corridor filled with steam."
+weather: "Indoor / Humid"
+time: "Orbital Prelims: T-Minus 3.3 Hours"
 npcs:
-  - name: "Elite Overseer Krel"
-    status: "Barking Orders"
-    power_level: 6000
-  - name: "Saibaman Sprout"
-    status: "Chirping Hungrily"
-    power_level: 200
-  - name: "Nervous Slaves"
-    status: "Terrified"
+  - name: "Zorn"
+    status: "Fighting"
+  - name: "Klik"
+    status: "Support File"
+  - name: "Feral Saibamen (x5)"
+    status: "Blinded / Stunned"
+    power_level: 60
 environment_tags:
-  - "oppressive"
-  - "noisy"
-  - "primitive"
+  - "dark"
+  - "bright_flash"

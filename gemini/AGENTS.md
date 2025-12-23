@@ -88,6 +88,11 @@ Encyclopedia of characters, locations, items, and lore.
     - Syntax: `**Tags**: #category #sub-category`
 - **Goal**: Create a clickable web of lore. Ensure files are interconnected.
 
+### Visual Consistency Protocol (MANDATORY)
+- **Reference Images**: When generating a scene containing known entities (Characters, Locations, Items), you **MUST** pass their existing reference image paths to the `generate_image` tool via the `ImagePaths` argument.
+    - *Example*: If Zorn is in the scene, find his image path (`.../codex/characters/Zorn/view.png`) and include it.
+- **Goal**: Ensure visual continuity. Zorn should always look like Zorn.
+
 ### Asset Management Protocol
 - **Immediate Save**: Upon generating an image, you **MUST** immediately copy it from the artifact folder to the project folder (`campaign_logs/assets/` or `codex/...`).
 - **Verification**: Do not assume the copy worked. Check if the file exists if you are unsure.

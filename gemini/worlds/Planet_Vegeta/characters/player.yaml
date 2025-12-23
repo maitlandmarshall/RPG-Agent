@@ -18,11 +18,11 @@ inventory:
     damage: 2
 status:
   health: 80
-  fatigue: 40
-  hunger: 30
+  fatigue: 50
+  hunger: 40
 stats:
   power_level: 5
-  xp: 50
+  xp: 55
 skills:
   - name: "brawling"
     level: 5
