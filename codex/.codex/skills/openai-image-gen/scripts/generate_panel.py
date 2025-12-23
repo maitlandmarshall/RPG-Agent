@@ -121,6 +121,8 @@ def main() -> None:
 	parser.add_argument("--out", required=True)
 	parser.add_argument("--character", action="append", default=[], help="Character name to resolve as reference")
 	parser.add_argument("--max-refs-per-character", type=int, default=2)
+	parser.add_argument("--input-image", action="append", default=[], help="Extra reference images for edits endpoint")
+	parser.add_argument("--mask", default=None, help="Optional mask image path for edits endpoint")
 
 	# Pass-through args to generate_image.py
 	parser.add_argument("--model", default="gpt-image-1.5")
@@ -180,6 +182,10 @@ def main() -> None:
 		cmd += ["--background", args.background]
 	for p in ref_images:
 		cmd += ["--input-image", str(p)]
+	for p in args.input_image:
+		cmd += ["--input-image", str(p)]
+	if args.mask:
+		cmd += ["--mask", args.mask]
 
 	proc = subprocess.run(cmd, capture_output=True, text=True)
 	if proc.returncode != 0:
