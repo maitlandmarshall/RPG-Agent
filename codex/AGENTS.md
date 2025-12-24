@@ -76,7 +76,15 @@ codex/
 
 ## 1) Player-Facing Output Contract (Campaign Logs)
 
-Campaign logs are the game UI. Every “turn” appended to a log must follow this structure:
+Campaign logs are the game UI. Logs are **reverse-chronological** so the latest play is always at the top in Markdown preview.
+
+### Log Ordering (Newest First)
+- Keep any static header/setup content at the top (e.g., `# 000 — Setup`, **Now Playing**, canon questions).
+- Insert each **newest Turn block directly below the header/setup section**, above older turns.
+- Never “append to the bottom” of the file; older turns should be pushed downward.
+- Keep a `---` separator between turns.
+
+Every “turn” inserted into a log must follow this structure:
 
 ### Turn Block Template
 1) **Scene** (narrative only; interleave images as “panels”)
@@ -123,9 +131,11 @@ If a campaign has `tactical_map.yaml`, treat it as an optional “board state”
 The game should feel visual by default.
 
 **Minimum cadence**
-- Aim for **1–3 images per turn**.
-- If the turn has combat or a major reveal: **2–4 images**.
-- Skip images only for very short “bookkeeping” turns (explicitly rare).
+- Treat each turn like a **manga/comic page**: frequent, readable panels that carry action.
+- Aim for **3–6 images per turn** (establishing + 2–4 beats).
+- If the turn has combat, chase, or a major reveal: **5–9 images** (setup → action beats → reaction/aftermath).
+- Skip images only for explicit bookkeeping turns (rare), and say why.
+- Prefer more small, clear panels over one “everything at once” image.
 
 **How to generate images (repo skill)**
 - Use the repo skill: `$openai-image-gen` (stored in `.codex/skills/openai-image-gen/`).
@@ -248,8 +258,8 @@ Use tags for filtering and indexes:
 
 Before yielding control back to the player, verify:
 1) New entities introduced? -> lore entry exists, is linked, and has a canonical reference image embedded.
-2) Any images referenced in the appended turn exist on disk.
-3) Image cadence met (normally 1–3 panels; more for combat/reveals) or explicitly justified.
+2) Any images referenced in the newest (top) turn exist on disk.
+3) Image cadence met (normally 3–6 panels; more for combat/reveals) or explicitly justified.
 4) State deltas applied and validated (no YAML schema violations).
 5) Log contains clear next options (3–6) and a readable “What Changed”.
 6) New/updated lore pages include a canonical reference image embedded at the top (and future panels use these references for consistency).

@@ -1,0 +1,1 @@
+{"timestamp_utc": "2025-12-24T07:19:26+00:00", "nonce": "eee4e4f93ad59363", "label": "Turn 003: Angle for offworld deployment (Intellect+Intimidation)", "expr": "d20 + 3 + 1", "terms": [{"kind": "dice", "count": 1, "sides": 20, "rolls": [10], "subtotal": 10}, {"kind": "modifier", "value": 3}, {"kind": "modifier", "value": 1}], "total": 14, "dc": 14, "success": true}

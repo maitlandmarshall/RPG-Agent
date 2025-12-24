@@ -17,6 +17,7 @@ entities:
   status: not visible here, but their “inspection” rumors keep spreading
 clocks:
   frieza_inspection: 1/6
-  royal_muster_pressure: 2/6
+  royal_muster_pressure: 3/6
   scouter_quota: 2/6
-  market_tension: 1/6
+  market_tension: 2/6
+  deployment_lottery: 1/4
