@@ -138,6 +138,15 @@ The game should feel visual by default.
 - For panels containing known characters, prefer using `$openai-image-gen`’s `generate_panel.py` wrapper so existing lore portraits are automatically used as references.
 - For panels featuring a known location/item/faction visual motif, include that lore image as an additional reference using `$openai-image-gen` with `--input-image` (or embed the image in the lore page so it can be easily reused).
 
+### Player Bootstrap (New Campaign / New Character)
+The **player character must always start with a lore entry + canonical portrait** so the visual identity stays consistent across the entire campaign.
+
+When creating a new campaign (or otherwise creating a new player character):
+- Create a lore page at `worlds/<WorldName>/lore/characters/<PlayerName>.md`.
+- Generate and save the canonical portrait next to it: `worlds/<WorldName>/lore/characters/<PlayerName>_portrait.png`.
+- Embed that portrait near the top of the lore page (this is the canonical reference image).
+- From that point on, **any panel** depicting the player must pass that portrait as a reference image to the image generation step (same as any other lore reference image), ideally via `$openai-image-gen`’s `generate_panel.py` wrapper; otherwise use `$openai-image-gen` with `--input-image` pointing at the portrait.
+
 ### Linking Rules (Obsidian-style)
 - Use Obsidian wikilinks using **vault-root-relative file IDs** (unique), not `../`-style relative paths.
   - ✅ `[[worlds/<WorldName>/lore/characters/Zorn.md|Zorn]]`
@@ -187,6 +196,7 @@ Lore entries are living documents that evolve with play.
 ### Lore Entry Requirements
 - Must have: a relevant embedded image, short summary, sensory description (if character/location), tags, and `## Appears In`.
 - Images are not optional: if a lore entry exists, it must have a canonical reference image on disk and embedded in the page.
+- The **player character** is not special-cased: they must have a lore entry and canonical portrait **from campaign creation onward**, and that portrait must be used as a reference image for future panels.
 - On major changes (injury, armor swap, relationship change), update the entry immediately.
 - For key NPCs/factions, maintain:
   - **Goal**
@@ -209,3 +219,4 @@ Before yielding control back to the player, verify:
 4) State deltas applied and validated (no YAML schema violations).
 5) Log contains clear next options (3–6) and a readable “What Changed”.
 6) New/updated lore pages include a canonical reference image embedded at the top (and future panels use these references for consistency).
+7) New campaign or new player created? -> player lore entry exists and the canonical portrait is being used as a reference image in subsequent panels.
