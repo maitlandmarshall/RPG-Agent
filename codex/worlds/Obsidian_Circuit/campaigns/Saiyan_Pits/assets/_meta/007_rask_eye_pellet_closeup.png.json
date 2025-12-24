@@ -1,0 +1,18 @@
+{
+  "background": null,
+  "created_at": "2025-12-24T02:28:25.241118+00:00",
+  "endpoint": "/v1/images/edits",
+  "input_images": [
+    "/home/maitl/projects/personal/RPG-Agent/codex/worlds/Obsidian_Circuit/lore/characters/Rask_the_Basalt_Bull_portrait.png",
+    "/home/maitl/projects/personal/RPG-Agent/codex/worlds/Obsidian_Circuit/lore/_style/Obsidian_Circuit_style_ref.png"
+  ],
+  "mask": null,
+  "model_used": "gpt-image-1.5",
+  "out": "worlds/Obsidian_Circuit/campaigns/Saiyan_Pits/assets/007_rask_eye_pellet_closeup.png",
+  "output_format": "png",
+  "prompt_final": "WORLD STYLE PACK (use consistently): Baseline look: gritty sci\u2011fi gladiator arena; inked line art, tight cross\u2011hatching, crisp silhouettes; high contrast lighting, deep shadows, sharp rim light; materials: basalt, rusted steel, pitted chrome, chain, scarred skin; atmosphere: dust motes, steam vents, ozone haze, harsh fluorescents; palette: muted charcoal/iron with neon accents (cyan, magenta, sickly gold); camera: cinematic framing, wide establishing shots + intense close\u2011ups | Composition: treat each image like a comic panel: clear focal point, readable action; emphasize scale (catwalks above pits, towering gates, crowds as a blur); keep violence visceral but not gratuitous (impact, tension, consequence)\n\nClose-up action detail: ki pellet impact at Rask's eye\u2014small bright pellet bursts into grit-spark bloom against basalt brow and wet eye; pale vapor wake; cyan fissure-glow nearby. Tight framing, visceral but not gory.\n\nConstraints: no text, no watermark.",
+  "prompt_user": "Close-up action detail: ki pellet impact at Rask's eye\u2014small bright pellet bursts into grit-spark bloom against basalt brow and wet eye; pale vapor wake; cyan fissure-glow nearby. Tight framing, visceral but not gory.",
+  "quality": "high",
+  "size": "1024x1024",
+  "world": "Obsidian_Circuit"
+}

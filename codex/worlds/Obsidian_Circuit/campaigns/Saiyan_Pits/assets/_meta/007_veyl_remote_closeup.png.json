@@ -1,0 +1,18 @@
+{
+  "background": null,
+  "created_at": "2025-12-24T02:28:45.928629+00:00",
+  "endpoint": "/v1/images/edits",
+  "input_images": [
+    "/home/maitl/projects/personal/RPG-Agent/codex/worlds/Obsidian_Circuit/lore/characters/Pitmaster_Veyl_portrait.png",
+    "/home/maitl/projects/personal/RPG-Agent/codex/worlds/Obsidian_Circuit/lore/_style/Obsidian_Circuit_style_ref.png"
+  ],
+  "mask": null,
+  "model_used": "gpt-image-1.5",
+  "out": "worlds/Obsidian_Circuit/campaigns/Saiyan_Pits/assets/007_veyl_remote_closeup.png",
+  "output_format": "png",
+  "prompt_final": "WORLD STYLE PACK (use consistently): Baseline look: gritty sci\u2011fi gladiator arena; inked line art, tight cross\u2011hatching, crisp silhouettes; high contrast lighting, deep shadows, sharp rim light; materials: basalt, rusted steel, pitted chrome, chain, scarred skin; atmosphere: dust motes, steam vents, ozone haze, harsh fluorescents; palette: muted charcoal/iron with neon accents (cyan, magenta, sickly gold); camera: cinematic framing, wide establishing shots + intense close\u2011ups | Composition: treat each image like a comic panel: clear focal point, readable action; emphasize scale (catwalks above pits, towering gates, crowds as a blur); keep violence visceral but not gratuitous (impact, tension, consequence)\n\nClose-up: Veyl's remote tightens\u2014immaculate gloved hand holding a compact control remote, sickly-gold interface glow, subtle red warning reflections. Background: arena railings and crowd blur, heavy shadows.\n\nConstraints: no text, no watermark.",
+  "prompt_user": "Close-up: Veyl's remote tightens\u2014immaculate gloved hand holding a compact control remote, sickly-gold interface glow, subtle red warning reflections. Background: arena railings and crowd blur, heavy shadows.",
+  "quality": "high",
+  "size": "1024x1024",
+  "world": "Obsidian_Circuit"
+}

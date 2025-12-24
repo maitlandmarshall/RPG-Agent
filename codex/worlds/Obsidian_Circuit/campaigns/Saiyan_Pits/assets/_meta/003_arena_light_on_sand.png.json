@@ -1,0 +1,15 @@
+{
+  "background": null,
+  "created_at": "2025-12-24T02:25:58.185164+00:00",
+  "endpoint": "/v1/images/generations",
+  "input_images": [],
+  "mask": null,
+  "model_used": "gpt-image-1.5",
+  "out": "worlds/Obsidian_Circuit/campaigns/Saiyan_Pits/assets/003_arena_light_on_sand.png",
+  "output_format": "png",
+  "prompt_final": "WORLD STYLE PACK (use consistently): Baseline look: gritty sci\u2011fi gladiator arena; inked line art, tight cross\u2011hatching, crisp silhouettes; high contrast lighting, deep shadows, sharp rim light; materials: basalt, rusted steel, pitted chrome, chain, scarred skin; atmosphere: dust motes, steam vents, ozone haze, harsh fluorescents; palette: muted charcoal/iron with neon accents (cyan, magenta, sickly gold); camera: cinematic framing, wide establishing shots + intense close\u2011ups | Composition: treat each image like a comic panel: clear focal point, readable action; emphasize scale (catwalks above pits, towering gates, crowds as a blur); keep violence visceral but not gratuitous (impact, tension, consequence)\n\nWide atmospheric panel: arena bowl glimpsed beyond the threshold\u2014black stone ribs, screaming light, spotlamps cutting through dust motes; pale sand floor like a wound under fluorescents. Crowd rendered as a blur of noise and shadow.\n\nConstraints: no text, no watermark.",
+  "prompt_user": "Wide atmospheric panel: arena bowl glimpsed beyond the threshold\u2014black stone ribs, screaming light, spotlamps cutting through dust motes; pale sand floor like a wound under fluorescents. Crowd rendered as a blur of noise and shadow.",
+  "quality": "high",
+  "size": "1536x1024",
+  "world": "Obsidian_Circuit"
+}

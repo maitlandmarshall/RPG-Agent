@@ -127,12 +127,15 @@ def main() -> None:
 	# Pass-through args to generate_image.py
 	parser.add_argument("--model", default="gpt-image-1.5")
 	parser.add_argument("--fallback-model", default="gpt-image-1")
-	parser.add_argument("--size", default="1024x1024")
+	parser.add_argument("--size", default="auto")
 	parser.add_argument("--quality", default="high", choices=["low", "medium", "high"])
 	parser.add_argument("--output-format", default="png", choices=["png", "jpeg", "webp"])
 	parser.add_argument("--background", default=None, choices=[None, "transparent", "opaque"])
 	parser.add_argument("--n", type=int, default=1)
 	parser.add_argument("--base-url", default=os.environ.get("OPENAI_BASE_URL", "https://api.openai.com"))
+	parser.add_argument("--use-style-refs", action="store_true", help="Add world style refs from `lore/_style/` (recommended)")
+	parser.add_argument("--no-world-style", action="store_true", help="Do not inject world ART_STYLE.md into the prompt")
+	parser.add_argument("--write-meta", action="store_true", help="Write sidecar JSON metadata under `_meta/`")
 	args = parser.parse_args()
 
 	repo_root = _find_repo_root(Path(__file__))
@@ -159,6 +162,8 @@ def main() -> None:
 	cmd: list[str] = [
 		sys.executable,
 		str(generate_image_py),
+		"--world",
+		args.world,
 		"--prompt",
 		args.prompt,
 		"--out",
@@ -178,6 +183,12 @@ def main() -> None:
 		"--base-url",
 		args.base_url,
 	]
+	if args.use_style_refs:
+		cmd += ["--use-style-refs"]
+	if args.no_world_style:
+		cmd += ["--no-world-style"]
+	if args.write_meta:
+		cmd += ["--write-meta"]
 	if args.background:
 		cmd += ["--background", args.background]
 	for p in ref_images:

@@ -113,6 +113,22 @@ The game should feel visual by default.
 - Use the repo skill: `$openai-image-gen` (stored in `.codex/skills/openai-image-gen/`).
 - Generate directly into the campaign’s assets folder, then embed as `![Caption](../assets/file.png)`.
 
+**Dimensions (agent-chosen)**
+- The agent may choose image dimensions per panel based on framing needs (don’t force everything to square).
+- Prefer:
+  - `1536x1024` for **wide** establishing shots / multi-character staging / arena geography
+  - `1024x1024` for **close-ups**, portraits, detail shots, item callouts, macros
+  - `1024x1536` for **tall** full-body shots / vertical architecture
+- When unsure, choose the dimension that improves **readability of the action** (clear silhouettes, single focal point).
+
+**Style consistency (world style pack)**
+- Every image prompt must include the world’s art direction (`worlds/<World>/ART_STYLE.md`) as a stable “style pack”.
+- Avoid rewording the style pack between generations; treat it as canonical.
+- For character panels, always prefer `$openai-image-gen`’s `generate_panel.py` so lore portraits are automatically used as references.
+- For additional stability, worlds may include optional style anchor images under `worlds/<World>/lore/_style/` (used as references for edits-based generation).
+- Write image metadata sidecars when possible (prompt + size + references) so regeneration is auditable:
+  - `worlds/<World>/campaigns/<Campaign>/assets/_meta/<image>.json`
+
 **Lore reference images (mandatory)**
 - Every lore page (character/location/item/faction/technique) must embed **at least one relevant image** near the top of the page.
 - That embedded image is the **canonical reference** used to keep visuals consistent across future panels (treat it like a “wiki entry header image”).

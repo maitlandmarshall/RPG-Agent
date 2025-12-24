@@ -70,7 +70,9 @@ def _infer_type(job: dict[str, Any]) -> str:
 	t = (job.get("type") or "").strip().lower()
 	if t:
 		return t
-	if job.get("world") or job.get("characters") or job.get("character"):
+	# "world" can also be used for image jobs (style injection), so only infer
+	# panel when explicit characters are present.
+	if job.get("characters") or job.get("character"):
 		return "panel"
 	return "image"
 
@@ -85,6 +87,15 @@ def _build_cmd(job: dict[str, Any]) -> list[str]:
 
 	base_url = job.get("base_url") or job.get("base-url") or os.environ.get("OPENAI_BASE_URL", "https://api.openai.com")
 
+	def _flag_is_true(*keys: str) -> bool:
+		for k in keys:
+			v = job.get(k)
+			if v is True:
+				return True
+			if isinstance(v, str) and v.strip().lower() in {"1", "true", "yes", "y", "on"}:
+				return True
+		return False
+
 	common: list[str] = []
 	_append_opt(common, "--model", job.get("model"))
 	_append_opt(common, "--fallback-model", job.get("fallback_model") or job.get("fallback-model"))
@@ -98,7 +109,14 @@ def _build_cmd(job: dict[str, Any]) -> list[str]:
 	if job_type in {"image", "generate_image"}:
 		script = scripts_dir / "generate_image.py"
 		cmd = [sys.executable, str(script), "--prompt", str(prompt), "--out", str(out)]
+		_append_opt(cmd, "--world", job.get("world"))
 		cmd += common
+		if _flag_is_true("write_meta", "write-meta"):
+			cmd += ["--write-meta"]
+		if _flag_is_true("use_style_refs", "use-style-refs"):
+			cmd += ["--use-style-refs"]
+		if _flag_is_true("no_world_style", "no-world-style"):
+			cmd += ["--no-world-style"]
 		_append_repeat(cmd, "--input-image", job.get("input_images") or job.get("input-image"))
 		_append_opt(cmd, "--mask", job.get("mask"))
 		return cmd
@@ -110,6 +128,12 @@ def _build_cmd(job: dict[str, Any]) -> list[str]:
 		script = scripts_dir / "generate_panel.py"
 		cmd = [sys.executable, str(script), "--world", str(world), "--prompt", str(prompt), "--out", str(out)]
 		cmd += common
+		if _flag_is_true("write_meta", "write-meta"):
+			cmd += ["--write-meta"]
+		if _flag_is_true("use_style_refs", "use-style-refs"):
+			cmd += ["--use-style-refs"]
+		if _flag_is_true("no_world_style", "no-world-style"):
+			cmd += ["--no-world-style"]
 		_append_opt(cmd, "--max-refs-per-character", job.get("max_refs_per_character") or job.get("max-refs-per-character"))
 		chars = job.get("characters") or job.get("character") or []
 		if isinstance(chars, str):
@@ -266,4 +290,3 @@ if __name__ == "__main__":
 	except Exception as e:
 		print(str(e), file=sys.stderr)
 		sys.exit(1)
-

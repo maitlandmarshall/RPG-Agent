@@ -1,0 +1,189 @@
+{
+  "defaults": {
+    "model": "gpt-image-1.5",
+    "fallback_model": "gpt-image-1",
+    "quality": "high",
+    "output_format": "png",
+    "write_meta": true,
+    "use_style_refs": true
+  },
+  "jobs": [
+    {
+      "type": "image",
+      "world": "Obsidian_Circuit",
+      "size": "1536x1024",
+      "prompt": "Wide establishing shot: under-arena holding cells carved in basalt, cold stone, grated catwalks overhead, steam vents and ozone haze, harsh fluorescents. Bars and chains in the foreground, depth into a corridor. Gritty comic-panel composition, clear silhouettes, no characters in focus.",
+      "out": "worlds/Obsidian_Circuit/campaigns/Saiyan_Pits/assets/001_holding_cells_establishing.png"
+    },
+    {
+      "type": "image",
+      "world": "Obsidian_Circuit",
+      "size": "1024x1024",
+      "prompt": "Close-up detail shot: a heavy steel chain vibrating with a deep bell impact, tiny dust motes and grit shaking loose, harsh rim light catching pitted chrome links. Ozone haze, high-contrast inked cross-hatching, tight focal point.",
+      "out": "worlds/Obsidian_Circuit/campaigns/Saiyan_Pits/assets/001_bell_chain_closeup.png"
+    },
+    {
+      "type": "panel",
+      "world": "Obsidian_Circuit",
+      "characters": ["Pitmaster Veyl"],
+      "size": "1024x1024",
+      "prompt": "Close-up character panel at cell bars: Pitmaster Veyl in a lacquer-black coat with sickly-gold seam stitching, mirrored respirator plate, immaculate gloves. Expression/body language: amused, measuring. Background: holding cell corridor blur, harsh fluorescents, chain and bars framing.",
+      "out": "worlds/Obsidian_Circuit/campaigns/Saiyan_Pits/assets/002_veyl_amused_closeup.png"
+    },
+    {
+      "type": "panel",
+      "world": "Obsidian_Circuit",
+      "characters": ["Unnamed Saiyan"],
+      "size": "1024x1024",
+      "prompt": "Close-up detail: the K-Chain shock collar at the throat emits a warning pulse—white-blue static arcing along pitted chrome and sickly-gold circuit etching. Ragged pit wraps visible at the edge; skin gooseflesh; harsh rim light and ozone haze. Focus on collar hardware and energy.",
+      "out": "worlds/Obsidian_Circuit/campaigns/Saiyan_Pits/assets/002_collar_warning_pulse.png"
+    },
+    {
+      "type": "image",
+      "world": "Obsidian_Circuit",
+      "size": "1536x1024",
+      "prompt": "Wide corridor shot: a far gate begins to open, a seam of blinding arena light spilling into the under-dark. Dust and sand grit in the beam, silhouettes of guards and bars, heat shimmer and steam vents. Composition emphasizes the light as a wound in darkness.",
+      "out": "worlds/Obsidian_Circuit/campaigns/Saiyan_Pits/assets/002_gate_call_lightspill.png"
+    },
+    {
+      "type": "panel",
+      "world": "Obsidian_Circuit",
+      "characters": ["Pitmaster Veyl"],
+      "size": "1024x1024",
+      "prompt": "Close-up character panel: Veyl hears the crowd's hunger—head tilt, remote hand poised, mirrored respirator catching fluorescents. Subtle red warning reflections and cyan rim light. Background: guards and corridor out of focus.",
+      "out": "worlds/Obsidian_Circuit/campaigns/Saiyan_Pits/assets/003_veyl_hears_hunger_closeup.png"
+    },
+    {
+      "type": "image",
+      "world": "Obsidian_Circuit",
+      "size": "1536x1024",
+      "prompt": "Wide shot: rollout tunnel toward the arena—grated ramp and lift platform ahead, chains clattering into hooks, heat pouring in, harsh industrial geometry, haze and dust in the air. No characters in focus; emphasize perspective lines pulling toward the bright slit of arena light.",
+      "out": "worlds/Obsidian_Circuit/campaigns/Saiyan_Pits/assets/003_rollout_tunnel_wide.png"
+    },
+    {
+      "type": "image",
+      "world": "Obsidian_Circuit",
+      "size": "1536x1024",
+      "prompt": "Wide atmospheric panel: arena bowl glimpsed beyond the threshold—black stone ribs, screaming light, spotlamps cutting through dust motes; pale sand floor like a wound under fluorescents. Crowd rendered as a blur of noise and shadow.",
+      "out": "worlds/Obsidian_Circuit/campaigns/Saiyan_Pits/assets/003_arena_light_on_sand.png"
+    },
+    {
+      "type": "panel",
+      "world": "Obsidian_Circuit",
+      "characters": ["Pitmaster Veyl"],
+      "size": "1024x1024",
+      "prompt": "Close-up: Veyl projects a holographic starfield route—gloved hand with thin projector emitting a sickly-gold segmented path across cold points of light. Veyl's mirrored respirator reflects the holo. High contrast, crisp lines, no readable text.",
+      "out": "worlds/Obsidian_Circuit/campaigns/Saiyan_Pits/assets/004_holo_distance_to_vegeta.png"
+    },
+    {
+      "type": "image",
+      "world": "Obsidian_Circuit",
+      "size": "1536x1024",
+      "prompt": "Wide shot: lift platform rising toward the roaring arena—white light spills down in sheets, sand-grit in the air, industrial gate machinery below. Strong vertical perspective, harsh fluorescents, dust and steam.",
+      "out": "worlds/Obsidian_Circuit/campaigns/Saiyan_Pits/assets/004_lift_rising_gate.png"
+    },
+    {
+      "type": "panel",
+      "world": "Obsidian_Circuit",
+      "characters": ["Unnamed Saiyan"],
+      "size": "1024x1024",
+      "prompt": "Close-up: sensing ki at the gate seam—Saiyan's face in partial shadow, eyes focused, collar visible, faint thread of ki implied as subtle cyan line in haze. Background: blinding arena light spill and gate edge in sharp silhouette.",
+      "out": "worlds/Obsidian_Circuit/campaigns/Saiyan_Pits/assets/005_ki_sense_gate_closeup.png"
+    },
+    {
+      "type": "panel",
+      "world": "Obsidian_Circuit",
+      "characters": ["Rask the Basalt Bull"],
+      "size": "1536x1024",
+      "prompt": "Wide shot: Rask the Basalt Bull waits on the sand under harsh spotlights, grounded and still like a cliff, basalt plates with faint cyan fissure-glow, heavy collar hardware. Arena bowl and crowd blur in the background, dust motes in the light.",
+      "out": "worlds/Obsidian_Circuit/campaigns/Saiyan_Pits/assets/005_rask_on_sand_wide.png"
+    },
+    {
+      "type": "panel",
+      "world": "Obsidian_Circuit",
+      "characters": ["Unnamed Saiyan"],
+      "size": "1536x1024",
+      "prompt": "Wide shot: first step onto the sand with ki suppressed—Saiyan captive in ragged wraps, shock collar, muscles taut, stepping into a spotlight circle. Across the arena, a distant silhouette of Rask looms out of focus. Emphasize scale and harsh lighting.",
+      "out": "worlds/Obsidian_Circuit/campaigns/Saiyan_Pits/assets/006_suppressed_step_on_sand_wide.png"
+    },
+    {
+      "type": "image",
+      "world": "Obsidian_Circuit",
+      "size": "1024x1024",
+      "prompt": "Macro detail shot: Ki-sink lattice under the sand—sickly-gold grooves cut into basalt in a precise pattern, faint cyan shimmer, dust grains caught in etched channels. Tight cross-hatching, crisp texture, no characters.",
+      "out": "worlds/Obsidian_Circuit/campaigns/Saiyan_Pits/assets/006_lattice_under_sand_macro.png"
+    },
+    {
+      "type": "panel",
+      "world": "Obsidian_Circuit",
+      "characters": ["Unnamed Saiyan", "Rask the Basalt Bull"],
+      "size": "1536x1024",
+      "prompt": "Action panel: low dash inside the horns—Saiyan drops low and slips under/inside Rask's sweeping horn line, sand spraying. Rask's massive basalt body and horns dominate the frame; the Saiyan's collar and wraps visible; high-speed motion lines, clear silhouettes, harsh rim light.",
+      "out": "worlds/Obsidian_Circuit/campaigns/Saiyan_Pits/assets/007_low_dash_inside_horns_action.png"
+    },
+    {
+      "type": "panel",
+      "world": "Obsidian_Circuit",
+      "characters": ["Rask the Basalt Bull"],
+      "size": "1024x1024",
+      "prompt": "Close-up action detail: ki pellet impact at Rask's eye—small bright pellet bursts into grit-spark bloom against basalt brow and wet eye; pale vapor wake; cyan fissure-glow nearby. Tight framing, visceral but not gory.",
+      "out": "worlds/Obsidian_Circuit/campaigns/Saiyan_Pits/assets/007_rask_eye_pellet_closeup.png"
+    },
+    {
+      "type": "panel",
+      "world": "Obsidian_Circuit",
+      "characters": ["Pitmaster Veyl"],
+      "size": "1024x1024",
+      "prompt": "Close-up: Veyl's remote tightens—immaculate gloved hand holding a compact control remote, sickly-gold interface glow, subtle red warning reflections. Background: arena railings and crowd blur, heavy shadows.",
+      "out": "worlds/Obsidian_Circuit/campaigns/Saiyan_Pits/assets/007_veyl_remote_closeup.png"
+    },
+    {
+      "type": "panel",
+      "world": "Obsidian_Circuit",
+      "characters": ["Rask the Basalt Bull"],
+      "size": "1024x1024",
+      "prompt": "Close-up: ki ray to the eye—needle-straight beam with a pale vapor sheath as the arena drinks at it; beam lances toward Rask's other eye. Focus on beam texture, rim light, and Rask's horned brow silhouette. No gore.",
+      "out": "worlds/Obsidian_Circuit/campaigns/Saiyan_Pits/assets/008_ki_ray_eye_impale_closeup.png"
+    },
+    {
+      "type": "panel",
+      "world": "Obsidian_Circuit",
+      "characters": ["Pitmaster Veyl", "Unnamed Saiyan"],
+      "size": "1024x1024",
+      "prompt": "Close-up split-focus: Veyl's remote triggers a collar spike—foreground remote with sickly-gold glow; background Saiyan's collar arcs with white-blue static, jaw clenched, vision-fracture vibe. High contrast, ozone haze, no gore.",
+      "out": "worlds/Obsidian_Circuit/campaigns/Saiyan_Pits/assets/008_veyl_remote_collar_spike.png"
+    },
+    {
+      "type": "panel",
+      "world": "Obsidian_Circuit",
+      "characters": ["Rask the Basalt Bull"],
+      "size": "1536x1024",
+      "prompt": "Wide shot: blind Rask thrashes on sand—massive figure swings by sound and pressure, horns scything air, sand exploding under feet. Arena lights cut through dust; danger conveyed through motion and scale.",
+      "out": "worlds/Obsidian_Circuit/campaigns/Saiyan_Pits/assets/008_blind_rask_thrash_wide.png"
+    },
+    {
+      "type": "panel",
+      "world": "Obsidian_Circuit",
+      "characters": ["Unnamed Saiyan"],
+      "size": "1024x1024",
+      "prompt": "Close-up character panel: Saiyan throws head up and shouts \"VIOLENCE\" (no text shown), mouth open mid-roar, collar arcing white-blue static, sweat and dust on skin, harsh rim light like a spotlight locking on. Crowd blur behind.",
+      "out": "worlds/Obsidian_Circuit/campaigns/Saiyan_Pits/assets/009_violence_shout_collar_closeup.png"
+    },
+    {
+      "type": "panel",
+      "world": "Obsidian_Circuit",
+      "characters": ["Unnamed Saiyan", "Rask the Basalt Bull"],
+      "size": "1536x1024",
+      "prompt": "Action panel: melee drive Rask down—Saiyan crashes into Rask and forces him to one knee then into the sand, forearms and fists braced, basalt plates and horns carving trenches. Sand sprays, impact emphasized, visceral but not gory. Clear focal point on the pin and collapse.",
+      "out": "worlds/Obsidian_Circuit/campaigns/Saiyan_Pits/assets/009_melee_drive_rask_down_action.png"
+    },
+    {
+      "type": "panel",
+      "world": "Obsidian_Circuit",
+      "characters": ["Unnamed Saiyan", "Rask the Basalt Bull", "Pitmaster Veyl"],
+      "size": "1536x1024",
+      "prompt": "Wide shot: intervention warning begins—foreground Saiyan pins Rask face-down in churned sand; midground guards with electrified prods advance cautiously; background platform shows Pitmaster Veyl raising a remote like a verdict. Multiple red warning lights glow, siren mood, harsh fluorescents and haze. No text.",
+      "out": "worlds/Obsidian_Circuit/campaigns/Saiyan_Pits/assets/009_intervention_warning_wide.png"
+    }
+  ]
+}

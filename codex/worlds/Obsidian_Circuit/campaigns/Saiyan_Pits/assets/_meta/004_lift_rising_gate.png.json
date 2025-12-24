@@ -1,0 +1,15 @@
+{
+  "background": null,
+  "created_at": "2025-12-24T02:26:44.717755+00:00",
+  "endpoint": "/v1/images/generations",
+  "input_images": [],
+  "mask": null,
+  "model_used": "gpt-image-1.5",
+  "out": "worlds/Obsidian_Circuit/campaigns/Saiyan_Pits/assets/004_lift_rising_gate.png",
+  "output_format": "png",
+  "prompt_final": "WORLD STYLE PACK (use consistently): Baseline look: gritty sci\u2011fi gladiator arena; inked line art, tight cross\u2011hatching, crisp silhouettes; high contrast lighting, deep shadows, sharp rim light; materials: basalt, rusted steel, pitted chrome, chain, scarred skin; atmosphere: dust motes, steam vents, ozone haze, harsh fluorescents; palette: muted charcoal/iron with neon accents (cyan, magenta, sickly gold); camera: cinematic framing, wide establishing shots + intense close\u2011ups | Composition: treat each image like a comic panel: clear focal point, readable action; emphasize scale (catwalks above pits, towering gates, crowds as a blur); keep violence visceral but not gratuitous (impact, tension, consequence)\n\nWide shot: lift platform rising toward the roaring arena\u2014white light spills down in sheets, sand-grit in the air, industrial gate machinery below. Strong vertical perspective, harsh fluorescents, dust and steam.\n\nConstraints: no text, no watermark.",
+  "prompt_user": "Wide shot: lift platform rising toward the roaring arena\u2014white light spills down in sheets, sand-grit in the air, industrial gate machinery below. Strong vertical perspective, harsh fluorescents, dust and steam.",
+  "quality": "high",
+  "size": "1536x1024",
+  "world": "Obsidian_Circuit"
+}
