@@ -1,14 +1,13 @@
 location: Obsidian Pits — Arena Floor (Sand)
-description: Rask is blinded and driven face-first into the sand; Violence pins him
-  briefly while the collar lashes; gate machinery starts a red-lit intervention sequence
-  under Veyl’s remote.
+description: Rask lies heavy and still in the churned sand; the collar redlines for
+  lethal intent as guards surge in with prods and a shock-net under Veyl’s remote.
 time: Age 736 — one year before Planet Vegeta’s destruction
 weather: 'Artificial climate: dry, cold air; fluorescent heat pockets near vents'
 scene_tags:
 - arena
 - sand
 - close_quarters
-- grappling
+- execution
 - shock
 - intervention
 - gladiator
@@ -16,26 +15,25 @@ scene_tags:
 entities:
 - name: Pitmaster Veyl
   kind: NPC
-  status: remote raised; intervention sequence initiated; watching your control window
+  status: remote held high; kill-shock redline engaged; ordering the net
 - name: Obsidian Circuit Guards
   kind: faction
-  status: stepping to the threshold with prods live; awaiting the signal to enter
+  status: on the sand with prods live; shock-net deployed; moving to restrain
   count: 8
 - name: K-Chain Shock Collars
   kind: item
-  status: escalated; lashing on sustained domination attempts
+  status: redline kill-shock; punishment cadence active; lethal intent punished
 - name: Ki-sink Lattice
   kind: hazard
-  status: leeching ki; arena systems awake; likely tied to intervention response
+  status: leeching ki; arena systems awake; pulsing with intervention sequencing
 - name: Rask the Basalt Bull
   kind: NPC
-  status: blinded; driven to the sand; pinned under Violence for the moment; still
-    thrashing
+  status: killed; body still in the sand
 clocks:
   matchmaker_bell: 0/6
   guard_alertness: 6/6
-  hunger: 4/6
+  hunger: 5/6
   rumor_of_vegeta: 2/6
   arena_timer: 6/6
   crowd_frenzy: 6/6
-  intervention_protocol: 1/6
+  intervention_protocol: 3/6

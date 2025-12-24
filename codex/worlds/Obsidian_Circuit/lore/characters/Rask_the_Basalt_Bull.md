@@ -24,7 +24,7 @@ Body mass, pain tolerance, and the crowd’s love for simple outcomes.
 - **Desire**: one clean victory the Circuit can’t edit
 
 ## Current Status
-Tonight’s gate-side opponent: waiting on the sand.
+Killed on the sand during a handler intervention; body still in the arena as guards move to restrain the victor.
 
 ## Visual Canon
 - **Reference Images**: `lore/characters/Rask_the_Basalt_Bull_portrait.png`
@@ -34,5 +34,4 @@ Tonight’s gate-side opponent: waiting on the sand.
 **Tags**: #character #npc #arena #gladiator
 
 ## Appears In
-- [[../../campaigns/Saiyan_Pits/campaign_logs/000_Setup.md|000: Setup]]
-
+- [[worlds/Obsidian_Circuit/campaigns/Saiyan_Pits/campaign_logs/000_Setup.md|000 Setup]]

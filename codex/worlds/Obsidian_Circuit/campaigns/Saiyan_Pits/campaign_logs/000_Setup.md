@@ -597,3 +597,66 @@ Gate-side, machinery wakes up with a rising siren tone. Red warning light spills
 - Roll recorded in `campaign_logs/_rolls.ndjson` (nonce `f87e45383a97c2b4`).
 
 </details>
+
+---
+## Turn — 2025-12-24 13:21
+### Scene
+**Hard frame:** You are on top of him in the sand—your knees digging in, your forearms locked, his horns carving twin trenches as he tries to find *any* leverage by sound alone.
+
+The siren tone at the gate rises another note. Red light crawls over basalt ribs. Eight guards fan out at the threshold with prods live, waiting for the moment Veyl decides you’ve entertained enough.
+
+You don’t give them that moment.
+
+You keep your weight on [[worlds/Obsidian_Circuit/lore/characters/Rask_the_Basalt_Bull.md|Rask]]’s spine and you **hammer**—short, ugly arcs of fist and elbow into the jaw hinge and the throat line, not pretty, not clean, just *ending*.
+
+![Ground-and-pound finish](../assets/010_ground_and_pound_finish_action.png)
+
+The collar senses what you mean to do.
+
+Heat blooms at your throat—then a thick, brutal *white-blue* bite that tries to turn your muscles into someone else’s puppet.
+
+![Kill-shock redline](../assets/010_collar_redline_closeup.png)
+
+You ride it anyway. You force one more strike through the seizure, one more weight shift, one more grind of leverage—
+
+And the mountain stops fighting.
+
+Rask goes heavy and still beneath you. No thrash. No breath you can feel against your forearm. Just sand settling and the crowd’s roar changing shape—confused for a half-second, then *hungry again*.
+
+Above, [[worlds/Obsidian_Circuit/lore/characters/Pitmaster_Veyl.md|Pitmaster Veyl]] doesn’t flinch. The remote stays raised.
+
+The intervention lands.
+
+Guards surge onto the sand with a shock-net rig unfurling, prods cracking. The [[worlds/Obsidian_Circuit/lore/items/K-Chain_Shock_Collar.md|K-Chain Shock Collar]] yanks you half-upright by pain alone, forcing your hands to open.
+
+![Intervention lands](../assets/010_intervention_lands_wide.png)
+### Your Options
+1. Go limp on purpose: hands open, head down—try to minimize shocks and keep your feet under you as they take you (d20 + Intellect + Survival).
+2. Exploit the bodies: use Rask’s bulk as cover and crawl/roll toward the basalt ribs before the net fully wraps you (d20 + Agility + Athletics).
+3. Look up at Veyl and bargain: offer compliance *now* in exchange for the collar easing and a drink/medical—make it a performance the crowd will back (d20 + Intellect + Intimidation).
+4. Turn the roar into a weapon: shout terms to the crowd—‘I did what you paid for!’—and try to force Veyl to pause the prods (d20 + Strength + Intimidation).
+5. Take a prod: time the shock rhythm, then snatch a guard’s prod and jam it into the net rig as it comes down (d20 + Strength + Brawling).
+6. Information play: read the intervention sequence—lights, net timing, Veyl’s thumb cadence—so you know what triggers the next spike (d20 + Intellect + Perception).
+
+### What Changed
+- Rask: **killed** (fight ended before intervention could stop the finishing exchange).
+- HP -4 (kill-shock redline for lethal intent).
+- Fatigue +2 (seizure + forced exertion through shock).
+- Clock: intervention_protocol advances 1/6 → 3/6 (guards deploy shock-net and enter the sand).
+- Clock: hunger advances 4/6 → 5/6 (adrenaline burn, dry heat, blood-sand stink).
+
+<details>
+<summary>Mechanics</summary>
+
+**Core roll**: `d20 + stat + skill` vs DC.
+
+**Resolved action (your declaration): keep ground-and-pound going to kill Rask despite intervention**
+- **Check**: `d20 + Strength (6) + Brawling (3)` vs **DC 17**
+- **Roll**: `d20=11` + 6 + 3 = **20** → **Success**
+- **Effect**: you end the fight in the control window—Rask goes still before the handlers can physically separate you.
+- **Cost (telegraphed consequences land)**: lethal intent triggers a **kill-shock redline** (**HP -4**, **fatigue +2**) and advances the arena’s intervention response (**intervention_protocol +2**, guards deploy a shock-net).
+
+**Audit**
+- Roll recorded in `campaign_logs/_rolls.ndjson` (nonce `8c50029c16ffd2b2`).
+
+</details>

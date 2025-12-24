@@ -1,0 +1,36 @@
+{
+  "defaults": {
+    "model": "gpt-image-1.5",
+    "fallback_model": "gpt-image-1",
+    "quality": "high",
+    "output_format": "png",
+    "write_meta": true,
+    "use_style_refs": true
+  },
+  "jobs": [
+    {
+      "type": "panel",
+      "world": "Obsidian_Circuit",
+      "characters": ["Unnamed Saiyan", "Rask the Basalt Bull"],
+      "size": "1536x1024",
+      "prompt": "Action panel: ground-and-pound finish—Saiyan straddles and pins the massive horned basalt bull in churned sand, driving brutal hammerfists/elbows into jawline/neck while keeping the head turned. Collar arcing intense white-blue static at the throat, sweat and sand on skin, knuckles scraped. Rask’s eyes ruined/blinded but no gore; focus on impact, tension, and leverage. High-contrast comic-panel composition, crisp silhouettes, harsh rim light, dust motes in spotlights.",
+      "out": "worlds/Obsidian_Circuit/campaigns/Saiyan_Pits/assets/010_ground_and_pound_finish_action.png"
+    },
+    {
+      "type": "panel",
+      "world": "Obsidian_Circuit",
+      "characters": ["Pitmaster Veyl", "Unnamed Saiyan"],
+      "size": "1024x1024",
+      "prompt": "Close-up panel: kill-shock redline—Saiyan’s K-Chain shock collar erupts with thick white-blue arcs and sickly-gold circuit glow, jaw clenched, teeth bared, eyes narrowed. Foreground: Veyl’s gloved hand with remote, thumb depressing a control like a verdict. Ozone haze, harsh rim light, high contrast, no text.",
+      "out": "worlds/Obsidian_Circuit/campaigns/Saiyan_Pits/assets/010_collar_redline_closeup.png"
+    },
+    {
+      "type": "panel",
+      "world": "Obsidian_Circuit",
+      "characters": ["Pitmaster Veyl", "Unnamed Saiyan", "Rask the Basalt Bull"],
+      "size": "1536x1024",
+      "prompt": "Wide panel: intervention lands—red warning lights, guards surge onto the sand with electrified prods raised and a shock-net/cable rig unfurling. In the foreground, the Saiyan is half-lifted by the collar shock, forced to release; Rask lies heavy and still in churned sand, horns carved trenches. Background platform: Veyl above the gate, remote raised. Gritty sci-fi arena, dust/steam/ozone haze, cinematic framing, clear focal point, not gory.",
+      "out": "worlds/Obsidian_Circuit/campaigns/Saiyan_Pits/assets/010_intervention_lands_wide.png"
+    }
+  ]
+}
