@@ -1,6 +1,7 @@
 location: Obsidian Pits — Arena Floor (Sand)
-description: Rask lies heavy and still in the churned sand; the collar redlines for
-  lethal intent as guards surge in with prods and a shock-net under Veyl’s remote.
+description: Hands still raised under a descending shock-net, you grin up at Veyl
+  and demand a champion bout; Veyl holds the remote in a measured pause as the crowd
+  shifts into anticipation.
 time: Age 736 — one year before Planet Vegeta’s destruction
 weather: 'Artificial climate: dry, cold air; fluorescent heat pockets near vents'
 scene_tags:
@@ -15,20 +16,23 @@ scene_tags:
 entities:
 - name: Pitmaster Veyl
   kind: NPC
-  status: remote held high; kill-shock redline engaged; ordering the net
+  status: measured pause; assessing champion booking value; punishment held for the
+    moment
 - name: Obsidian Circuit Guards
   kind: faction
-  status: on the sand with prods live; shock-net deployed; moving to restrain
+  status: on the sand; shock-net descending and tightening; prods poised, awaiting
+    signal
   count: 8
 - name: K-Chain Shock Collars
   kind: item
-  status: redline kill-shock; punishment cadence active; lethal intent punished
+  status: redline kill-shock armed; punishment cadence ready; currently held at warning
+    heat
 - name: Ki-sink Lattice
   kind: hazard
-  status: leeching ki; arena systems awake; pulsing with intervention sequencing
+  status: leeching residual ki; arena systems active; intervention sequencing continues
 - name: Rask the Basalt Bull
   kind: NPC
-  status: killed; body still in the sand
+  status: killed; body in the sand; handlers preparing removal
 clocks:
   matchmaker_bell: 0/6
   guard_alertness: 6/6
@@ -36,4 +40,4 @@ clocks:
   rumor_of_vegeta: 2/6
   arena_timer: 6/6
   crowd_frenzy: 6/6
-  intervention_protocol: 3/6
+  intervention_protocol: 5/6

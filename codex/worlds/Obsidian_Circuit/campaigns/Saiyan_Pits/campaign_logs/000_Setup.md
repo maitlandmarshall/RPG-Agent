@@ -660,3 +660,104 @@ Guards surge onto the sand with a shock-net rig unfurling, prods cracking. The [
 - Roll recorded in `campaign_logs/_rolls.ndjson` (nonce `8c50029c16ffd2b2`).
 
 </details>
+
+---
+## Turn — 2025-12-24 15:08
+### Scene
+**Hard frame:** The sand is still settling around [[worlds/Obsidian_Circuit/lore/characters/Rask_the_Basalt_Bull.md|Rask]]’s body when the shock‑net blooms overhead—cables unfurling like a steel spiderweb, prods crackling blue‑white at the edges of your vision.
+
+You put both hands up. Open palms. No tricks.
+
+![Hands up in the sand](../assets/011_surrender_hands_up_closeup.png)
+
+The [[worlds/Obsidian_Circuit/lore/items/K-Chain_Shock_Collar.md|K‑Chain Shock Collar]] burns warning‑hot at your throat—redline heat without the full bite. The arena’s **ki‑sink lattice** drinks the aftertaste of your violence, leaving only dust and ozone.
+
+You stare straight up at [[worlds/Obsidian_Circuit/lore/characters/Pitmaster_Veyl.md|Pitmaster Veyl]]—through the mirrored respirator, through the rail, through the roar—and you give them one clean word anyway:
+
+“Coward.”
+
+The crowd surges like a single animal smelling fresh blood and fresh **drama**.
+
+Veyl’s gloved hand lowers the remote a fraction—not mercy, not fear. **Control**.
+
+![Veyl reacts](../assets/011_veyl_reaction_closeup.png)
+
+A guard’s prod hovers near your ribs, waiting for Veyl’s nod. The net keeps dropping.
+### Your Options
+1. Hold surrender and talk: keep your hands open and demand terms (water/medical, collar easing) while Veyl’s attention is on you (d20 + Intellect + Intimidation).
+2. Information play: ask Veyl what exactly triggers the kill‑shock redline, and watch for the lie (d20 + Intellect + Perception).
+3. Slip the net: time the cable cinch and roll under it toward the basalt ribs before they pin your shoulders (d20 + Agility + Athletics).
+4. Make it public: repeat the insult loud enough to carry, trying to force Veyl into a crowd‑safe concession (d20 + Strength + Intimidation).
+5. Feign the shock: let your body go slack like the collar hit you harder, bait a loosened grip, then slip a wrist (d20 + Intellect + Survival).
+6. Dirty disarm: let a guard close, then snatch the prod and jam it into the net rig as it settles (d20 + Strength + Brawling).
+
+### What Changed
+- You surrender with hands up and still land the insult; Veyl pauses the immediate escalation.
+- Fatigue +0.5 (tremor‑aftershock, forced stillness under a live net).
+- Clock: intervention_protocol advances 3/6 → 4/6 (containment shifts from punishment to extraction).
+- Position: shock‑net is descending; guards are within striking distance, waiting on Veyl’s signal.
+
+<details>
+<summary>Mechanics</summary>
+
+**Core roll**: `d20 + stat + skill` vs DC.
+
+**Resolved action (your declaration): surrender with hands up while needling Veyl (“coward”)**
+- **Check**: `d20 + Intellect (3) + Intimidation (2)` vs **DC 15**
+- **Roll**: `d20=15` + 3 + 2 = **20** → **Success**
+- **Effect**: you keep control of your body language under redline pressure and force Veyl to *acknowledge* you instead of simply spiking you on instinct.
+- **Cost (fail‑forward pressure anyway)**: you’re still getting taken—net and hands—just with the prods held back for the moment (**fatigue +0.5**, **intervention_protocol +1**).
+
+**Audit**
+- Roll recorded in `campaign_logs/_rolls.ndjson` (nonce `8a1fbd80e7a6a664`).
+
+</details>
+
+---
+## Turn — 2025-12-24 15:15
+### Scene
+The net keeps coming down—slow, inevitable—cables humming as they drink charge.
+
+You don’t lower your hands.
+
+You *smile* up at [[worlds/Obsidian_Circuit/lore/characters/Pitmaster_Veyl.md|Pitmaster Veyl]] like you’ve just been offered dessert instead of a cage.
+
+![Smile in surrender](../assets/012_smile_in_surrender_closeup.png)
+
+“Let me fight the champion.”
+
+The crowd’s roar shifts—less pure bloodlust, more **anticipation**, like a blade being tested for balance.
+
+On the rail, Veyl’s mirrored plate catches the arena lights and throws them back at you in broken strips. Their glove rests on the remote—still. Listening.
+
+![Veyl weighs it](../assets/012_veyl_weighs_champion_closeup.png)
+
+A guard takes one involuntary half-step, prod crackling, then freezes again at Veyl’s silence.
+### Your Options
+1. Press the advantage: specify terms—no kill‑shock redline, no net, and a clean fight contract—while Veyl is listening (d20 + Intellect + Intimidation).
+2. Make it a product: offer a controlled show (opening move, signature line) in exchange for the champion booking and a ration/medical credit (d20 + Intellect + Intimidation).
+3. Information play: ask who the champion is and what they’re known for—then watch Veyl’s micro‑tells (d20 + Intellect + Perception).
+4. Keep surrender, take the win: let them net you without a struggle while you keep eye contact—bank the promise for later (d20 + Intellect + Survival).
+5. Exploit the pause: roll under the tightening cables toward the basalt ribs before the net pins your shoulders (d20 + Agility + Athletics).
+
+### What Changed
+- You publicly request the champion; Veyl *listens* instead of immediately spiking you.
+- Fatigue +0.5 (tremor hold, forced posture under a live net).
+- Clock: intervention_protocol advances 4/6 → 5/6 (net closing; extraction window narrowing).
+- Pressure: the crowd’s hunger shifts from blood to booking—dangerous leverage.
+
+<details>
+<summary>Mechanics</summary>
+
+**Core roll**: `d20 + stat + skill` vs DC.
+
+**Resolved action (your declaration): maintain surrender, beam at Veyl, and demand the champion bout**
+- **Check**: `d20 + Intellect (3) + Intimidation (2)` vs **DC 16**
+- **Roll**: `d20=12` + 3 + 2 = **17** → **Success**
+- **Effect**: you frame the moment as *entertainment leverage*; Veyl pauses punishment to assess the value of the booking.
+- **Cost (fail‑forward pressure anyway)**: the net still descends and your control window is shrinking (**fatigue +0.5**, **intervention_protocol +1**).
+
+**Audit**
+- Roll recorded in `campaign_logs/_rolls.ndjson` (nonce `fb3dfb1b89568fd3`).
+
+</details>

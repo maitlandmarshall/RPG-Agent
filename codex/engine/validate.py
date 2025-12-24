@@ -56,9 +56,22 @@ def validate_campaign(world_dir: Path, campaign: str) -> None:
 		),
 	]
 
+	# Optional campaign extras (validated if present).
+	optional_targets = [
+		ValidationTarget(
+			label="tactical_map.yaml",
+			yaml_path=campaign_dir / "tactical_map.yaml",
+			schema_path=schemas_dir / "tactical_map.schema.json",
+		),
+	]
+
 	for t in targets:
 		if not t.yaml_path.exists():
 			raise FileNotFoundError(f"Missing required file: {t.yaml_path}")
 		validate_yaml_against_schema(t)
+
+	for t in optional_targets:
+		if t.yaml_path.exists():
+			validate_yaml_against_schema(t)
 
 

@@ -24,7 +24,7 @@ Collar frequency control, ration allotments, fight assignments.
 - **Desire**: a champion who believes the Circuit is their only home
 
 ## Current Status
-Present in the holding cells for tonight’s “special” bout cycle.
+On the arena rail during a post-fight intervention, directing extraction with the collar remote and guards.
 
 ## Visual Canon
 - **Reference Images**: `lore/characters/Pitmaster_Veyl_portrait.png`
@@ -34,4 +34,4 @@ Present in the holding cells for tonight’s “special” bout cycle.
 **Tags**: #character #npc #arena
 
 ## Appears In
-- [[../../campaigns/Saiyan_Pits/campaign_logs/000_Setup.md|000: Setup]]
+- [[worlds/Obsidian_Circuit/campaigns/Saiyan_Pits/campaign_logs/000_Setup.md|000: Setup]]

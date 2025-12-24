@@ -1,0 +1,25 @@
+version: 1
+
+map:
+  id: arena_sand
+  background: assets/maps/arena_sand_base.png
+  embed_images: true
+  grid:
+    cols: 12
+    rows: 8
+    cell_px: 128
+  output_svg: assets/maps/arena_sand_tactical.svg
+
+# Token positions are a separate system from the map background.
+# Coordinates are 1-based grid cells: [col, row] from top-left.
+tokens:
+  - id: player
+    label: Violence
+    image: assets/tokens/Unnamed_Saiyan_token.png
+    at: [6, 6]
+    size: 1
+  - id: veyl
+    label: Veyl
+    image: assets/tokens/Pitmaster_Veyl_token.png
+    at: [6, 1]
+    size: 1

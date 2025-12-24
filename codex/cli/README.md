@@ -16,6 +16,9 @@ Validate a campaign’s YAML against schemas:
 Apply a turn from a YAML “turn file”:
 - `python3 codex/cli/apply_turn.py --world My_World --campaign Campaign_01 --turn-file codex/cli/examples/turn_ok.yaml`
 
+Render a tactical map SVG (background image + code-positioned tokens):
+- `python3 codex/cli/render_tactical_map.py --world My_World --campaign Campaign_01`
+
 ## Turn File Format
 
 Turn files are YAML mappings with these common keys:
@@ -63,4 +66,3 @@ rotate_log:
 ```
 
 Note: the *current* turn is appended to the current active log; the next turn will go to the rotated `log_active`.
-

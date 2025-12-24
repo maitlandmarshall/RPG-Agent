@@ -24,7 +24,7 @@ Saiyan endurance, crowd psychology, and a growing understanding of the collar’
 - **Desire**: a clean moment of self-ownership (even if it costs blood)
 
 ## Current Status
-In the under-arena holding cells as the next gate cycle approaches; Pitmaster Veyl is personally present.
+On the arena sand after killing Rask, currently under guard intervention with a shock-net descending and Veyl watching from above.
 
 ## Visual Canon
 - **Reference Images**: `lore/characters/Unnamed_Saiyan_portrait.png`
@@ -35,4 +35,3 @@ In the under-arena holding cells as the next gate cycle approaches; Pitmaster Ve
 
 ## Appears In
 - [[worlds/Obsidian_Circuit/campaigns/Saiyan_Pits/campaign_logs/000_Setup.md|000: Setup]]
-

@@ -1,0 +1,84 @@
+log_file: campaign_logs/000_Setup.md
+
+scene_md: |
+  The net keeps coming down—slow, inevitable—cables humming as they drink charge.
+
+  You don’t lower your hands.
+
+  You *smile* up at [[worlds/Obsidian_Circuit/lore/characters/Pitmaster_Veyl.md|Pitmaster Veyl]] like you’ve just been offered dessert instead of a cage.
+
+  ![Smile in surrender](../assets/012_smile_in_surrender_closeup.png)
+
+  “Let me fight the champion.”
+
+  The crowd’s roar shifts—less pure bloodlust, more **anticipation**, like a blade being tested for balance.
+
+  On the rail, Veyl’s mirrored plate catches the arena lights and throws them back at you in broken strips. Their glove rests on the remote—still. Listening.
+
+  ![Veyl weighs it](../assets/012_veyl_weighs_champion_closeup.png)
+
+  A guard takes one involuntary half-step, prod crackling, then freezes again at Veyl’s silence.
+
+options:
+  - "Press the advantage: specify terms—no kill‑shock redline, no net, and a clean fight contract—while Veyl is listening (d20 + Intellect + Intimidation)."
+  - "Make it a product: offer a controlled show (opening move, signature line) in exchange for the champion booking and a ration/medical credit (d20 + Intellect + Intimidation)."
+  - "Information play: ask who the champion is and what they’re known for—then watch Veyl’s micro‑tells (d20 + Intellect + Perception)."
+  - "Keep surrender, take the win: let them net you without a struggle while you keep eye contact—bank the promise for later (d20 + Intellect + Survival)."
+  - "Exploit the pause: roll under the tightening cables toward the basalt ribs before the net pins your shoulders (d20 + Agility + Athletics)."
+
+what_changed:
+  - "You publicly request the champion; Veyl *listens* instead of immediately spiking you."
+  - "Fatigue +0.5 (tremor hold, forced posture under a live net)."
+  - "Clock: intervention_protocol advances 4/6 → 5/6 (net closing; extraction window narrowing)."
+  - "Pressure: the crowd’s hunger shifts from blood to booking—dangerous leverage."
+
+mechanics_md: |
+  **Core roll**: `d20 + stat + skill` vs DC.
+
+  **Resolved action (your declaration): maintain surrender, beam at Veyl, and demand the champion bout**
+  - **Check**: `d20 + Intellect (3) + Intimidation (2)` vs **DC 16**
+  - **Roll**: `d20=12` + 3 + 2 = **17** → **Success**
+  - **Effect**: you frame the moment as *entertainment leverage*; Veyl pauses punishment to assess the value of the booking.
+  - **Cost (fail‑forward pressure anyway)**: the net still descends and your control window is shrinking (**fatigue +0.5**, **intervention_protocol +1**).
+
+  **Audit**
+  - Roll recorded in `campaign_logs/_rolls.ndjson` (nonce `fb3dfb1b89568fd3`).
+
+delta:
+  player:
+    add:
+      - target: resources
+        key: fatigue
+        value: 0.5
+  world_state:
+    set:
+      - key: description
+        value: Hands still raised under a descending shock-net, you grin up at Veyl and demand a champion bout; Veyl holds the remote in a measured pause as the crowd shifts into anticipation.
+      - key: entities
+        value:
+          - name: Pitmaster Veyl
+            kind: NPC
+            status: measured pause; assessing champion booking value; punishment held for the moment
+          - name: Obsidian Circuit Guards
+            kind: faction
+            status: on the sand; shock-net descending and tightening; prods poised, awaiting signal
+            count: 8
+          - name: K-Chain Shock Collars
+            kind: item
+            status: redline kill-shock armed; punishment cadence ready; currently held at warning heat
+          - name: Ki-sink Lattice
+            kind: hazard
+            status: leeching residual ki; arena systems active; intervention sequencing continues
+          - name: Rask the Basalt Bull
+            kind: NPC
+            status: killed; body in the sand; handlers preparing removal
+      - key: clocks
+        value:
+          matchmaker_bell: 0/6
+          guard_alertness: 6/6
+          hunger: 5/6
+          rumor_of_vegeta: 2/6
+          arena_timer: 6/6
+          crowd_frenzy: 6/6
+          intervention_protocol: 5/6
+
