@@ -1,0 +1,29 @@
+{
+  "defaults": {
+    "model": "gpt-image-1.5",
+    "fallback_model": "gpt-image-1",
+    "quality": "high",
+    "output_format": "png",
+    "size": "1024x1024",
+    "write_meta": true,
+    "world": "Planet_Vegeta"
+  },
+  "jobs": [
+    {
+      "type": "image",
+      "prompt": "Portrait close-up of Freeza: smooth alien bio-armor body, sleek white and purple tones, cold confident expression, dramatic rim light, clean bold ink outlines, cel-shaded anime look, simple shadow shapes, no text, no watermark.",
+      "out": "worlds/Planet_Vegeta/lore/characters/Freeza_portrait.png"
+    },
+    {
+      "type": "image",
+      "prompt": "Faction sigil/emblem for an interstellar tyrant army: simple geometric icon, sharp silhouette, militaristic, high-contrast, flat cel-shaded colors (black, white, purple accent), centered on a clean background, no text, no letters, no watermark.",
+      "out": "worlds/Planet_Vegeta/lore/factions/Freeza_Force_sigil.png"
+    },
+    {
+      "type": "image",
+      "prompt": "Faction sigil/emblem for Saiyan military: bold angular icon suggesting a warrior crest, high-contrast, flat cel-shaded colors (deep red, black, white), centered on a clean background, no text, no letters, no watermark.",
+      "out": "worlds/Planet_Vegeta/lore/factions/Saiyan_Military_sigil.png"
+    }
+  ]
+}
+

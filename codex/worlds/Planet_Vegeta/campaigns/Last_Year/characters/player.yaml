@@ -1,0 +1,35 @@
+name: Unnamed Saiyan
+race: Saiyan
+class: Low-Class Warrior
+stats:
+  power_level: 900
+  strength: 4
+  agility: 4
+  intellect: 3
+  ki_control: 3
+resources:
+  hp: 28
+  fatigue: 2
+  hunger: 1
+xp: 0
+skills:
+  brawling: 2
+  athletics: 2
+  perception: 2
+  survival: 1
+  intimidation: 1
+  ki_blast: 1
+inventory:
+- name: Low-Class Battle Armor
+  equipped: true
+  durability: worn
+  notes: Scuffed white plating with shoulder guards; field-repaired straps.
+- name: Tail Wrap
+  equipped: true
+  notes: Cloth wrap used to bind/secure your tail when sleeping or in crowds.
+- name: Training Weights (Light)
+  equipped: false
+  notes: Simple strapped weights; enough to burn, not enough to break.
+status_effects:
+- Saiyan Tail (Bound)
+notes: 'Canon questions: your real name, tail status (present/bound vs removed), and your signature tell before you explode into action.'

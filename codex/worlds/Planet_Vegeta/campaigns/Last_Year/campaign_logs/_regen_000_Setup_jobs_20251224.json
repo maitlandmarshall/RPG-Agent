@@ -1,0 +1,39 @@
+{
+  "defaults": {
+    "model": "gpt-image-1.5",
+    "fallback_model": "gpt-image-1",
+    "quality": "high",
+    "output_format": "png",
+    "size": "auto",
+    "write_meta": true,
+    "world": "Planet_Vegeta"
+  },
+  "jobs": [
+    {
+      "type": "image",
+      "prompt": "Portrait close-up of a low-class Saiyan warrior (gender-ambiguous), compact athletic build, spiky black hair silhouette, battle-worn matte white armor with scuffs and repaired straps, wrapped tail belt visible, determined eyes, barracks lighting, subtle scouter-green rim light from a device off-frame, anime cel-shaded look, clean bold outlines, high contrast, no text.",
+      "out": "worlds/Planet_Vegeta/lore/characters/Unnamed_Saiyan_portrait.png"
+    },
+    {
+      "type": "image",
+      "prompt": "Wide establishing shot: Planet Vegeta landscape under a red-brown sky haze, windblown metallic dust, jagged alien rock formations, distant industrial silhouettes and ship trails, ominous calm, cinematic framing, anime cel-shaded look, no text.",
+      "out": "worlds/Planet_Vegeta/lore/locations/Planet_Vegeta_establishing.png"
+    },
+    {
+      "type": "image",
+      "prompt": "Wide establishing shot: Vegeta City skyline, angular towers and landing pads, small ships lifting off with engine smoke, parade-ground geometry, red sky haze and heat shimmer, dust in the air, cinematic panel composition, anime cel shading, no text.",
+      "out": "worlds/Planet_Vegeta/lore/locations/Vegeta_City_establishing.png"
+    },
+    {
+      "type": "image",
+      "prompt": "Establishing interior: low-class Saiyan barracks, stacked bunks, armor plates hanging on hooks, scuffed metal and concrete, cold morning light slanting in, faint scouter-green glow from a device, dust motes, anime cel-shaded look, clear readable silhouettes, no text.",
+      "out": "worlds/Planet_Vegeta/lore/locations/Low_Class_Barracks_establishing.png"
+    },
+    {
+      "type": "image",
+      "prompt": "Wide establishing panel: Vegeta City under a red-brown sky, seen from the low-class blocks and rooftops; dust haze, engine smoke, distant landing pads; sense of morning muster starting, cinematic framing, anime cel shading, no text.",
+      "out": "worlds/Planet_Vegeta/campaigns/Last_Year/assets/001_vegeta_city_establishing.png"
+    }
+  ]
+}
+

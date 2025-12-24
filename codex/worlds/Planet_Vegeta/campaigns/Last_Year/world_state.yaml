@@ -1,0 +1,22 @@
+location: Planet Vegeta — Low-Class Barracks (Vegeta City)
+description: The barracks wake to scouter chirps and bootsteps; muster orders are moving faster than usual.
+time: 'Age 736 — one year before Planet Vegeta’s destruction by Freeza'
+weather: 'Vegeta City: dry wind, red-brown sky haze; metallic dust on the air; distant engine smoke'
+scene_tags:
+- planet_vegeta
+- vegeta_city
+- low_class
+- military
+- daily_life
+entities:
+- name: Saiyan Military (Local Garrison)
+  kind: faction
+  status: issuing rapid muster rotations; scouter checks doubled
+- name: Freeza Force Observers
+  kind: faction
+  status: not visible here, but their “inspection” rumors keep spreading
+clocks:
+  frieza_inspection: 1/6
+  royal_muster_pressure: 2/6
+  scouter_quota: 2/6
+  market_tension: 1/6

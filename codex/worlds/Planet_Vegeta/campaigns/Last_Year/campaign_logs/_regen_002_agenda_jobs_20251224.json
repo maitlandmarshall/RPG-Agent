@@ -1,0 +1,19 @@
+{
+  "defaults": {
+    "model": "gpt-image-1.5",
+    "fallback_model": "gpt-image-1",
+    "quality": "high",
+    "output_format": "png",
+    "size": "auto",
+    "write_meta": true,
+    "world": "Planet_Vegeta"
+  },
+  "jobs": [
+    {
+      "type": "image",
+      "prompt": "Close-up panel: a bolted metal agenda slate on a concrete wall inside a low-class Saiyan barracks corridor; official stamped seals and grease-pencil marks visible, but no readable letters; scuffed metal, cold morning light, faint scouter-green glow reflecting, gritty dust, anime cel-shaded look, bold outlines, high contrast, no text, no watermark.",
+      "out": "worlds/Planet_Vegeta/campaigns/Last_Year/assets/002_agenda_slate_closeup.png"
+    }
+  ]
+}
+

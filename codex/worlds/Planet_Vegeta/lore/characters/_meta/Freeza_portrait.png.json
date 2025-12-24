@@ -1,0 +1,15 @@
+{
+  "background": null,
+  "created_at": "2025-12-24T05:44:59.502471+00:00",
+  "endpoint": "/v1/images/generations",
+  "input_images": [],
+  "mask": null,
+  "model_used": "gpt-image-1.5",
+  "out": "worlds/Planet_Vegeta/lore/characters/Freeza_portrait.png",
+  "output_format": "png",
+  "prompt_final": "WORLD STYLE PACK (use consistently): Baseline look: retro sh\u014dnen anime look; 1980s\u201390s cel shading; clean, bold ink outlines; simple shadow shapes; minimal gradient use; dramatic rim light; hard-edged highlights on armor and hair; materials: matte white battle armor, worn leather straps, scuffed metal, dusty stone; atmosphere: red-brown sky haze, windblown grit, distant engine smoke, heat shimmer; palette: warm earth reds and oranges, pale armor whites, deep blue-black hair, occasional scouter green glow | Composition: treat each image like a comic panel: clear focal point, readable silhouettes; wide establishing shots for city/landscape scale; tight close-ups for emotion and tells; motion is readable: clean speed-lines implied by pose, not literal drawn text\n\nPortrait close-up of Freeza: smooth alien bio-armor body, sleek white and purple tones, cold confident expression, dramatic rim light, clean bold ink outlines, cel-shaded anime look, simple shadow shapes, no text, no watermark.\n\nConstraints: no text, no watermark.",
+  "prompt_user": "Portrait close-up of Freeza: smooth alien bio-armor body, sleek white and purple tones, cold confident expression, dramatic rim light, clean bold ink outlines, cel-shaded anime look, simple shadow shapes, no text, no watermark.",
+  "quality": "high",
+  "size": "1024x1024",
+  "world": "Planet_Vegeta"
+}
